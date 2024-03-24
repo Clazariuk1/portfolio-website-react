@@ -4,14 +4,61 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: white;
+    background-color: antiquewhite;
     a {
         cursor: grab;
+        text-decoration: none;
     }
 
     img {
         cursor: grab;
+        border: solid 3px black;
     }
+}
+
+.Portfolio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bio {
+    text-align: center;
+}
+
+.ProDetails {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.portfolioSamples {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: .5rem;
+    padding: .5rem;
+}
+
+.AboutMe {
+    display: flex;
+    margin: .5rem;
+    padding: .5rem;
+    border: solid 2px lightblue;
+    background-color: whitesmoke;
+    font-size: 18pt;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+}
+
+.ProPicContainer {
+    margin: 1rem;
 }
 
 .ProPic {
@@ -20,29 +67,80 @@ body {
 }
 
 .displayCard {
+    border: solid 2px red;
     display: flex;
     flex-direction: column;
 }
 
+.portDescriptionCard {
+    border: solid 2px lightblue;
+    background-color: whitesmoke;
+    margin: .5rem;
+    padding: .5rem;
+    width: 50%;
+    font-size: 20pt;
+}
+
+.portfolioCard {
+    display: flex;
+    flex-direction: column;
+    border: solid 2px red;
+    margin: 1rem;
+    padding: 1rem;
+    width: 60%;
+}
+
 .portPiece {
+    justify-content: center;
+    align-items: center;
     display: flex;
 }
 
-.portPic {
-    width: 400px;
-    height: 200px;
-}
-
 .picFile {
-    width: 40px;
+    width: 400px;
     border: 5vmin;
+    margin: 1rem;
+    border: solid 2px black;
+    background-color: whitesmoke;
+    padding: 1rem;
 }
 
+.ContactsBar {
+    display: flex;
+    margin: 1rem;
+    border: solid 3px black;
+    justify-content: center;
+    align-items: center;
+}
 
 .contactIcon {
     width: 40px;
+    padding: .25rem;
+    margin: .75rem;
 }
 
 .contactPic {
     width: 40px;
+    border-radius: 50%;
+}
+
+button {
+    padding: .5rem;
+    margin: .5rem;
+    background-color: lightblue;
+    font-weight: bold;
+    font-size: 18pt;
+    border-radius: 4vmin;
+}
+
+button:hover {
+    cursor: grab;
+}
+
+.buttonLinks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    margin: .5rem;
 }
