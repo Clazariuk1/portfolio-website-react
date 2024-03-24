@@ -35,9 +35,9 @@ function App() {
     className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].headerText
   }, "Christopher Lazariuk"), /*#__PURE__*/React.createElement("div", {
     className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].headerText
-  }, "Full Stack Developer. Software Engineer."), /*#__PURE__*/React.createElement("div", {
+  }, "Full Stack Dev / Software Engineer "), /*#__PURE__*/React.createElement("div", {
     className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].headerText
-  }, "Novelist. Muay Thai Fighter."), /*#__PURE__*/React.createElement("div", {
+  }, "Novelist / Muay Thai Fighter"), /*#__PURE__*/React.createElement("div", {
     className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].bio
   }, "They don't call them bootcamps for nothing! You want a dev, I got the creds. Check out some of my projects below! Looking forward to the opportunity to dig into something beautiful together. As to the website here? It's a work in progress, I've still got final projects to contend with for school. I cared so much about applying to your position I churned out a website in a couple hours for you!"), /*#__PURE__*/React.createElement("div", {
     className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].buttonLinks
@@ -84,15 +84,29 @@ function App() {
     src: "./img/MomentumPortPic.png"
   }))), /*#__PURE__*/React.createElement("div", {
     className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].portDescriptionCard
+  }, /*#__PURE__*/React.createElement("div", {
+    className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].portTitleCard
+  }, /*#__PURE__*/React.createElement("div", {
+    className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].portTitle
   }, /*#__PURE__*/React.createElement("a", {
     href: "https://momentum.christopherlazariuk.me"
   }, /*#__PURE__*/React.createElement("h4", {
     className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].portTitle
-  }, "Momentum")), /*#__PURE__*/React.createElement("a", {
+  }, "Momentum - an Arena Survival Game"))), /*#__PURE__*/React.createElement("div", {
+    className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].portTitle
+  }, /*#__PURE__*/React.createElement("a", {
     href: "https://github.com/Clazariuk1/Dungeon-Arena-GAp1"
-  }, /*#__PURE__*/React.createElement("h5", null, "Github Repository Link")), /*#__PURE__*/React.createElement("ul", null, /*#__PURE__*/React.createElement("li", {
+  }, /*#__PURE__*/React.createElement("h5", {
+    className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].portTitle
+  }, "~Github Repository Link~")))), /*#__PURE__*/React.createElement("ul", {
+    className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].descriptionList
+  }, /*#__PURE__*/React.createElement("li", {
     className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].portDescriptionText
-  }, "An arcade-style survival game making heavy use of collision detection elements and DOM manipulation."), /*#__PURE__*/React.createElement("li", null, "Front-end HTML/CSS/JS Development"), /*#__PURE__*/React.createElement("li", null, "Collision Detection Exploration"))))), /*#__PURE__*/React.createElement("div", {
+  }, "An arcade-style survival game making heavy use of collision detection elements and DOM manipulation."), /*#__PURE__*/React.createElement("li", {
+    className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].portDescriptionText
+  }, "Front-end HTML/CSS/JS Development"), /*#__PURE__*/React.createElement("li", {
+    className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].portDescriptionText
+  }, "Collision Detection Exploration"))))), /*#__PURE__*/React.createElement("div", {
     className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].portfolioCard
   }, /*#__PURE__*/React.createElement("div", {
     className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].portPiece
@@ -103,15 +117,25 @@ function App() {
     src: "/img/DevDependencyPortPic.png"
   })), /*#__PURE__*/React.createElement("div", {
     className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].portDescriptionCard
+  }, /*#__PURE__*/React.createElement("div", {
+    className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].portTitleCard
   }, /*#__PURE__*/React.createElement("a", {
     href: "https://ecommerce.christopherlazariuk.me"
   }, /*#__PURE__*/React.createElement("h4", {
     className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].portTitle
   }, "Dev Dependency - an Ecommerce Website")), /*#__PURE__*/React.createElement("a", {
     href: "https://github.com/Clazariuk1/unit3-project"
-  }, /*#__PURE__*/React.createElement("h5", null, "Github Repository Link")), /*#__PURE__*/React.createElement("ul", null, /*#__PURE__*/React.createElement("li", {
+  }, /*#__PURE__*/React.createElement("h5", {
+    className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].portTitle
+  }, "~Github Repository Link~"))), /*#__PURE__*/React.createElement("ul", {
+    className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].descriptionList
+  }, /*#__PURE__*/React.createElement("li", {
     className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].portDescriptionText
-  }, "An ecommerce website with ordering system functionality and a multi-page layout"), /*#__PURE__*/React.createElement("li", null, "Languages/Frameworks: React, NodeJS, MongoDB"), /*#__PURE__*/React.createElement("li", null, "Full stack MERN application featuring RESTful routing"))))), /*#__PURE__*/React.createElement("div", {
+  }, "An ecommerce website with ordering system functionality and a multi-page layout"), /*#__PURE__*/React.createElement("li", {
+    className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].portDescriptionText
+  }, "Languages/Frameworks: React, NodeJS, MongoDB"), /*#__PURE__*/React.createElement("li", {
+    className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].portDescriptionText
+  }, "Full stack MERN application featuring RESTful routing"))))), /*#__PURE__*/React.createElement("div", {
     className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].portfolioCard
   }, /*#__PURE__*/React.createElement("div", {
     className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].portPiece
@@ -122,13 +146,25 @@ function App() {
     src: "/img/DevDependencyPortPic.png"
   })), /*#__PURE__*/React.createElement("div", {
     className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].portDescriptionCard
+  }, /*#__PURE__*/React.createElement("div", {
+    className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].portTitleCard
   }, /*#__PURE__*/React.createElement("h4", {
     className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].portTitle
-  }, "Connections"), /*#__PURE__*/React.createElement("a", {
+  }, " Connections - a Linkedin Alternative"), /*#__PURE__*/React.createElement("a", {
     href: "https://github.com/Clazariuk1/connection"
-  }, /*#__PURE__*/React.createElement("h5", null, "Github Repository Link")), /*#__PURE__*/React.createElement("ul", null, /*#__PURE__*/React.createElement("li", {
+  }, /*#__PURE__*/React.createElement("h5", {
+    className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].portTitle
+  }, "~Github Repository Link~"))), /*#__PURE__*/React.createElement("ul", {
+    className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].descriptionList
+  }, /*#__PURE__*/React.createElement("li", {
     className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].portDescriptionText
-  }, "A parody of our favorite professional networking website, features chat messaging functionality"), /*#__PURE__*/React.createElement("li", null, "Full-Stack MERN application featuring RESTful routing and full CRUD functionality"), /*#__PURE__*/React.createElement("li", null, "Built with React, NodeJS, and MongoDB"), /*#__PURE__*/React.createElement("li", null, "Dev Team Scrum Master")))))));
+  }, "A parody of our favorite professional networking website, features chat messaging functionality"), /*#__PURE__*/React.createElement("li", {
+    className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].portDescriptionText
+  }, "Full-Stack MERN application featuring RESTful routing and full CRUD functionality"), /*#__PURE__*/React.createElement("li", {
+    className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].portDescriptionText
+  }, "Built with React, NodeJS, and MongoDB"), /*#__PURE__*/React.createElement("li", {
+    className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].portDescriptionText
+  }, "Dev Team Scrum Master")))))));
 }
 
 /***/ }),
@@ -170,21 +206,46 @@ root.render( /*#__PURE__*/React.createElement(react__WEBPACK_IMPORTED_MODULE_0__
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, `body {
+___CSS_LOADER_EXPORT___.push([module.id, `/*
+
+
+CSS NOTES
+consider a light t o dark gradient.
+
+EFEFD0
+
+215, 214, 214
+D7D6D6
+*/
+:root {
+  --bright: whitesmoke;
+  --royalPurple: rgba(126, 82, 160, .9);
+  --light: rgba(248, 249, 250, 1);
+  --darknessTranslucent: rgba(71, 74, 72, .75);
+  --darkness: rgba(71, 74, 72);
+  --contactButtonsTranslucent: rgba(109, 214, 218, .5);
+  --aboutMeTranslucent: rgba(149, 217, 218, .8);
+  --portfolioCardTranslucent: rgba(155, 167, 192, .75);
+  --descriptionCardTranslucent: rgba(233, 236, 239, .75);
+  --imageBackgroundTranslucent: rgba(206, 212, 218, .75);
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin: 0;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: antiquewhite;
+  background-color: var(--darkness);
 }
 body a {
-  cursor: grab;
+  cursor: pointer;
   text-decoration: none;
 }
 body img {
-  cursor: grab;
-  border: solid 3px black;
+  cursor: pointer;
+  border: solid 5px var(--darknessTranslucent);
 }
 
 .i4p6UNa9JDMGa_2GDQXi {
@@ -195,16 +256,28 @@ body img {
 }
 
 .GKDolwXT1nhTVq8EHDNX {
+  margin-top: 0.5rem;
   text-align: center;
+  width: 100%;
+}
+
+.TZ2FzGouDJwen7Eavap2 {
+  font-size: 24pt;
+  margin-bottom: 0.5rem;
 }
 
 .a0dYRE2yJyWrx0BQrmCQ {
+  border-radius: 2vmin;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin: 1rem;
-  padding: 1rem;
+  padding: 3rem;
+  background-color: white;
+  border: solid 4px var(--darkness);
+  box-shadow: 2px 2px 2px var(--darknessTranslucent);
+  width: 50%;
 }
 
 .V54Smx6V6UBt4FZyYB4s {
@@ -217,15 +290,15 @@ body img {
 }
 
 .vV7JdnEVGSYV86CT1vwB {
+  border: solid 10px var(--darknessTranslucent);
   display: flex;
   margin: 0.5rem;
   padding: 0.5rem;
-  border: solid 2px lightblue;
-  background-color: whitesmoke;
+  background-color: var(--aboutMeTranslucent);
   font-size: 18pt;
   width: 80%;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 .CEBOWRODaTkiXWzlNIiX {
@@ -238,14 +311,14 @@ body img {
 }
 
 .apeRQkFapu_Fi5wHFFee {
-  border: solid 2px red;
   display: flex;
   flex-direction: column;
 }
 
 .ndCixu5dsnscTn2bHq62 {
-  border: solid 2px lightblue;
-  background-color: whitesmoke;
+  border-radius: 2vmin;
+  border: solid 2px var(--light);
+  background-color: var(--portfolioCardTranslucent);
   margin: 0.5rem;
   padding: 0.5rem;
   width: 50%;
@@ -255,7 +328,9 @@ body img {
 .W5riCAUFay2uUuDbg_RA {
   display: flex;
   flex-direction: column;
-  border: solid 2px red;
+  border-radius: 2vmin;
+  background-color: var(--portfolioCardTranslucent);
+  border: solid 2px var(--light);
   margin: 1rem;
   padding: 1rem;
   width: 60%;
@@ -271,41 +346,64 @@ body img {
   width: 400px;
   border: 5vmin;
   margin: 1rem;
-  border: solid 2px black;
-  background-color: whitesmoke;
+  border: solid 2px var(--darkness);
+  background-color: var(--light);
   padding: 1rem;
+  border-radius: 10px 200px/100px;
+  box-shadow: 2px 2px 2px var(--darknessTranslucent);
+}
+
+.d_lkOhqoGdNHmihkjtux:hover {
+  box-shadow: 3px 5px 5px var(--darknessTranslucent);
+  scale: 150%;
+  transition: 1s;
 }
 
 .BzMmgNl7z6jt75spIMhZ {
+  border-radius: 2vmin;
   display: flex;
   margin: 1rem;
+  padding-right: 0.5rem;
+  background-color: var(--darknessTranslucent);
   border: solid 3px black;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 }
 
 .sdj34Qu1i72TpAFpGziF {
   width: 40px;
   padding: 0.25rem;
-  margin: 0.75rem;
+}
+
+.jICp5v5KkniwStvrE8JZ:hover {
+  box-shadow: 4px 8px 8px var(--darknessTranslucent);
+  scale: 125%;
+  transition: 1s;
 }
 
 .jICp5v5KkniwStvrE8JZ {
+  box-shadow: 1px 2px 2px var(--darknessTranslucent);
   width: 40px;
+  height: 40px;
   border-radius: 50%;
 }
 
 button {
+  text-align: center;
+  box-shadow: 1px 2px 2px var(--darknessTranslucent);
   padding: 0.5rem;
   margin: 0.5rem;
-  background-color: lightblue;
   font-weight: bold;
   font-size: 18pt;
   border-radius: 4vmin;
 }
 
 button:hover {
-  cursor: grab;
+  box-shadow: 4px 8px 8px var(--darknessTranslucent);
+  cursor: pointer;
+  scale: 150%;
+  transition: 1s;
+  background-color: white;
 }
 
 .FALjE05SVfjG2L9wfJ7s {
@@ -315,11 +413,54 @@ button:hover {
   width: -moz-fit-content;
   width: fit-content;
   margin: 0.5rem;
-}`, "",{"version":3,"sources":["webpack://./src/App.module.scss"],"names":[],"mappings":"AAAA;EACI,SAAA;EACA,iBAAA;EACA,aAAA;EACA,sBAAA;EACA,mBAAA;EACA,8BAAA;AACJ;AAAI;EACI,YAAA;EACA,qBAAA;AAER;AACI;EACI,YAAA;EACA,uBAAA;AACR;;AAGA;EACI,aAAA;EACA,sBAAA;EACA,uBAAA;EACA,mBAAA;AAAJ;;AAGA;EACI,kBAAA;AAAJ;;AAGA;EACI,aAAA;EACA,sBAAA;EACA,uBAAA;EACA,mBAAA;EACA,YAAA;EACA,aAAA;AAAJ;;AAGA;EACI,aAAA;EACA,sBAAA;EACA,uBAAA;EACA,mBAAA;EACA,cAAA;EACA,eAAA;AAAJ;;AAGA;EACI,aAAA;EACA,cAAA;EACA,eAAA;EACA,2BAAA;EACA,4BAAA;EACA,eAAA;EACA,UAAA;EACA,mBAAA;EACA,uBAAA;AAAJ;;AAGA;EACI,YAAA;AAAJ;;AAGA;EACI,YAAA;EACA,kBAAA;AAAJ;;AAGA;EACI,qBAAA;EACA,aAAA;EACA,sBAAA;AAAJ;;AAGA;EACI,2BAAA;EACA,4BAAA;EACA,cAAA;EACA,eAAA;EACA,UAAA;EACA,eAAA;AAAJ;;AAGA;EACI,aAAA;EACA,sBAAA;EACA,qBAAA;EACA,YAAA;EACA,aAAA;EACA,UAAA;AAAJ;;AAGA;EACI,uBAAA;EACA,mBAAA;EACA,aAAA;AAAJ;;AAGA;EACI,YAAA;EACA,aAAA;EACA,YAAA;EACA,uBAAA;EACA,4BAAA;EACA,aAAA;AAAJ;;AAGA;EACI,aAAA;EACA,YAAA;EACA,uBAAA;EACA,uBAAA;EACA,mBAAA;AAAJ;;AAGA;EACI,WAAA;EACA,gBAAA;EACA,eAAA;AAAJ;;AAGA;EACI,WAAA;EACA,kBAAA;AAAJ;;AAGA;EACI,eAAA;EACA,cAAA;EACA,2BAAA;EACA,iBAAA;EACA,eAAA;EACA,oBAAA;AAAJ;;AAGA;EACI,YAAA;AAAJ;;AAGA;EACI,aAAA;EACA,uBAAA;EACA,mBAAA;EACA,uBAAA;EACA,kBAAA;EACA,cAAA;AAAJ","sourcesContent":["body {\n    margin: 0;\n    min-height: 100vh;\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    background-color: antiquewhite;\n    a {\n        cursor: grab;\n        text-decoration: none;\n    }\n\n    img {\n        cursor: grab;\n        border: solid 3px black;\n    }\n}\n\n.Portfolio {\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n}\n\n.bio {\n    text-align: center;\n}\n\n.ProDetails {\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n    margin: 1rem;\n    padding: 1rem;\n}\n\n.portfolioSamples {\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n    margin: .5rem;\n    padding: .5rem;\n}\n\n.AboutMe {\n    display: flex;\n    margin: .5rem;\n    padding: .5rem;\n    border: solid 2px lightblue;\n    background-color: whitesmoke;\n    font-size: 18pt;\n    width: 80%;\n    align-items: center;\n    justify-content: center;\n}\n\n.ProPicContainer {\n    margin: 1rem;\n}\n\n.ProPic {\n    width: 200px;\n    border-radius: 50%;\n}\n\n.displayCard {\n    border: solid 2px red;\n    display: flex;\n    flex-direction: column;\n}\n\n.portDescriptionCard {\n    border: solid 2px lightblue;\n    background-color: whitesmoke;\n    margin: .5rem;\n    padding: .5rem;\n    width: 50%;\n    font-size: 20pt;\n}\n\n.portfolioCard {\n    display: flex;\n    flex-direction: column;\n    border: solid 2px red;\n    margin: 1rem;\n    padding: 1rem;\n    width: 60%;\n}\n\n.portPiece {\n    justify-content: center;\n    align-items: center;\n    display: flex;\n}\n\n.picFile {\n    width: 400px;\n    border: 5vmin;\n    margin: 1rem;\n    border: solid 2px black;\n    background-color: whitesmoke;\n    padding: 1rem;\n}\n\n.ContactsBar {\n    display: flex;\n    margin: 1rem;\n    border: solid 3px black;\n    justify-content: center;\n    align-items: center;\n}\n\n.contactIcon {\n    width: 40px;\n    padding: .25rem;\n    margin: .75rem;\n}\n\n.contactPic {\n    width: 40px;\n    border-radius: 50%;\n}\n\nbutton {\n    padding: .5rem;\n    margin: .5rem;\n    background-color: lightblue;\n    font-weight: bold;\n    font-size: 18pt;\n    border-radius: 4vmin;\n}\n\nbutton:hover {\n    cursor: grab;\n}\n\n.buttonLinks {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    width: -moz-fit-content;\n    width: fit-content;\n    margin: .5rem;\n}\n"],"sourceRoot":""}]);
+}
+
+.hdyS5gz3pIJohOfkHJSJ {
+  background-color: white;
+  border: solid 2px var(--royalPurple);
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 2vmin;
+  box-shadow: 2px 2px 2px var(--darknessTranslucent);
+  border: solid 2px var(--darkness);
+}
+
+.dU8jIPnmu_feglvqhnct {
+  font-size: 24pt;
+  text-align: center;
+  color: var(--darkness);
+}
+
+.dU8jIPnmu_feglvqhnct:hover {
+  color: var(--royalPurple);
+}
+
+.LKo8AyLiGA7LEeAFHMw8 {
+  background-color: var(--light);
+  padding: 1rem;
+  margin: 1rem;
+  text-align: space-around;
+  border-radius: 2vmin;
+  border: solid 3px var(--darkness);
+  box-shadow: 6px 3px 3px var(--darknessTranslucent);
+}
+
+.LKo8AyLiGA7LEeAFHMw8:hover {
+  background-color: white;
+}
+
+.C7Rxb79hG1qYRIKJNoFg {
+  padding: 1rem;
+  text-align: right;
+  list-style: none;
+  border-top: solid 2px var(--royalPurple);
+  border-bottom: solid 2px var(--darkness);
+}`, "",{"version":3,"sources":["webpack://./src/App.module.scss"],"names":[],"mappings":"AAAA;;;;;;;;;;CAAA;AAaA;EACI,oBAAA;EACA,qCAAA;EACA,+BAAA;EACA,4CAAA;EACA,4BAAA;EACA,oDAAA;EACA,6CAAA;EACA,oDAAA;EACA,sDAAA;EACA,sDAAA;AADJ;;AAMA;EACI,gDAAA;EACA,SAAA;EACA,iBAAA;EACA,aAAA;EACA,sBAAA;EACA,mBAAA;EACA,iCAAA;AAHJ;AAII;EACI,eAAA;EACA,qBAAA;AAFR;AAKI;EACI,eAAA;EACA,4CAAA;AAHR;;AAOA;EACI,aAAA;EACA,sBAAA;EACA,uBAAA;EACA,mBAAA;AAJJ;;AAOA;EACI,kBAAA;EACA,kBAAA;EACA,WAAA;AAJJ;;AAOA;EACI,eAAA;EACA,qBAAA;AAJJ;;AAOA;EACI,oBAAA;EACA,aAAA;EACA,sBAAA;EACA,uBAAA;EACA,mBAAA;EACA,YAAA;EACA,aAAA;EACA,uBAAA;EACA,iCAAA;EACA,kDAAA;EACA,UAAA;AAJJ;;AAOA;EACI,aAAA;EACA,sBAAA;EACA,uBAAA;EACA,mBAAA;EACA,cAAA;EACA,eAAA;AAJJ;;AAOA;EACI,6CAAA;EACA,aAAA;EACA,cAAA;EACA,eAAA;EACA,2CAAA;EACA,eAAA;EACA,UAAA;EACA,mBAAA;EACA,6BAAA;AAJJ;;AAOA;EACI,YAAA;AAJJ;;AAOA;EACI,YAAA;EACA,kBAAA;AAJJ;;AAOA;EACI,aAAA;EACA,sBAAA;AAJJ;;AAOA;EACI,oBAAA;EACA,8BAAA;EACA,iDAAA;EACA,cAAA;EACA,eAAA;EACA,UAAA;EACA,eAAA;AAJJ;;AAOA;EACI,aAAA;EACA,sBAAA;EACA,oBAAA;EACA,iDAAA;EACA,8BAAA;EACA,YAAA;EACA,aAAA;EACA,UAAA;AAJJ;;AAQA;EACI,uBAAA;EACA,mBAAA;EACA,aAAA;AALJ;;AAQA;EACI,YAAA;EACA,aAAA;EACA,YAAA;EACA,iCAAA;EACA,8BAAA;EACA,aAAA;EACA,+BAAA;EACA,kDAAA;AALJ;;AASA;EACI,kDAAA;EACA,WAAA;EACA,cAAA;AANJ;;AASA;EACI,oBAAA;EACA,aAAA;EACA,YAAA;EACA,qBAAA;EACA,4CAAA;EACA,uBAAA;EACA,6BAAA;EACA,mBAAA;AANJ;;AASA;EACI,WAAA;EACA,gBAAA;AANJ;;AASA;EACI,kDAAA;EACA,WAAA;EACA,cAAA;AANJ;;AASA;EACI,kDAAA;EACA,WAAA;EACA,YAAA;EACA,kBAAA;AANJ;;AASA;EACI,kBAAA;EACA,kDAAA;EACA,eAAA;EACA,cAAA;EACA,iBAAA;EACA,eAAA;EACA,oBAAA;AANJ;;AASA;EACI,kDAAA;EACA,eAAA;EACA,WAAA;EACA,cAAA;EACA,uBAAA;AANJ;;AASA;EACI,aAAA;EACA,uBAAA;EACA,mBAAA;EACA,uBAAA;EACA,kBAAA;EACA,cAAA;AANJ;;AASA;EACI,uBAAA;EACA,oCAAA;EACA,aAAA;EACA,YAAA;EACA,oBAAA;EACA,kDAAA;EACA,iCAAA;AANJ;;AASA;EACI,eAAA;EACA,kBAAA;EACA,sBAAA;AANJ;;AASA;EACI,yBAAA;AANJ;;AASA;EACI,8BAAA;EACA,aAAA;EACA,YAAA;EACA,wBAAA;EACA,oBAAA;EACA,iCAAA;EACA,kDAAA;AANJ;;AASA;EACI,uBAAA;AANJ;;AASA;EACI,aAAA;EACA,iBAAA;EACA,gBAAA;EACA,wCAAA;EACA,wCAAA;AANJ","sourcesContent":["/*\n\n\nCSS NOTES\nconsider a light t o dark gradient.\n\nEFEFD0\n\n215, 214, 214\nD7D6D6\n*/\n\n\n:root {\n    --bright: whitesmoke;\n    --royalPurple: rgba(126, 82, 160, .9);\n    --light: rgba(248, 249, 250, 1);\n    --darknessTranslucent: rgba(71, 74, 72, .75);\n    --darkness: rgba(71, 74, 72);\n    --contactButtonsTranslucent: rgba(109, 214, 218, .5);\n    --aboutMeTranslucent: rgba(149, 217, 218, .8);\n    --portfolioCardTranslucent: rgba(155, 167, 192, .75);\n    --descriptionCardTranslucent: rgba(233, 236, 239, .75);\n    --imageBackgroundTranslucent: rgba(206, 212, 218, .75);\n\n}\n\n\nbody {\n    font-family: Verdana, Geneva, Tahoma, sans-serif;\n    margin: 0;\n    min-height: 100vh;\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    background-color: var(--darkness);\n    a {\n        cursor: pointer;\n        text-decoration: none;\n    }\n\n    img {\n        cursor: pointer;\n        border: solid 5px var(--darknessTranslucent);\n    }\n}\n\n.Portfolio {\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n}\n\n.bio {\n    margin-top: .5rem;\n    text-align: center;\n    width: 100%;\n}\n\n.headerText {\n    font-size: 24pt;\n    margin-bottom: .5rem;\n}\n\n.ProDetails {\n    border-radius: 2vmin;\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n    margin: 1rem;\n    padding: 3rem;\n    background-color: white;\n    border: solid 4px var(--darkness);\n    box-shadow: 2px 2px 2px var(--darknessTranslucent);\n    width: 50%;\n}\n\n.portfolioSamples {\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n    margin: .5rem;\n    padding: .5rem;\n}\n\n.AboutMe {\n    border: solid 10px var(--darknessTranslucent);\n    display: flex;\n    margin: .5rem;\n    padding: .5rem;\n    background-color: var(--aboutMeTranslucent);\n    font-size: 18pt;\n    width: 80%;\n    align-items: center;\n    justify-content: space-around;\n}\n\n.ProPicContainer {\n    margin: 1rem;\n}\n\n.ProPic {\n    width: 200px;\n    border-radius: 50%;\n}\n\n.displayCard {\n    display: flex;\n    flex-direction: column;\n}\n\n.portDescriptionCard {\n    border-radius: 2vmin;\n    border: solid 2px var(--light);\n    background-color: var(--portfolioCardTranslucent);\n    margin: .5rem;\n    padding: .5rem;\n    width: 50%;\n    font-size: 20pt;\n}\n\n.portfolioCard {\n    display: flex;\n    flex-direction: column;\n    border-radius: 2vmin;\n    background-color: var(--portfolioCardTranslucent);\n    border: solid 2px var(--light);\n    margin: 1rem;\n    padding: 1rem;\n    width: 60%;\n}\n\n\n.portPiece {\n    justify-content: center;\n    align-items: center;\n    display: flex;\n}\n\n.picFile {\n    width: 400px;\n    border: 5vmin;\n    margin: 1rem;\n    border: solid 2px var(--darkness);\n    background-color: var(--light);\n    padding: 1rem;\n    border-radius: 10px 200px / 100px;\n    box-shadow: 2px 2px 2px var(--darknessTranslucent);\n\n}\n\n.picFile:hover {\n    box-shadow: 3px 5px 5px var(--darknessTranslucent);\n    scale: 150%;\n    transition: 1s;\n}\n\n.ContactsBar {\n    border-radius: 2vmin;\n    display: flex;\n    margin: 1rem;\n    padding-right: .5rem;\n    background-color: var(--darknessTranslucent);\n    border: solid 3px black;\n    justify-content: space-around;\n    align-items: center;\n}\n\n.contactIcon {\n    width: 40px;\n    padding: .25rem;\n}\n\n.contactPic:hover {\n    box-shadow: 4px 8px 8px var(--darknessTranslucent);\n    scale: 125%;\n    transition: 1s;\n}\n\n.contactPic {\n    box-shadow: 1px 2px 2px var(--darknessTranslucent);\n    width: 40px;\n    height: 40px;\n    border-radius: 50%;\n}\n\nbutton {\n    text-align: center;\n    box-shadow: 1px 2px 2px var(--darknessTranslucent);\n    padding: .5rem;\n    margin: .5rem;\n    font-weight: bold;\n    font-size: 18pt;\n    border-radius: 4vmin;\n}\n\nbutton:hover {\n    box-shadow: 4px 8px 8px var(--darknessTranslucent);\n    cursor: pointer;\n    scale: 150%;\n    transition: 1s;\n    background-color: white;\n}\n\n.buttonLinks {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    width: -moz-fit-content;\n    width: fit-content;\n    margin: .5rem;\n}\n\n.portTitleCard {\n    background-color: white;\n    border: solid 2px var(--royalPurple);\n    padding: 1rem;\n    margin: 1rem;\n    border-radius: 2vmin;\n    box-shadow: 2px 2px 2px var(--darknessTranslucent);\n    border: solid 2px var(--darkness);\n}\n\n.portTitle {\n    font-size: 24pt;\n    text-align: center;\n    color: var(--darkness);\n}\n\n.portTitle:hover {\n    color: var(--royalPurple);\n}\n\n.descriptionList {\n    background-color: var(--light);\n    padding: 1rem;\n    margin: 1rem;\n    text-align: space-around;\n    border-radius: 2vmin;\n    border: solid 3px var(--darkness);\n    box-shadow: 6px 3px 3px var(--darknessTranslucent);\n}\n\n.descriptionList:hover {\n    background-color: white;\n}\n\n.portDescriptionText {\n    padding: 1rem;\n    text-align: right;\n    list-style: none;\n    border-top: solid 2px var(--royalPurple);\n    border-bottom: solid 2px var(--darkness);\n}\n"],"sourceRoot":""}]);
 // Exports
 ___CSS_LOADER_EXPORT___.locals = {
 	"Portfolio": `i4p6UNa9JDMGa_2GDQXi`,
 	"bio": `GKDolwXT1nhTVq8EHDNX`,
+	"headerText": `TZ2FzGouDJwen7Eavap2`,
 	"ProDetails": `a0dYRE2yJyWrx0BQrmCQ`,
 	"portfolioSamples": `V54Smx6V6UBt4FZyYB4s`,
 	"AboutMe": `vV7JdnEVGSYV86CT1vwB`,
@@ -333,7 +474,11 @@ ___CSS_LOADER_EXPORT___.locals = {
 	"ContactsBar": `BzMmgNl7z6jt75spIMhZ`,
 	"contactIcon": `sdj34Qu1i72TpAFpGziF`,
 	"contactPic": `jICp5v5KkniwStvrE8JZ`,
-	"buttonLinks": `FALjE05SVfjG2L9wfJ7s`
+	"buttonLinks": `FALjE05SVfjG2L9wfJ7s`,
+	"portTitleCard": `hdyS5gz3pIJohOfkHJSJ`,
+	"portTitle": `dU8jIPnmu_feglvqhnct`,
+	"descriptionList": `LKo8AyLiGA7LEeAFHMw8`,
+	"portDescriptionText": `C7Rxb79hG1qYRIKJNoFg`
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -564,4 +709,4 @@ var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=App.13e6c5b602f3a1298a84b19975993237.js.map
+//# sourceMappingURL=App.04b8ba11bb0f06ac7d468dc96f59b3c9.js.map

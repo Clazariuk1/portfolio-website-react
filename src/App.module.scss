@@ -1,18 +1,47 @@
+/*
+
+
+CSS NOTES
+consider a light t o dark gradient.
+
+EFEFD0
+
+215, 214, 214
+D7D6D6
+*/
+
+
+:root {
+    --bright: whitesmoke;
+    --royalPurple: rgba(126, 82, 160, .9);
+    --light: rgba(248, 249, 250, 1);
+    --darknessTranslucent: rgba(71, 74, 72, .75);
+    --darkness: rgba(71, 74, 72);
+    --contactButtonsTranslucent: rgba(109, 214, 218, .5);
+    --aboutMeTranslucent: rgba(149, 217, 218, .8);
+    --portfolioCardTranslucent: rgba(155, 167, 192, .75);
+    --descriptionCardTranslucent: rgba(233, 236, 239, .75);
+    --imageBackgroundTranslucent: rgba(206, 212, 218, .75);
+
+}
+
+
 body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: antiquewhite;
+    background-color: var(--darkness);
     a {
-        cursor: grab;
+        cursor: pointer;
         text-decoration: none;
     }
 
     img {
-        cursor: grab;
-        border: solid 3px black;
+        cursor: pointer;
+        border: solid 5px var(--darknessTranslucent);
     }
 }
 
@@ -24,16 +53,28 @@ body {
 }
 
 .bio {
+    margin-top: .5rem;
     text-align: center;
+    width: 100%;
+}
+
+.headerText {
+    font-size: 24pt;
+    margin-bottom: .5rem;
 }
 
 .ProDetails {
+    border-radius: 2vmin;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 1rem;
-    padding: 1rem;
+    padding: 3rem;
+    background-color: white;
+    border: solid 4px var(--darkness);
+    box-shadow: 2px 2px 2px var(--darknessTranslucent);
+    width: 50%;
 }
 
 .portfolioSamples {
@@ -46,15 +87,15 @@ body {
 }
 
 .AboutMe {
+    border: solid 10px var(--darknessTranslucent);
     display: flex;
     margin: .5rem;
     padding: .5rem;
-    border: solid 2px lightblue;
-    background-color: whitesmoke;
+    background-color: var(--aboutMeTranslucent);
     font-size: 18pt;
     width: 80%;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .ProPicContainer {
@@ -67,14 +108,14 @@ body {
 }
 
 .displayCard {
-    border: solid 2px red;
     display: flex;
     flex-direction: column;
 }
 
 .portDescriptionCard {
-    border: solid 2px lightblue;
-    background-color: whitesmoke;
+    border-radius: 2vmin;
+    border: solid 2px var(--light);
+    background-color: var(--portfolioCardTranslucent);
     margin: .5rem;
     padding: .5rem;
     width: 50%;
@@ -84,11 +125,14 @@ body {
 .portfolioCard {
     display: flex;
     flex-direction: column;
-    border: solid 2px red;
+    border-radius: 2vmin;
+    background-color: var(--portfolioCardTranslucent);
+    border: solid 2px var(--light);
     margin: 1rem;
     padding: 1rem;
     width: 60%;
 }
+
 
 .portPiece {
     justify-content: center;
@@ -100,41 +144,65 @@ body {
     width: 400px;
     border: 5vmin;
     margin: 1rem;
-    border: solid 2px black;
-    background-color: whitesmoke;
+    border: solid 2px var(--darkness);
+    background-color: var(--light);
     padding: 1rem;
+    border-radius: 10px 200px / 100px;
+    box-shadow: 2px 2px 2px var(--darknessTranslucent);
+
+}
+
+.picFile:hover {
+    box-shadow: 3px 5px 5px var(--darknessTranslucent);
+    scale: 150%;
+    transition: 1s;
 }
 
 .ContactsBar {
+    border-radius: 2vmin;
     display: flex;
     margin: 1rem;
+    padding-right: .5rem;
+    background-color: var(--darknessTranslucent);
     border: solid 3px black;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 
 .contactIcon {
     width: 40px;
     padding: .25rem;
-    margin: .75rem;
+}
+
+.contactPic:hover {
+    box-shadow: 4px 8px 8px var(--darknessTranslucent);
+    scale: 125%;
+    transition: 1s;
 }
 
 .contactPic {
+    box-shadow: 1px 2px 2px var(--darknessTranslucent);
     width: 40px;
+    height: 40px;
     border-radius: 50%;
 }
 
 button {
+    text-align: center;
+    box-shadow: 1px 2px 2px var(--darknessTranslucent);
     padding: .5rem;
     margin: .5rem;
-    background-color: lightblue;
     font-weight: bold;
     font-size: 18pt;
     border-radius: 4vmin;
 }
 
 button:hover {
-    cursor: grab;
+    box-shadow: 4px 8px 8px var(--darknessTranslucent);
+    cursor: pointer;
+    scale: 150%;
+    transition: 1s;
+    background-color: white;
 }
 
 .buttonLinks {
@@ -143,4 +211,46 @@ button:hover {
     align-items: center;
     width: fit-content;
     margin: .5rem;
+}
+
+.portTitleCard {
+    background-color: white;
+    border: solid 2px var(--royalPurple);
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 2vmin;
+    box-shadow: 2px 2px 2px var(--darknessTranslucent);
+    border: solid 2px var(--darkness);
+}
+
+.portTitle {
+    font-size: 24pt;
+    text-align: center;
+    color: var(--darkness);
+}
+
+.portTitle:hover {
+    color: var(--royalPurple);
+}
+
+.descriptionList {
+    background-color: var(--light);
+    padding: 1rem;
+    margin: 1rem;
+    text-align: space-around;
+    border-radius: 2vmin;
+    border: solid 3px var(--darkness);
+    box-shadow: 6px 3px 3px var(--darknessTranslucent);
+}
+
+.descriptionList:hover {
+    background-color: white;
+}
+
+.portDescriptionText {
+    padding: 1rem;
+    text-align: right;
+    list-style: none;
+    border-top: solid 2px var(--royalPurple);
+    border-bottom: solid 2px var(--darkness);
 }
