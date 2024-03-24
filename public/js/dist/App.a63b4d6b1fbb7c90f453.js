@@ -39,7 +39,7 @@ function App() {
     className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].headerText
   }, "Novelist. Muay Thai Fighter."), /*#__PURE__*/React.createElement("div", {
     className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].bio
-  }, "They don't call them bootcamps for nothing! You want a dev, I got the creds. Check out some of my projects below! Looking forward to the opportunity to dig into something beautiful together. As to the website here? It's a work in progress, I'e still got final projects to contend with for school. I cared so much about applying to your position I churned out a website in a couple hours for you!"), /*#__PURE__*/React.createElement("div", {
+  }, "They don't call them bootcamps for nothing! You want a dev, I got the creds. Check out some of my projects below! Looking forward to the opportunity to dig into something beautiful together. As to the website here? It's a work in progress, I've still got final projects to contend with for school. I cared so much about applying to your position I churned out a website in a couple hours for you!"), /*#__PURE__*/React.createElement("div", {
     className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].buttonLinks
   }, /*#__PURE__*/React.createElement("a", {
     href: "/img/portfolio-resume.pdf",
@@ -61,7 +61,7 @@ function App() {
     href: "https://www.linkedin.com/in/christopherlazariuk/"
   }, /*#__PURE__*/React.createElement("img", {
     className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].contactPic,
-    src: "/img/linkedInIcon.png"
+    src: "/img/linkedinIcon.png"
   }))), /*#__PURE__*/React.createElement("div", {
     className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].contactIcon
   }, /*#__PURE__*/React.createElement("a", {
@@ -564,4 +564,4 @@ var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=App.5998a88608e7994d035c75559d4d4b59.js.map
+//# sourceMappingURL=App.13e6c5b602f3a1298a84b19975993237.js.map

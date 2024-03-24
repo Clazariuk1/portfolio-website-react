@@ -14,7 +14,7 @@ export default function App(){
         <div className={styles.headerText}>Christopher Lazariuk</div>
         <div className={styles.headerText}>Full Stack Developer. Software Engineer.</div>
         <div className={styles.headerText}>Novelist. Muay Thai Fighter.</div>
-        <div className={styles.bio}>They don't call them bootcamps for nothing! You want a dev, I got the creds. Check out some of my projects below! Looking forward to the opportunity to dig into something beautiful together. As to the website here? It's a work in progress, I'e still got final projects to contend with for school. I cared so much about applying to your position I churned out a website in a couple hours for you!</div>
+        <div className={styles.bio}>They don't call them bootcamps for nothing! You want a dev, I got the creds. Check out some of my projects below! Looking forward to the opportunity to dig into something beautiful together. As to the website here? It's a work in progress, I've still got final projects to contend with for school. I cared so much about applying to your position I churned out a website in a couple hours for you!</div>
         <div className={styles.buttonLinks}>
         <a href="/img/portfolio-resume.pdf" target="_blank" ><button className={styles.resume}>My Professional SWE Resume</button></a>
         <aside className={styles.ContactsBar}>
@@ -22,7 +22,7 @@ export default function App(){
                 <a href="mailto:clazariuk@gmail.com?body=My custom mail body" ><img className={styles.contactPic} src="./img/emailIcon.jpeg" /></a>
             </div>
             <div className={styles.contactIcon}>
-                <a href="https://www.linkedin.com/in/christopherlazariuk/" ><img className={styles.contactPic} src="/img/linkedInIcon.png" /></a>
+                <a href="https://www.linkedin.com/in/christopherlazariuk/" ><img className={styles.contactPic} src="/img/linkedinIcon.png" /></a>
             </div>
             <div className={styles.contactIcon}>
                 <a href="https://github.com/Clazariuk1" ><img className={styles.contactPic} src="/img/githubPic.png" /></a>
