@@ -143,7 +143,34 @@ function App() {
     className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].portPicContainer
   }, /*#__PURE__*/React.createElement("img", {
     className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].picFile,
-    src: "/img/DevDependencyPortPic.png"
+    src: "/img/underconstruction.jpeg"
+  })), /*#__PURE__*/React.createElement("div", {
+    className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].portDescriptionCard
+  }, /*#__PURE__*/React.createElement("div", {
+    className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].portTitleCard
+  }, /*#__PURE__*/React.createElement("h4", {
+    className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].portTitle
+  }, " The Liberty Blog - a Full Stack Blog API"), /*#__PURE__*/React.createElement("a", {
+    href: "https://github.com/Clazariuk1/https://github.com/Clazariuk1/liberty-blog"
+  }, /*#__PURE__*/React.createElement("h5", {
+    className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].portTitle
+  }, "~Github Repository Link~"))), /*#__PURE__*/React.createElement("ul", {
+    className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].descriptionList
+  }, /*#__PURE__*/React.createElement("li", {
+    className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].portDescriptionText
+  }, "A simple fully functional RESTful API"), /*#__PURE__*/React.createElement("li", {
+    className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].portDescriptionText
+  }, "Full-Stack MERN application featuring RESTful routing, user authorization, and full CRUD functionality"), /*#__PURE__*/React.createElement("li", {
+    className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].portDescriptionText
+  }, "Built with React, NodeJS, and MongoDB"))))), /*#__PURE__*/React.createElement("div", {
+    className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].portfolioCard
+  }, /*#__PURE__*/React.createElement("div", {
+    className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].portPiece
+  }, /*#__PURE__*/React.createElement("div", {
+    className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].portPicContainer
+  }, /*#__PURE__*/React.createElement("img", {
+    className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].picFile,
+    src: "/img/underconstruction.jpeg"
   })), /*#__PURE__*/React.createElement("div", {
     className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].portDescriptionCard
   }, /*#__PURE__*/React.createElement("div", {
@@ -709,4 +736,4 @@ var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=App.04b8ba11bb0f06ac7d468dc96f59b3c9.js.map
+//# sourceMappingURL=App.bbc2e6fd1de0c7587a6cf69a5b1796ee.js.map

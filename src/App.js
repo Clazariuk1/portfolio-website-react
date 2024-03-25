@@ -79,10 +79,37 @@ export default function App(){
                 </div>
             </div>
         </div>
+
+
         <div className={styles.portfolioCard}>
             <div className={styles.portPiece}>
                 <div className={styles.portPicContainer}>
-                <img className={styles.picFile} src="/img/DevDependencyPortPic.png" />
+                <img className={styles.picFile} src="/img/underconstruction.jpeg" />
+                </div>
+                <div className={styles.portDescriptionCard}>
+                    <div className={styles.portTitleCard}>
+                    <h4 className={styles.portTitle}> The Liberty Blog - a Full Stack Blog API</h4>
+                    <a href="https://github.com/Clazariuk1/https://github.com/Clazariuk1/liberty-blog"><h5 className={styles.portTitle}>~Github Repository Link~</h5></a>
+                    </div>
+                    <ul className={styles.descriptionList}>
+                    <li className={styles.portDescriptionText}>A simple fully functional RESTful API
+</li>
+                        <li className={styles.portDescriptionText}>
+                            Full-Stack MERN application featuring RESTful routing, user authorization, and full CRUD functionality
+                        </li>
+                        <li className={styles.portDescriptionText}>
+                            Built with React, NodeJS, and MongoDB
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+        <div className={styles.portfolioCard}>
+            <div className={styles.portPiece}>
+                <div className={styles.portPicContainer}>
+                <img className={styles.picFile} src="/img/underconstruction.jpeg" />
                 </div>
                 <div className={styles.portDescriptionCard}>
                     <div className={styles.portTitleCard}>
