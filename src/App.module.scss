@@ -10,6 +10,58 @@ EFEFD0
 D7D6D6
 */
 
+@keyframes fadeInStatic {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInFromRight {
+    from {
+        opacity: 0;
+        transform: translateX(80px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes fadeInFromLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-80px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes fadeInFromBottom {
+    from {
+        opacity: 0;
+        transform: translateY(80px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInFromTop {
+    from {
+        opacity: 0;
+        transform: translateY(-40px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
 
 :root {
     --bright: whitesmoke;
@@ -41,15 +93,17 @@ body {
 
     img {
         cursor: pointer;
-        border: solid 5px var(--darknessTranslucent);
+        border: solid 5px rgb(250, 216, 214);
     }
 }
 
 .Portfolio {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: linear-gradient(70deg, rgb(250, 216, 214), rgb(46, 40, 42))
 }
 
 .bio {
@@ -75,6 +129,10 @@ body {
     border: solid 4px var(--darkness);
     box-shadow: 2px 2px 2px var(--darknessTranslucent);
     width: 50%;
+
+    opacity: 0;
+    transform: translateX(-80px);
+    animation: fadeInFromRight 2s ease forwards;
 }
 
 .portfolioSamples {
@@ -84,27 +142,38 @@ body {
     align-items: center;
     margin: .5rem;
     padding: .5rem;
+    opacity: 0;
+    transform: translateY(80px);
+    animation: fadeInFromBottom 5s ease forwards;
 }
 
 .AboutMe {
-    border: solid 10px var(--darknessTranslucent);
+    border: solid 10px rgba(250, 216, 214, .5);
     display: flex;
     margin: .5rem;
     padding: .5rem;
-    background-color: var(--aboutMeTranslucent);
+    background: linear-gradient(white, rgba(171, 127, 242, 0.5));
     font-size: 18pt;
     width: 80%;
     align-items: center;
     justify-content: space-around;
+    border-radius: 2vmin;
+    opacity: 0;
+    transform: translateY(-40px);
+    animation: fadeInFromTop 2s ease forwards;
+
 }
 
 .ProPicContainer {
+    display: flex;
     margin: 1rem;
 }
 
 .ProPic {
     width: 200px;
     border-radius: 50%;
+    opacity: 0;
+    animation: fadeInStatic 4s ease forwards;
 }
 
 .displayCard {
@@ -115,29 +184,46 @@ body {
 .portDescriptionCard {
     border-radius: 2vmin;
     border: solid 2px var(--light);
-    background-color: var(--portfolioCardTranslucent);
+    background: linear-gradient(rgb(250, 216, 214), rgb(46, 40, 42));
     margin: .5rem;
     padding: .5rem;
     width: 50%;
     font-size: 20pt;
+    box-shadow: 1px 3px 3px rgb(46, 40, 42);
+    opacity: 0;
+    transform: translateX(-80px);
+    animation: fadeInFromLeft 8s ease forwards;
+
+}
+
+.portDescriptionCard:hover {
+    background: linear-gradient(rgb(46, 40, 42), rgb(250, 216, 214));
 }
 
 .portfolioCard {
     display: flex;
     flex-direction: column;
     border-radius: 2vmin;
-    background-color: var(--portfolioCardTranslucent);
+    background: linear-gradient(white, rgba(171, 127, 242, 0.5));
     border: solid 2px var(--light);
     margin: 1rem;
     padding: 1rem;
     width: 60%;
+    box-shadow: 1px 3px 3px rgb(250, 216, 214);
 }
 
+.portfolioCard:hover {
+    background: linear-gradient(rgba(171, 127, 242, 0.5), white);
+}
 
 .portPiece {
     justify-content: center;
     align-items: center;
     display: flex;
+}
+
+.portPicContainer {
+    z-index: 1;
 }
 
 .picFile {
@@ -149,12 +235,14 @@ body {
     padding: 1rem;
     border-radius: 10px 200px / 100px;
     box-shadow: 2px 2px 2px var(--darknessTranslucent);
-
+    z-index: 2;
+    opacity: 0;
+    animation: fadeInStatic 4s ease forwards;
 }
 
 .picFile:hover {
     box-shadow: 3px 5px 5px var(--darknessTranslucent);
-    scale: 150%;
+    scale: 125%;
     transition: 1s;
 }
 
@@ -211,6 +299,8 @@ button:hover {
     align-items: center;
     width: fit-content;
     margin: .5rem;
+    opacity: 0;
+    animation: fadeInStatic 6s ease forwards;
 }
 
 .portTitleCard {

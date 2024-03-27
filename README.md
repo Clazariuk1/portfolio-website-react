@@ -7,4 +7,6 @@
 <br>
 <a href="https://ecommerce.christopherlazariuk.me"><h4>Dev Dependncy Ecommerce Website</h4></a>
 <br>
-<a href="https://google.com"><h4>Connections, a social media app</h4></a>
+<a href="https://connections.christopherlazariuk.me"><h4>Connections, a social media app</h4></a>
+<br>
+<a href="https://blog.christopherlazariuk.me"><h4>The Liberty Blog, a functioning full stack blog API</h4></a>

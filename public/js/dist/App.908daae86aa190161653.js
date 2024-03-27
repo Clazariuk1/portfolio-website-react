@@ -143,34 +143,7 @@ function App() {
     className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].portPicContainer
   }, /*#__PURE__*/React.createElement("img", {
     className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].picFile,
-    src: "/img/underconstruction.jpeg"
-  })), /*#__PURE__*/React.createElement("div", {
-    className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].portDescriptionCard
-  }, /*#__PURE__*/React.createElement("div", {
-    className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].portTitleCard
-  }, /*#__PURE__*/React.createElement("h4", {
-    className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].portTitle
-  }, " The Liberty Blog - a Full Stack Blog API"), /*#__PURE__*/React.createElement("a", {
-    href: "https://github.com/Clazariuk1/https://github.com/Clazariuk1/liberty-blog"
-  }, /*#__PURE__*/React.createElement("h5", {
-    className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].portTitle
-  }, "~Github Repository Link~"))), /*#__PURE__*/React.createElement("ul", {
-    className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].descriptionList
-  }, /*#__PURE__*/React.createElement("li", {
-    className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].portDescriptionText
-  }, "A simple fully functional RESTful API"), /*#__PURE__*/React.createElement("li", {
-    className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].portDescriptionText
-  }, "Full-Stack MERN application featuring RESTful routing, user authorization, and full CRUD functionality"), /*#__PURE__*/React.createElement("li", {
-    className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].portDescriptionText
-  }, "Built with React, NodeJS, and MongoDB"))))), /*#__PURE__*/React.createElement("div", {
-    className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].portfolioCard
-  }, /*#__PURE__*/React.createElement("div", {
-    className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].portPiece
-  }, /*#__PURE__*/React.createElement("div", {
-    className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].portPicContainer
-  }, /*#__PURE__*/React.createElement("img", {
-    className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].picFile,
-    src: "/img/underconstruction.jpeg"
+    src: "/img/ConnectionsScreenshot.png"
   })), /*#__PURE__*/React.createElement("div", {
     className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].portDescriptionCard
   }, /*#__PURE__*/React.createElement("div", {
@@ -244,6 +217,54 @@ EFEFD0
 215, 214, 214
 D7D6D6
 */
+@keyframes pgXJ990EOUlOXvj3SNxz {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes IFbhznn3TwEkbx_TaJd1 {
+  from {
+    opacity: 0;
+    transform: translateX(80px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@keyframes IzDR8LJqgT2azG8BJSGw {
+  from {
+    opacity: 0;
+    transform: translateX(-80px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@keyframes pexaj7scVM03rGqjlINy {
+  from {
+    opacity: 0;
+    transform: translateY(80px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes A3SWdkPBnDjgZSElrW4A {
+  from {
+    opacity: 0;
+    transform: translateY(-40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 :root {
   --bright: whitesmoke;
   --royalPurple: rgba(126, 82, 160, .9);
@@ -272,14 +293,16 @@ body a {
 }
 body img {
   cursor: pointer;
-  border: solid 5px var(--darknessTranslucent);
+  border: solid 5px rgb(250, 216, 214);
 }
 
 .i4p6UNa9JDMGa_2GDQXi {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: linear-gradient(70deg, rgb(250, 216, 214), rgb(46, 40, 42));
 }
 
 .GKDolwXT1nhTVq8EHDNX {
@@ -305,6 +328,9 @@ body img {
   border: solid 4px var(--darkness);
   box-shadow: 2px 2px 2px var(--darknessTranslucent);
   width: 50%;
+  opacity: 0;
+  transform: translateX(-80px);
+  animation: IFbhznn3TwEkbx_TaJd1 2s ease forwards;
 }
 
 .V54Smx6V6UBt4FZyYB4s {
@@ -314,27 +340,37 @@ body img {
   align-items: center;
   margin: 0.5rem;
   padding: 0.5rem;
+  opacity: 0;
+  transform: translateY(80px);
+  animation: pexaj7scVM03rGqjlINy 5s ease forwards;
 }
 
 .vV7JdnEVGSYV86CT1vwB {
-  border: solid 10px var(--darknessTranslucent);
+  border: solid 10px rgba(250, 216, 214, 0.5);
   display: flex;
   margin: 0.5rem;
   padding: 0.5rem;
-  background-color: var(--aboutMeTranslucent);
+  background: linear-gradient(white, rgba(171, 127, 242, 0.5));
   font-size: 18pt;
   width: 80%;
   align-items: center;
   justify-content: space-around;
+  border-radius: 2vmin;
+  opacity: 0;
+  transform: translateY(-40px);
+  animation: A3SWdkPBnDjgZSElrW4A 2s ease forwards;
 }
 
 .CEBOWRODaTkiXWzlNIiX {
+  display: flex;
   margin: 1rem;
 }
 
 .GX5jAwaOXMdKOMIAuiYb {
   width: 200px;
   border-radius: 50%;
+  opacity: 0;
+  animation: pgXJ990EOUlOXvj3SNxz 4s ease forwards;
 }
 
 .apeRQkFapu_Fi5wHFFee {
@@ -345,28 +381,45 @@ body img {
 .ndCixu5dsnscTn2bHq62 {
   border-radius: 2vmin;
   border: solid 2px var(--light);
-  background-color: var(--portfolioCardTranslucent);
+  background: linear-gradient(rgb(250, 216, 214), rgb(46, 40, 42));
   margin: 0.5rem;
   padding: 0.5rem;
   width: 50%;
   font-size: 20pt;
+  box-shadow: 1px 3px 3px rgb(46, 40, 42);
+  opacity: 0;
+  transform: translateX(-80px);
+  animation: IzDR8LJqgT2azG8BJSGw 8s ease forwards;
+}
+
+.ndCixu5dsnscTn2bHq62:hover {
+  background: linear-gradient(rgb(46, 40, 42), rgb(250, 216, 214));
 }
 
 .W5riCAUFay2uUuDbg_RA {
   display: flex;
   flex-direction: column;
   border-radius: 2vmin;
-  background-color: var(--portfolioCardTranslucent);
+  background: linear-gradient(white, rgba(171, 127, 242, 0.5));
   border: solid 2px var(--light);
   margin: 1rem;
   padding: 1rem;
   width: 60%;
+  box-shadow: 1px 3px 3px rgb(250, 216, 214);
+}
+
+.W5riCAUFay2uUuDbg_RA:hover {
+  background: linear-gradient(rgba(171, 127, 242, 0.5), white);
 }
 
 .KvPzBsWDCAswMAiKdeI1 {
   justify-content: center;
   align-items: center;
   display: flex;
+}
+
+.RVOI78gSjZmZwI3t6bsQ {
+  z-index: 1;
 }
 
 .d_lkOhqoGdNHmihkjtux {
@@ -378,11 +431,14 @@ body img {
   padding: 1rem;
   border-radius: 10px 200px/100px;
   box-shadow: 2px 2px 2px var(--darknessTranslucent);
+  z-index: 2;
+  opacity: 0;
+  animation: pgXJ990EOUlOXvj3SNxz 4s ease forwards;
 }
 
 .d_lkOhqoGdNHmihkjtux:hover {
   box-shadow: 3px 5px 5px var(--darknessTranslucent);
-  scale: 150%;
+  scale: 125%;
   transition: 1s;
 }
 
@@ -440,6 +496,8 @@ button:hover {
   width: -moz-fit-content;
   width: fit-content;
   margin: 0.5rem;
+  opacity: 0;
+  animation: pgXJ990EOUlOXvj3SNxz 6s ease forwards;
 }
 
 .hdyS5gz3pIJohOfkHJSJ {
@@ -482,21 +540,27 @@ button:hover {
   list-style: none;
   border-top: solid 2px var(--royalPurple);
   border-bottom: solid 2px var(--darkness);
-}`, "",{"version":3,"sources":["webpack://./src/App.module.scss"],"names":[],"mappings":"AAAA;;;;;;;;;;CAAA;AAaA;EACI,oBAAA;EACA,qCAAA;EACA,+BAAA;EACA,4CAAA;EACA,4BAAA;EACA,oDAAA;EACA,6CAAA;EACA,oDAAA;EACA,sDAAA;EACA,sDAAA;AADJ;;AAMA;EACI,gDAAA;EACA,SAAA;EACA,iBAAA;EACA,aAAA;EACA,sBAAA;EACA,mBAAA;EACA,iCAAA;AAHJ;AAII;EACI,eAAA;EACA,qBAAA;AAFR;AAKI;EACI,eAAA;EACA,4CAAA;AAHR;;AAOA;EACI,aAAA;EACA,sBAAA;EACA,uBAAA;EACA,mBAAA;AAJJ;;AAOA;EACI,kBAAA;EACA,kBAAA;EACA,WAAA;AAJJ;;AAOA;EACI,eAAA;EACA,qBAAA;AAJJ;;AAOA;EACI,oBAAA;EACA,aAAA;EACA,sBAAA;EACA,uBAAA;EACA,mBAAA;EACA,YAAA;EACA,aAAA;EACA,uBAAA;EACA,iCAAA;EACA,kDAAA;EACA,UAAA;AAJJ;;AAOA;EACI,aAAA;EACA,sBAAA;EACA,uBAAA;EACA,mBAAA;EACA,cAAA;EACA,eAAA;AAJJ;;AAOA;EACI,6CAAA;EACA,aAAA;EACA,cAAA;EACA,eAAA;EACA,2CAAA;EACA,eAAA;EACA,UAAA;EACA,mBAAA;EACA,6BAAA;AAJJ;;AAOA;EACI,YAAA;AAJJ;;AAOA;EACI,YAAA;EACA,kBAAA;AAJJ;;AAOA;EACI,aAAA;EACA,sBAAA;AAJJ;;AAOA;EACI,oBAAA;EACA,8BAAA;EACA,iDAAA;EACA,cAAA;EACA,eAAA;EACA,UAAA;EACA,eAAA;AAJJ;;AAOA;EACI,aAAA;EACA,sBAAA;EACA,oBAAA;EACA,iDAAA;EACA,8BAAA;EACA,YAAA;EACA,aAAA;EACA,UAAA;AAJJ;;AAQA;EACI,uBAAA;EACA,mBAAA;EACA,aAAA;AALJ;;AAQA;EACI,YAAA;EACA,aAAA;EACA,YAAA;EACA,iCAAA;EACA,8BAAA;EACA,aAAA;EACA,+BAAA;EACA,kDAAA;AALJ;;AASA;EACI,kDAAA;EACA,WAAA;EACA,cAAA;AANJ;;AASA;EACI,oBAAA;EACA,aAAA;EACA,YAAA;EACA,qBAAA;EACA,4CAAA;EACA,uBAAA;EACA,6BAAA;EACA,mBAAA;AANJ;;AASA;EACI,WAAA;EACA,gBAAA;AANJ;;AASA;EACI,kDAAA;EACA,WAAA;EACA,cAAA;AANJ;;AASA;EACI,kDAAA;EACA,WAAA;EACA,YAAA;EACA,kBAAA;AANJ;;AASA;EACI,kBAAA;EACA,kDAAA;EACA,eAAA;EACA,cAAA;EACA,iBAAA;EACA,eAAA;EACA,oBAAA;AANJ;;AASA;EACI,kDAAA;EACA,eAAA;EACA,WAAA;EACA,cAAA;EACA,uBAAA;AANJ;;AASA;EACI,aAAA;EACA,uBAAA;EACA,mBAAA;EACA,uBAAA;EACA,kBAAA;EACA,cAAA;AANJ;;AASA;EACI,uBAAA;EACA,oCAAA;EACA,aAAA;EACA,YAAA;EACA,oBAAA;EACA,kDAAA;EACA,iCAAA;AANJ;;AASA;EACI,eAAA;EACA,kBAAA;EACA,sBAAA;AANJ;;AASA;EACI,yBAAA;AANJ;;AASA;EACI,8BAAA;EACA,aAAA;EACA,YAAA;EACA,wBAAA;EACA,oBAAA;EACA,iCAAA;EACA,kDAAA;AANJ;;AASA;EACI,uBAAA;AANJ;;AASA;EACI,aAAA;EACA,iBAAA;EACA,gBAAA;EACA,wCAAA;EACA,wCAAA;AANJ","sourcesContent":["/*\n\n\nCSS NOTES\nconsider a light t o dark gradient.\n\nEFEFD0\n\n215, 214, 214\nD7D6D6\n*/\n\n\n:root {\n    --bright: whitesmoke;\n    --royalPurple: rgba(126, 82, 160, .9);\n    --light: rgba(248, 249, 250, 1);\n    --darknessTranslucent: rgba(71, 74, 72, .75);\n    --darkness: rgba(71, 74, 72);\n    --contactButtonsTranslucent: rgba(109, 214, 218, .5);\n    --aboutMeTranslucent: rgba(149, 217, 218, .8);\n    --portfolioCardTranslucent: rgba(155, 167, 192, .75);\n    --descriptionCardTranslucent: rgba(233, 236, 239, .75);\n    --imageBackgroundTranslucent: rgba(206, 212, 218, .75);\n\n}\n\n\nbody {\n    font-family: Verdana, Geneva, Tahoma, sans-serif;\n    margin: 0;\n    min-height: 100vh;\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    background-color: var(--darkness);\n    a {\n        cursor: pointer;\n        text-decoration: none;\n    }\n\n    img {\n        cursor: pointer;\n        border: solid 5px var(--darknessTranslucent);\n    }\n}\n\n.Portfolio {\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n}\n\n.bio {\n    margin-top: .5rem;\n    text-align: center;\n    width: 100%;\n}\n\n.headerText {\n    font-size: 24pt;\n    margin-bottom: .5rem;\n}\n\n.ProDetails {\n    border-radius: 2vmin;\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n    margin: 1rem;\n    padding: 3rem;\n    background-color: white;\n    border: solid 4px var(--darkness);\n    box-shadow: 2px 2px 2px var(--darknessTranslucent);\n    width: 50%;\n}\n\n.portfolioSamples {\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n    margin: .5rem;\n    padding: .5rem;\n}\n\n.AboutMe {\n    border: solid 10px var(--darknessTranslucent);\n    display: flex;\n    margin: .5rem;\n    padding: .5rem;\n    background-color: var(--aboutMeTranslucent);\n    font-size: 18pt;\n    width: 80%;\n    align-items: center;\n    justify-content: space-around;\n}\n\n.ProPicContainer {\n    margin: 1rem;\n}\n\n.ProPic {\n    width: 200px;\n    border-radius: 50%;\n}\n\n.displayCard {\n    display: flex;\n    flex-direction: column;\n}\n\n.portDescriptionCard {\n    border-radius: 2vmin;\n    border: solid 2px var(--light);\n    background-color: var(--portfolioCardTranslucent);\n    margin: .5rem;\n    padding: .5rem;\n    width: 50%;\n    font-size: 20pt;\n}\n\n.portfolioCard {\n    display: flex;\n    flex-direction: column;\n    border-radius: 2vmin;\n    background-color: var(--portfolioCardTranslucent);\n    border: solid 2px var(--light);\n    margin: 1rem;\n    padding: 1rem;\n    width: 60%;\n}\n\n\n.portPiece {\n    justify-content: center;\n    align-items: center;\n    display: flex;\n}\n\n.picFile {\n    width: 400px;\n    border: 5vmin;\n    margin: 1rem;\n    border: solid 2px var(--darkness);\n    background-color: var(--light);\n    padding: 1rem;\n    border-radius: 10px 200px / 100px;\n    box-shadow: 2px 2px 2px var(--darknessTranslucent);\n\n}\n\n.picFile:hover {\n    box-shadow: 3px 5px 5px var(--darknessTranslucent);\n    scale: 150%;\n    transition: 1s;\n}\n\n.ContactsBar {\n    border-radius: 2vmin;\n    display: flex;\n    margin: 1rem;\n    padding-right: .5rem;\n    background-color: var(--darknessTranslucent);\n    border: solid 3px black;\n    justify-content: space-around;\n    align-items: center;\n}\n\n.contactIcon {\n    width: 40px;\n    padding: .25rem;\n}\n\n.contactPic:hover {\n    box-shadow: 4px 8px 8px var(--darknessTranslucent);\n    scale: 125%;\n    transition: 1s;\n}\n\n.contactPic {\n    box-shadow: 1px 2px 2px var(--darknessTranslucent);\n    width: 40px;\n    height: 40px;\n    border-radius: 50%;\n}\n\nbutton {\n    text-align: center;\n    box-shadow: 1px 2px 2px var(--darknessTranslucent);\n    padding: .5rem;\n    margin: .5rem;\n    font-weight: bold;\n    font-size: 18pt;\n    border-radius: 4vmin;\n}\n\nbutton:hover {\n    box-shadow: 4px 8px 8px var(--darknessTranslucent);\n    cursor: pointer;\n    scale: 150%;\n    transition: 1s;\n    background-color: white;\n}\n\n.buttonLinks {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    width: -moz-fit-content;\n    width: fit-content;\n    margin: .5rem;\n}\n\n.portTitleCard {\n    background-color: white;\n    border: solid 2px var(--royalPurple);\n    padding: 1rem;\n    margin: 1rem;\n    border-radius: 2vmin;\n    box-shadow: 2px 2px 2px var(--darknessTranslucent);\n    border: solid 2px var(--darkness);\n}\n\n.portTitle {\n    font-size: 24pt;\n    text-align: center;\n    color: var(--darkness);\n}\n\n.portTitle:hover {\n    color: var(--royalPurple);\n}\n\n.descriptionList {\n    background-color: var(--light);\n    padding: 1rem;\n    margin: 1rem;\n    text-align: space-around;\n    border-radius: 2vmin;\n    border: solid 3px var(--darkness);\n    box-shadow: 6px 3px 3px var(--darknessTranslucent);\n}\n\n.descriptionList:hover {\n    background-color: white;\n}\n\n.portDescriptionText {\n    padding: 1rem;\n    text-align: right;\n    list-style: none;\n    border-top: solid 2px var(--royalPurple);\n    border-bottom: solid 2px var(--darkness);\n}\n"],"sourceRoot":""}]);
+}`, "",{"version":3,"sources":["webpack://./src/App.module.scss"],"names":[],"mappings":"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","sourcesContent":["/*\n\n\nCSS NOTES\nconsider a light t o dark gradient.\n\nEFEFD0\n\n215, 214, 214\nD7D6D6\n*/\n\n@keyframes fadeInStatic {\n    from {\n        opacity: 0;\n    }\n    to {\n        opacity: 1;\n    }\n}\n\n@keyframes fadeInFromRight {\n    from {\n        opacity: 0;\n        transform: translateX(80px);\n    }\n    to {\n        opacity: 1;\n        transform: translateX(0);\n    }\n}\n\n@keyframes fadeInFromLeft {\n    from {\n        opacity: 0;\n        transform: translateX(-80px);\n    }\n    to {\n        opacity: 1;\n        transform: translateX(0);\n    }\n}\n\n@keyframes fadeInFromBottom {\n    from {\n        opacity: 0;\n        transform: translateY(80px);\n    }\n    to {\n        opacity: 1;\n        transform: translateY(0);\n    }\n}\n\n@keyframes fadeInFromTop {\n    from {\n        opacity: 0;\n        transform: translateY(-40px);\n    }\n    to {\n        opacity: 1;\n        transform: translateY(0);\n    }\n}\n\n:root {\n    --bright: whitesmoke;\n    --royalPurple: rgba(126, 82, 160, .9);\n    --light: rgba(248, 249, 250, 1);\n    --darknessTranslucent: rgba(71, 74, 72, .75);\n    --darkness: rgba(71, 74, 72);\n    --contactButtonsTranslucent: rgba(109, 214, 218, .5);\n    --aboutMeTranslucent: rgba(149, 217, 218, .8);\n    --portfolioCardTranslucent: rgba(155, 167, 192, .75);\n    --descriptionCardTranslucent: rgba(233, 236, 239, .75);\n    --imageBackgroundTranslucent: rgba(206, 212, 218, .75);\n\n}\n\n\nbody {\n    font-family: Verdana, Geneva, Tahoma, sans-serif;\n    margin: 0;\n    min-height: 100vh;\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    background-color: var(--darkness);\n    a {\n        cursor: pointer;\n        text-decoration: none;\n    }\n\n    img {\n        cursor: pointer;\n        border: solid 5px rgb(250, 216, 214);\n    }\n}\n\n.Portfolio {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    justify-content: center;\n    text-align: center;\n    background: linear-gradient(70deg, rgb(250, 216, 214), rgb(46, 40, 42))\n}\n\n.bio {\n    margin-top: .5rem;\n    text-align: center;\n    width: 100%;\n}\n\n.headerText {\n    font-size: 24pt;\n    margin-bottom: .5rem;\n}\n\n.ProDetails {\n    border-radius: 2vmin;\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n    margin: 1rem;\n    padding: 3rem;\n    background-color: white;\n    border: solid 4px var(--darkness);\n    box-shadow: 2px 2px 2px var(--darknessTranslucent);\n    width: 50%;\n\n    opacity: 0;\n    transform: translateX(-80px);\n    animation: fadeInFromRight 2s ease forwards;\n}\n\n.portfolioSamples {\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n    margin: .5rem;\n    padding: .5rem;\n    opacity: 0;\n    transform: translateY(80px);\n    animation: fadeInFromBottom 5s ease forwards;\n}\n\n.AboutMe {\n    border: solid 10px rgba(250, 216, 214, .5);\n    display: flex;\n    margin: .5rem;\n    padding: .5rem;\n    background: linear-gradient(white, rgba(171, 127, 242, 0.5));\n    font-size: 18pt;\n    width: 80%;\n    align-items: center;\n    justify-content: space-around;\n    border-radius: 2vmin;\n    opacity: 0;\n    transform: translateY(-40px);\n    animation: fadeInFromTop 2s ease forwards;\n\n}\n\n.ProPicContainer {\n    display: flex;\n    margin: 1rem;\n}\n\n.ProPic {\n    width: 200px;\n    border-radius: 50%;\n    opacity: 0;\n    animation: fadeInStatic 4s ease forwards;\n}\n\n.displayCard {\n    display: flex;\n    flex-direction: column;\n}\n\n.portDescriptionCard {\n    border-radius: 2vmin;\n    border: solid 2px var(--light);\n    background: linear-gradient(rgb(250, 216, 214), rgb(46, 40, 42));\n    margin: .5rem;\n    padding: .5rem;\n    width: 50%;\n    font-size: 20pt;\n    box-shadow: 1px 3px 3px rgb(46, 40, 42);\n    opacity: 0;\n    transform: translateX(-80px);\n    animation: fadeInFromLeft 8s ease forwards;\n\n}\n\n.portDescriptionCard:hover {\n    background: linear-gradient(rgb(46, 40, 42), rgb(250, 216, 214));\n}\n\n.portfolioCard {\n    display: flex;\n    flex-direction: column;\n    border-radius: 2vmin;\n    background: linear-gradient(white, rgba(171, 127, 242, 0.5));\n    border: solid 2px var(--light);\n    margin: 1rem;\n    padding: 1rem;\n    width: 60%;\n    box-shadow: 1px 3px 3px rgb(250, 216, 214);\n}\n\n.portfolioCard:hover {\n    background: linear-gradient(rgba(171, 127, 242, 0.5), white);\n}\n\n.portPiece {\n    justify-content: center;\n    align-items: center;\n    display: flex;\n}\n\n.portPicContainer {\n    z-index: 1;\n}\n\n.picFile {\n    width: 400px;\n    border: 5vmin;\n    margin: 1rem;\n    border: solid 2px var(--darkness);\n    background-color: var(--light);\n    padding: 1rem;\n    border-radius: 10px 200px / 100px;\n    box-shadow: 2px 2px 2px var(--darknessTranslucent);\n    z-index: 2;\n    opacity: 0;\n    animation: fadeInStatic 4s ease forwards;\n}\n\n.picFile:hover {\n    box-shadow: 3px 5px 5px var(--darknessTranslucent);\n    scale: 125%;\n    transition: 1s;\n}\n\n.ContactsBar {\n    border-radius: 2vmin;\n    display: flex;\n    margin: 1rem;\n    padding-right: .5rem;\n    background-color: var(--darknessTranslucent);\n    border: solid 3px black;\n    justify-content: space-around;\n    align-items: center;\n}\n\n.contactIcon {\n    width: 40px;\n    padding: .25rem;\n}\n\n.contactPic:hover {\n    box-shadow: 4px 8px 8px var(--darknessTranslucent);\n    scale: 125%;\n    transition: 1s;\n}\n\n.contactPic {\n    box-shadow: 1px 2px 2px var(--darknessTranslucent);\n    width: 40px;\n    height: 40px;\n    border-radius: 50%;\n}\n\nbutton {\n    text-align: center;\n    box-shadow: 1px 2px 2px var(--darknessTranslucent);\n    padding: .5rem;\n    margin: .5rem;\n    font-weight: bold;\n    font-size: 18pt;\n    border-radius: 4vmin;\n}\n\nbutton:hover {\n    box-shadow: 4px 8px 8px var(--darknessTranslucent);\n    cursor: pointer;\n    scale: 150%;\n    transition: 1s;\n    background-color: white;\n}\n\n.buttonLinks {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    width: -moz-fit-content;\n    width: fit-content;\n    margin: .5rem;\n    opacity: 0;\n    animation: fadeInStatic 6s ease forwards;\n}\n\n.portTitleCard {\n    background-color: white;\n    border: solid 2px var(--royalPurple);\n    padding: 1rem;\n    margin: 1rem;\n    border-radius: 2vmin;\n    box-shadow: 2px 2px 2px var(--darknessTranslucent);\n    border: solid 2px var(--darkness);\n}\n\n.portTitle {\n    font-size: 24pt;\n    text-align: center;\n    color: var(--darkness);\n}\n\n.portTitle:hover {\n    color: var(--royalPurple);\n}\n\n.descriptionList {\n    background-color: var(--light);\n    padding: 1rem;\n    margin: 1rem;\n    text-align: space-around;\n    border-radius: 2vmin;\n    border: solid 3px var(--darkness);\n    box-shadow: 6px 3px 3px var(--darknessTranslucent);\n}\n\n.descriptionList:hover {\n    background-color: white;\n}\n\n.portDescriptionText {\n    padding: 1rem;\n    text-align: right;\n    list-style: none;\n    border-top: solid 2px var(--royalPurple);\n    border-bottom: solid 2px var(--darkness);\n}\n"],"sourceRoot":""}]);
 // Exports
 ___CSS_LOADER_EXPORT___.locals = {
 	"Portfolio": `i4p6UNa9JDMGa_2GDQXi`,
 	"bio": `GKDolwXT1nhTVq8EHDNX`,
 	"headerText": `TZ2FzGouDJwen7Eavap2`,
 	"ProDetails": `a0dYRE2yJyWrx0BQrmCQ`,
+	"fadeInFromRight": `IFbhznn3TwEkbx_TaJd1`,
 	"portfolioSamples": `V54Smx6V6UBt4FZyYB4s`,
+	"fadeInFromBottom": `pexaj7scVM03rGqjlINy`,
 	"AboutMe": `vV7JdnEVGSYV86CT1vwB`,
+	"fadeInFromTop": `A3SWdkPBnDjgZSElrW4A`,
 	"ProPicContainer": `CEBOWRODaTkiXWzlNIiX`,
 	"ProPic": `GX5jAwaOXMdKOMIAuiYb`,
+	"fadeInStatic": `pgXJ990EOUlOXvj3SNxz`,
 	"displayCard": `apeRQkFapu_Fi5wHFFee`,
 	"portDescriptionCard": `ndCixu5dsnscTn2bHq62`,
+	"fadeInFromLeft": `IzDR8LJqgT2azG8BJSGw`,
 	"portfolioCard": `W5riCAUFay2uUuDbg_RA`,
 	"portPiece": `KvPzBsWDCAswMAiKdeI1`,
+	"portPicContainer": `RVOI78gSjZmZwI3t6bsQ`,
 	"picFile": `d_lkOhqoGdNHmihkjtux`,
 	"ContactsBar": `BzMmgNl7z6jt75spIMhZ`,
 	"contactIcon": `sdj34Qu1i72TpAFpGziF`,
@@ -736,4 +800,4 @@ var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=App.bbc2e6fd1de0c7587a6cf69a5b1796ee.js.map
+//# sourceMappingURL=App.ec41e82bbb1512c55e73080e7b325e88.js.map
