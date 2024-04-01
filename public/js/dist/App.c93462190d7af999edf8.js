@@ -35,11 +35,9 @@ function App() {
     className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].headerText
   }, "Christopher Lazariuk"), /*#__PURE__*/React.createElement("div", {
     className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].headerText
-  }, "Full Stack Dev / Software Engineer "), /*#__PURE__*/React.createElement("div", {
-    className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].headerText
-  }, "Novelist / Muay Thai Fighter"), /*#__PURE__*/React.createElement("div", {
+  }, "Full Stack Software Engineer "), /*#__PURE__*/React.createElement("div", {
     className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].bio
-  }, "They don't call them bootcamps for nothing! You want a dev, I got the creds. Check out some of my projects below! Looking forward to the opportunity to dig into something beautiful together. As to the website here? It's a work in progress, I've still got final projects to contend with for school. I cared so much about applying to your position I churned out a website in a couple hours for you!"), /*#__PURE__*/React.createElement("div", {
+  }, "Thanks for stopping by! My name is Christopher and I'm a full stack software engineer with a background in public speaking, project coordination, and team leadership. My creative problem-solving skills and adaptability has empowered me to foster effective working environments and positive results in the face of new challenges. Check out some of my projects below! I look forward to the opportunity to connect and build something beautiful together."), /*#__PURE__*/React.createElement("div", {
     className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].buttonLinks
   }, /*#__PURE__*/React.createElement("a", {
     href: "/img/portfolio-resume.pdf",
@@ -90,23 +88,21 @@ function App() {
     className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].portTitle
   }, /*#__PURE__*/React.createElement("a", {
     href: "https://momentum.christopherlazariuk.me"
-  }, /*#__PURE__*/React.createElement("h4", {
+  }, /*#__PURE__*/React.createElement("div", {
     className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].portTitle
-  }, "Momentum - an Arena Survival Game"))), /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/React.createElement("strong", null, "Momentum"), /*#__PURE__*/React.createElement("br", null), "an Arena Survival Game"))), /*#__PURE__*/React.createElement("div", {
     className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].portTitle
   }, /*#__PURE__*/React.createElement("a", {
     href: "https://github.com/Clazariuk1/Dungeon-Arena-GAp1"
-  }, /*#__PURE__*/React.createElement("h5", {
+  }, /*#__PURE__*/React.createElement("div", {
     className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].portTitle
-  }, "~Github Repository Link~")))), /*#__PURE__*/React.createElement("ul", {
+  }, /*#__PURE__*/React.createElement("strong", null, "Github Repository Link"))))), /*#__PURE__*/React.createElement("ul", {
     className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].descriptionList
   }, /*#__PURE__*/React.createElement("li", {
     className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].portDescriptionText
   }, "An arcade-style survival game making heavy use of collision detection elements and DOM manipulation."), /*#__PURE__*/React.createElement("li", {
     className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].portDescriptionText
-  }, "Front-end HTML/CSS/JS Development"), /*#__PURE__*/React.createElement("li", {
-    className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].portDescriptionText
-  }, "Collision Detection Exploration"))))), /*#__PURE__*/React.createElement("div", {
+  }, "Front-end HTML/CSS/JS Development"))))), /*#__PURE__*/React.createElement("div", {
     className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].portfolioCard
   }, /*#__PURE__*/React.createElement("div", {
     className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].portPiece
@@ -121,13 +117,13 @@ function App() {
     className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].portTitleCard
   }, /*#__PURE__*/React.createElement("a", {
     href: "https://ecommerce.christopherlazariuk.me"
-  }, /*#__PURE__*/React.createElement("h4", {
+  }, /*#__PURE__*/React.createElement("div", {
     className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].portTitle
-  }, "Dev Dependency - an Ecommerce Website")), /*#__PURE__*/React.createElement("a", {
+  }, /*#__PURE__*/React.createElement("strong", null, "Dev Dependency"), /*#__PURE__*/React.createElement("br", null), "an Ecommerce Website")), /*#__PURE__*/React.createElement("a", {
     href: "https://github.com/Clazariuk1/unit3-project"
-  }, /*#__PURE__*/React.createElement("h5", {
+  }, /*#__PURE__*/React.createElement("div", {
     className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].portTitle
-  }, "~Github Repository Link~"))), /*#__PURE__*/React.createElement("ul", {
+  }, /*#__PURE__*/React.createElement("strong", null, "Github Repository Link")))), /*#__PURE__*/React.createElement("ul", {
     className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].descriptionList
   }, /*#__PURE__*/React.createElement("li", {
     className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].portDescriptionText
@@ -148,23 +144,21 @@ function App() {
     className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].portDescriptionCard
   }, /*#__PURE__*/React.createElement("div", {
     className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].portTitleCard
-  }, /*#__PURE__*/React.createElement("h4", {
+  }, /*#__PURE__*/React.createElement("div", {
     className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].portTitle
-  }, " Connections - a Linkedin Alternative"), /*#__PURE__*/React.createElement("a", {
+  }, " ", /*#__PURE__*/React.createElement("strong", null, "Connections"), /*#__PURE__*/React.createElement("br", null), " a Linkedin Alternative"), /*#__PURE__*/React.createElement("a", {
     href: "https://github.com/Clazariuk1/connection"
-  }, /*#__PURE__*/React.createElement("h5", {
+  }, /*#__PURE__*/React.createElement("div", {
     className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].portTitle
-  }, "~Github Repository Link~"))), /*#__PURE__*/React.createElement("ul", {
+  }, /*#__PURE__*/React.createElement("strong", null, "Github Repository Link")))), /*#__PURE__*/React.createElement("ul", {
     className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].descriptionList
   }, /*#__PURE__*/React.createElement("li", {
-    className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].portDescriptionText
-  }, "A parody of our favorite professional networking website, features chat messaging functionality"), /*#__PURE__*/React.createElement("li", {
     className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].portDescriptionText
   }, "Full-Stack MERN application featuring RESTful routing and full CRUD functionality"), /*#__PURE__*/React.createElement("li", {
     className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].portDescriptionText
   }, "Built with React, NodeJS, and MongoDB"), /*#__PURE__*/React.createElement("li", {
     className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].portDescriptionText
-  }, "Dev Team Scrum Master")))))));
+  }, "Team Scrum Master")))))));
 }
 
 /***/ }),
@@ -206,18 +200,7 @@ root.render( /*#__PURE__*/React.createElement(react__WEBPACK_IMPORTED_MODULE_0__
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, `/*
-
-
-CSS NOTES
-consider a light t o dark gradient.
-
-EFEFD0
-
-215, 214, 214
-D7D6D6
-*/
-@keyframes pgXJ990EOUlOXvj3SNxz {
+___CSS_LOADER_EXPORT___.push([module.id, `@keyframes pgXJ990EOUlOXvj3SNxz {
   from {
     opacity: 0;
   }
@@ -228,7 +211,7 @@ D7D6D6
 @keyframes IFbhznn3TwEkbx_TaJd1 {
   from {
     opacity: 0;
-    transform: translateX(80px);
+    transform: translateX(5vmin);
   }
   to {
     opacity: 1;
@@ -238,7 +221,7 @@ D7D6D6
 @keyframes IzDR8LJqgT2azG8BJSGw {
   from {
     opacity: 0;
-    transform: translateX(-80px);
+    transform: translateX(-5vmin);
   }
   to {
     opacity: 1;
@@ -248,7 +231,7 @@ D7D6D6
 @keyframes pexaj7scVM03rGqjlINy {
   from {
     opacity: 0;
-    transform: translateY(80px);
+    transform: translateY(5vmin);
   }
   to {
     opacity: 1;
@@ -258,7 +241,7 @@ D7D6D6
 @keyframes A3SWdkPBnDjgZSElrW4A {
   from {
     opacity: 0;
-    transform: translateY(-40px);
+    transform: translateY(-2.5vmin);
   }
   to {
     opacity: 1;
@@ -279,6 +262,8 @@ D7D6D6
 }
 
 body {
+  font-size: 1vw;
+  text-wrap: balance;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin: 0;
   min-height: 100vh;
@@ -292,6 +277,7 @@ body a {
   text-decoration: none;
 }
 body img {
+  width: 100%;
   cursor: pointer;
   border: solid 5px rgb(250, 216, 214);
 }
@@ -307,12 +293,13 @@ body img {
 
 .GKDolwXT1nhTVq8EHDNX {
   margin-top: 0.5rem;
+  font-size: 1.5rem;
   text-align: center;
   width: 100%;
 }
 
 .TZ2FzGouDJwen7Eavap2 {
-  font-size: 24pt;
+  font-size: 2rem;
   margin-bottom: 0.5rem;
 }
 
@@ -329,7 +316,7 @@ body img {
   box-shadow: 2px 2px 2px var(--darknessTranslucent);
   width: 50%;
   opacity: 0;
-  transform: translateX(-80px);
+  transform: translateX(-5vmin);
   animation: IFbhznn3TwEkbx_TaJd1 2s ease forwards;
 }
 
@@ -341,23 +328,23 @@ body img {
   margin: 0.5rem;
   padding: 0.5rem;
   opacity: 0;
-  transform: translateY(80px);
+  transform: translateY(5vmin);
   animation: pexaj7scVM03rGqjlINy 5s ease forwards;
 }
 
 .vV7JdnEVGSYV86CT1vwB {
-  border: solid 10px rgba(250, 216, 214, 0.5);
+  border: solid 1rem rgba(250, 216, 214, 0.5);
   display: flex;
   margin: 0.5rem;
   padding: 0.5rem;
-  background: linear-gradient(white, rgba(171, 127, 242, 0.5));
-  font-size: 18pt;
-  width: 80%;
+  background: linear-gradient(white, rgba(171, 127, 242, 0.2));
+  font-size: 1.25rem;
+  width: 70%;
   align-items: center;
   justify-content: space-around;
   border-radius: 2vmin;
   opacity: 0;
-  transform: translateY(-40px);
+  transform: translateY(-2.5vmin);
   animation: A3SWdkPBnDjgZSElrW4A 2s ease forwards;
 }
 
@@ -367,7 +354,7 @@ body img {
 }
 
 .GX5jAwaOXMdKOMIAuiYb {
-  width: 200px;
+  width: 40vmin;
   border-radius: 50%;
   opacity: 0;
   animation: pgXJ990EOUlOXvj3SNxz 4s ease forwards;
@@ -381,19 +368,15 @@ body img {
 .ndCixu5dsnscTn2bHq62 {
   border-radius: 2vmin;
   border: solid 2px var(--light);
-  background: linear-gradient(rgb(250, 216, 214), rgb(46, 40, 42));
+  background-color: rgba(46, 40, 42, 0.3);
   margin: 0.5rem;
   padding: 0.5rem;
   width: 50%;
-  font-size: 20pt;
+  font-size: 1rem;
   box-shadow: 1px 3px 3px rgb(46, 40, 42);
   opacity: 0;
-  transform: translateX(-80px);
+  transform: translateX(-5vmin);
   animation: IzDR8LJqgT2azG8BJSGw 8s ease forwards;
-}
-
-.ndCixu5dsnscTn2bHq62:hover {
-  background: linear-gradient(rgb(46, 40, 42), rgb(250, 216, 214));
 }
 
 .W5riCAUFay2uUuDbg_RA {
@@ -423,7 +406,7 @@ body img {
 }
 
 .d_lkOhqoGdNHmihkjtux {
-  width: 400px;
+  width: 35vmin;
   border: 5vmin;
   margin: 1rem;
   border: solid 2px var(--darkness);
@@ -454,7 +437,7 @@ body img {
 }
 
 .sdj34Qu1i72TpAFpGziF {
-  width: 40px;
+  width: 4vmin;
   padding: 0.25rem;
 }
 
@@ -466,8 +449,8 @@ body img {
 
 .jICp5v5KkniwStvrE8JZ {
   box-shadow: 1px 2px 2px var(--darknessTranslucent);
-  width: 40px;
-  height: 40px;
+  width: 4vmin;
+  height: 4vmin;
   border-radius: 50%;
 }
 
@@ -477,7 +460,7 @@ button {
   padding: 0.5rem;
   margin: 0.5rem;
   font-weight: bold;
-  font-size: 18pt;
+  font-size: 1rem;
   border-radius: 4vmin;
 }
 
@@ -511,13 +494,14 @@ button:hover {
 }
 
 .dU8jIPnmu_feglvqhnct {
-  font-size: 24pt;
+  font-size: 1.5rem;
   text-align: center;
   color: var(--darkness);
 }
 
 .dU8jIPnmu_feglvqhnct:hover {
   color: var(--royalPurple);
+  cursor: pointer;
 }
 
 .LKo8AyLiGA7LEeAFHMw8 {
@@ -540,7 +524,7 @@ button:hover {
   list-style: none;
   border-top: solid 2px var(--royalPurple);
   border-bottom: solid 2px var(--darkness);
-}`, "",{"version":3,"sources":["webpack://./src/App.module.scss"],"names":[],"mappings":"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","sourcesContent":["/*\n\n\nCSS NOTES\nconsider a light t o dark gradient.\n\nEFEFD0\n\n215, 214, 214\nD7D6D6\n*/\n\n@keyframes fadeInStatic {\n    from {\n        opacity: 0;\n    }\n    to {\n        opacity: 1;\n    }\n}\n\n@keyframes fadeInFromRight {\n    from {\n        opacity: 0;\n        transform: translateX(80px);\n    }\n    to {\n        opacity: 1;\n        transform: translateX(0);\n    }\n}\n\n@keyframes fadeInFromLeft {\n    from {\n        opacity: 0;\n        transform: translateX(-80px);\n    }\n    to {\n        opacity: 1;\n        transform: translateX(0);\n    }\n}\n\n@keyframes fadeInFromBottom {\n    from {\n        opacity: 0;\n        transform: translateY(80px);\n    }\n    to {\n        opacity: 1;\n        transform: translateY(0);\n    }\n}\n\n@keyframes fadeInFromTop {\n    from {\n        opacity: 0;\n        transform: translateY(-40px);\n    }\n    to {\n        opacity: 1;\n        transform: translateY(0);\n    }\n}\n\n:root {\n    --bright: whitesmoke;\n    --royalPurple: rgba(126, 82, 160, .9);\n    --light: rgba(248, 249, 250, 1);\n    --darknessTranslucent: rgba(71, 74, 72, .75);\n    --darkness: rgba(71, 74, 72);\n    --contactButtonsTranslucent: rgba(109, 214, 218, .5);\n    --aboutMeTranslucent: rgba(149, 217, 218, .8);\n    --portfolioCardTranslucent: rgba(155, 167, 192, .75);\n    --descriptionCardTranslucent: rgba(233, 236, 239, .75);\n    --imageBackgroundTranslucent: rgba(206, 212, 218, .75);\n\n}\n\n\nbody {\n    font-family: Verdana, Geneva, Tahoma, sans-serif;\n    margin: 0;\n    min-height: 100vh;\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    background-color: var(--darkness);\n    a {\n        cursor: pointer;\n        text-decoration: none;\n    }\n\n    img {\n        cursor: pointer;\n        border: solid 5px rgb(250, 216, 214);\n    }\n}\n\n.Portfolio {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    justify-content: center;\n    text-align: center;\n    background: linear-gradient(70deg, rgb(250, 216, 214), rgb(46, 40, 42))\n}\n\n.bio {\n    margin-top: .5rem;\n    text-align: center;\n    width: 100%;\n}\n\n.headerText {\n    font-size: 24pt;\n    margin-bottom: .5rem;\n}\n\n.ProDetails {\n    border-radius: 2vmin;\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n    margin: 1rem;\n    padding: 3rem;\n    background-color: white;\n    border: solid 4px var(--darkness);\n    box-shadow: 2px 2px 2px var(--darknessTranslucent);\n    width: 50%;\n\n    opacity: 0;\n    transform: translateX(-80px);\n    animation: fadeInFromRight 2s ease forwards;\n}\n\n.portfolioSamples {\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n    margin: .5rem;\n    padding: .5rem;\n    opacity: 0;\n    transform: translateY(80px);\n    animation: fadeInFromBottom 5s ease forwards;\n}\n\n.AboutMe {\n    border: solid 10px rgba(250, 216, 214, .5);\n    display: flex;\n    margin: .5rem;\n    padding: .5rem;\n    background: linear-gradient(white, rgba(171, 127, 242, 0.5));\n    font-size: 18pt;\n    width: 80%;\n    align-items: center;\n    justify-content: space-around;\n    border-radius: 2vmin;\n    opacity: 0;\n    transform: translateY(-40px);\n    animation: fadeInFromTop 2s ease forwards;\n\n}\n\n.ProPicContainer {\n    display: flex;\n    margin: 1rem;\n}\n\n.ProPic {\n    width: 200px;\n    border-radius: 50%;\n    opacity: 0;\n    animation: fadeInStatic 4s ease forwards;\n}\n\n.displayCard {\n    display: flex;\n    flex-direction: column;\n}\n\n.portDescriptionCard {\n    border-radius: 2vmin;\n    border: solid 2px var(--light);\n    background: linear-gradient(rgb(250, 216, 214), rgb(46, 40, 42));\n    margin: .5rem;\n    padding: .5rem;\n    width: 50%;\n    font-size: 20pt;\n    box-shadow: 1px 3px 3px rgb(46, 40, 42);\n    opacity: 0;\n    transform: translateX(-80px);\n    animation: fadeInFromLeft 8s ease forwards;\n\n}\n\n.portDescriptionCard:hover {\n    background: linear-gradient(rgb(46, 40, 42), rgb(250, 216, 214));\n}\n\n.portfolioCard {\n    display: flex;\n    flex-direction: column;\n    border-radius: 2vmin;\n    background: linear-gradient(white, rgba(171, 127, 242, 0.5));\n    border: solid 2px var(--light);\n    margin: 1rem;\n    padding: 1rem;\n    width: 60%;\n    box-shadow: 1px 3px 3px rgb(250, 216, 214);\n}\n\n.portfolioCard:hover {\n    background: linear-gradient(rgba(171, 127, 242, 0.5), white);\n}\n\n.portPiece {\n    justify-content: center;\n    align-items: center;\n    display: flex;\n}\n\n.portPicContainer {\n    z-index: 1;\n}\n\n.picFile {\n    width: 400px;\n    border: 5vmin;\n    margin: 1rem;\n    border: solid 2px var(--darkness);\n    background-color: var(--light);\n    padding: 1rem;\n    border-radius: 10px 200px / 100px;\n    box-shadow: 2px 2px 2px var(--darknessTranslucent);\n    z-index: 2;\n    opacity: 0;\n    animation: fadeInStatic 4s ease forwards;\n}\n\n.picFile:hover {\n    box-shadow: 3px 5px 5px var(--darknessTranslucent);\n    scale: 125%;\n    transition: 1s;\n}\n\n.ContactsBar {\n    border-radius: 2vmin;\n    display: flex;\n    margin: 1rem;\n    padding-right: .5rem;\n    background-color: var(--darknessTranslucent);\n    border: solid 3px black;\n    justify-content: space-around;\n    align-items: center;\n}\n\n.contactIcon {\n    width: 40px;\n    padding: .25rem;\n}\n\n.contactPic:hover {\n    box-shadow: 4px 8px 8px var(--darknessTranslucent);\n    scale: 125%;\n    transition: 1s;\n}\n\n.contactPic {\n    box-shadow: 1px 2px 2px var(--darknessTranslucent);\n    width: 40px;\n    height: 40px;\n    border-radius: 50%;\n}\n\nbutton {\n    text-align: center;\n    box-shadow: 1px 2px 2px var(--darknessTranslucent);\n    padding: .5rem;\n    margin: .5rem;\n    font-weight: bold;\n    font-size: 18pt;\n    border-radius: 4vmin;\n}\n\nbutton:hover {\n    box-shadow: 4px 8px 8px var(--darknessTranslucent);\n    cursor: pointer;\n    scale: 150%;\n    transition: 1s;\n    background-color: white;\n}\n\n.buttonLinks {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    width: -moz-fit-content;\n    width: fit-content;\n    margin: .5rem;\n    opacity: 0;\n    animation: fadeInStatic 6s ease forwards;\n}\n\n.portTitleCard {\n    background-color: white;\n    border: solid 2px var(--royalPurple);\n    padding: 1rem;\n    margin: 1rem;\n    border-radius: 2vmin;\n    box-shadow: 2px 2px 2px var(--darknessTranslucent);\n    border: solid 2px var(--darkness);\n}\n\n.portTitle {\n    font-size: 24pt;\n    text-align: center;\n    color: var(--darkness);\n}\n\n.portTitle:hover {\n    color: var(--royalPurple);\n}\n\n.descriptionList {\n    background-color: var(--light);\n    padding: 1rem;\n    margin: 1rem;\n    text-align: space-around;\n    border-radius: 2vmin;\n    border: solid 3px var(--darkness);\n    box-shadow: 6px 3px 3px var(--darknessTranslucent);\n}\n\n.descriptionList:hover {\n    background-color: white;\n}\n\n.portDescriptionText {\n    padding: 1rem;\n    text-align: right;\n    list-style: none;\n    border-top: solid 2px var(--royalPurple);\n    border-bottom: solid 2px var(--darkness);\n}\n"],"sourceRoot":""}]);
+}`, "",{"version":3,"sources":["webpack://./src/App.module.scss"],"names":[],"mappings":"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","sourcesContent":["\n@keyframes fadeInStatic {\n    from {\n        opacity: 0;\n    }\n    to {\n        opacity: 1;\n    }\n}\n\n@keyframes fadeInFromRight {\n    from {\n        opacity: 0;\n        transform: translateX(5vmin);\n    }\n    to {\n        opacity: 1;\n        transform: translateX(0);\n    }\n}\n\n@keyframes fadeInFromLeft {\n    from {\n        opacity: 0;\n        transform: translateX(-5vmin);\n    }\n    to {\n        opacity: 1;\n        transform: translateX(0);\n    }\n}\n\n@keyframes fadeInFromBottom {\n    from {\n        opacity: 0;\n        transform: translateY(5vmin);\n    }\n    to {\n        opacity: 1;\n        transform: translateY(0);\n    }\n}\n\n@keyframes fadeInFromTop {\n    from {\n        opacity: 0;\n        transform: translateY(-2.5vmin);\n    }\n    to {\n        opacity: 1;\n        transform: translateY(0);\n    }\n}\n\n:root {\n    --bright: whitesmoke;\n    --royalPurple: rgba(126, 82, 160, .9);\n    --light: rgba(248, 249, 250, 1);\n    --darknessTranslucent: rgba(71, 74, 72, .75);\n    --darkness: rgba(71, 74, 72);\n    --contactButtonsTranslucent: rgba(109, 214, 218, .5);\n    --aboutMeTranslucent: rgba(149, 217, 218, .8);\n    --portfolioCardTranslucent: rgba(155, 167, 192, .75);\n    --descriptionCardTranslucent: rgba(233, 236, 239, .75);\n    --imageBackgroundTranslucent: rgba(206, 212, 218, .75);\n\n}\n\n\nbody {\n    font-size: 1vw;\n    text-wrap: balance;\n    font-family: Verdana, Geneva, Tahoma, sans-serif;\n    margin: 0;\n    min-height: 100vh;\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    background-color: var(--darkness);\n    a {\n        cursor: pointer;\n        text-decoration: none;\n    }\n\n    img {\n        width: 100%;\n        cursor: pointer;\n        border: solid 5px rgb(250, 216, 214);\n    }\n}\n\n.Portfolio {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    justify-content: center;\n    text-align: center;\n    background: linear-gradient(70deg, rgb(250, 216, 214), rgb(46, 40, 42))\n}\n\n.bio {\n    margin-top: .5rem;\n    font-size: 1.5rem;\n    text-align: center;\n    width: 100%;\n}\n\n.headerText {\n    font-size: 2rem;\n    margin-bottom: .5rem;\n}\n\n.ProDetails {\n    border-radius: 2vmin;\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n    margin: 1rem;\n    padding: 3rem;\n    background-color: white;\n    border: solid 4px var(--darkness);\n    box-shadow: 2px 2px 2px var(--darknessTranslucent);\n    width: 50%;\n\n    opacity: 0;\n    transform: translateX(-5vmin);\n    animation: fadeInFromRight 2s ease forwards;\n}\n\n.portfolioSamples {\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n    margin: .5rem;\n    padding: .5rem;\n    opacity: 0;\n    transform: translateY(5vmin);\n    animation: fadeInFromBottom 5s ease forwards;\n}\n\n.AboutMe {\n    border: solid 1rem rgba(250, 216, 214, .5);\n    display: flex;\n    margin: .5rem;\n    padding: .5rem;\n    background: linear-gradient(white, rgba(171, 127, 242, 0.2));\n    font-size: 1.25rem;\n    width: 70%;\n    align-items: center;\n    justify-content: space-around;\n    border-radius: 2vmin;\n    opacity: 0;\n    transform: translateY(-2.5vmin);\n    animation: fadeInFromTop 2s ease forwards;\n\n}\n\n.ProPicContainer {\n    display: flex;\n    margin: 1rem;\n}\n\n.ProPic {\n    width: 40vmin;\n    border-radius: 50%;\n    opacity: 0;\n    animation: fadeInStatic 4s ease forwards;\n}\n\n.displayCard {\n    display: flex;\n    flex-direction: column;\n}\n\n.portDescriptionCard {\n    border-radius: 2vmin;\n    border: solid 2px var(--light);\n    background-color: rgba(46, 40, 42, .3);\n    margin: .5rem;\n    padding: .5rem;\n    width: 50%;\n    font-size: 1rem;\n    box-shadow: 1px 3px 3px rgb(46, 40, 42);\n    opacity: 0;\n    transform: translateX(-5vmin);\n    animation: fadeInFromLeft 8s ease forwards;\n\n}\n\n\n.portfolioCard {\n    display: flex;\n    flex-direction: column;\n    border-radius: 2vmin;\n    background: linear-gradient(white, rgba(171, 127, 242, 0.5));\n    border: solid 2px var(--light);\n    margin: 1rem;\n    padding: 1rem;\n    width: 60%;\n    box-shadow: 1px 3px 3px rgb(250, 216, 214);\n}\n\n.portfolioCard:hover {\n    background: linear-gradient(rgba(171, 127, 242, 0.5), white);\n}\n\n.portPiece {\n    justify-content: center;\n    align-items: center;\n    display: flex;\n}\n\n.portPicContainer {\n    z-index: 1;\n}\n\n.picFile {\n    width: 35vmin;\n    border: 5vmin;\n    margin: 1rem;\n    border: solid 2px var(--darkness);\n    background-color: var(--light);\n    padding: 1rem;\n    border-radius: 10px 200px / 100px;\n    box-shadow: 2px 2px 2px var(--darknessTranslucent);\n    z-index: 2;\n    opacity: 0;\n    animation: fadeInStatic 4s ease forwards;\n}\n\n.picFile:hover {\n    box-shadow: 3px 5px 5px var(--darknessTranslucent);\n    scale: 125%;\n    transition: 1s;\n}\n\n.ContactsBar {\n    border-radius: 2vmin;\n    display: flex;\n    margin: 1rem;\n    padding-right: .5rem;\n    background-color: var(--darknessTranslucent);\n    border: solid 3px black;\n    justify-content: space-around;\n    align-items: center;\n}\n\n.contactIcon {\n    width: 4vmin;\n    padding: .25rem;\n}\n\n.contactPic:hover {\n    box-shadow: 4px 8px 8px var(--darknessTranslucent);\n    scale: 125%;\n    transition: 1s;\n}\n\n.contactPic {\n    box-shadow: 1px 2px 2px var(--darknessTranslucent);\n    width: 4vmin;\n    height: 4vmin;\n    border-radius: 50%;\n}\n\nbutton {\n    text-align: center;\n    box-shadow: 1px 2px 2px var(--darknessTranslucent);\n    padding: .5rem;\n    margin: .5rem;\n    font-weight: bold;\n    font-size: 1rem;\n    border-radius: 4vmin;\n}\n\nbutton:hover {\n    box-shadow: 4px 8px 8px var(--darknessTranslucent);\n    cursor: pointer;\n    scale: 150%;\n    transition: 1s;\n    background-color: white;\n}\n\n.buttonLinks {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    width: -moz-fit-content;\n    width: fit-content;\n    margin: .5rem;\n    opacity: 0;\n    animation: fadeInStatic 6s ease forwards;\n}\n\n.portTitleCard {\n    background-color: white;\n    border: solid 2px var(--royalPurple);\n    padding: 1rem;\n    margin: 1rem;\n    border-radius: 2vmin;\n    box-shadow: 2px 2px 2px var(--darknessTranslucent);\n    border: solid 2px var(--darkness);\n}\n\n.portTitle {\n    font-size: 1.5rem;\n    text-align: center;\n    color: var(--darkness);\n}\n\n.portTitle:hover {\n    color: var(--royalPurple);\n    cursor: pointer;\n}\n\n.descriptionList {\n    background-color: var(--light);\n    padding: 1rem;\n    margin: 1rem;\n    text-align: space-around;\n    border-radius: 2vmin;\n    border: solid 3px var(--darkness);\n    box-shadow: 6px 3px 3px var(--darknessTranslucent);\n}\n\n.descriptionList:hover {\n    background-color: white;\n}\n\n.portDescriptionText {\n    padding: 1rem;\n    text-align: right;\n    list-style: none;\n    border-top: solid 2px var(--royalPurple);\n    border-bottom: solid 2px var(--darkness);\n}\n"],"sourceRoot":""}]);
 // Exports
 ___CSS_LOADER_EXPORT___.locals = {
 	"Portfolio": `i4p6UNa9JDMGa_2GDQXi`,
@@ -800,4 +784,4 @@ var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=App.ec41e82bbb1512c55e73080e7b325e88.js.map
+//# sourceMappingURL=App.80da38e05c947991ed0e42d1bea46047.js.map

@@ -1,14 +1,3 @@
-/*
-
-
-CSS NOTES
-consider a light t o dark gradient.
-
-EFEFD0
-
-215, 214, 214
-D7D6D6
-*/
 
 @keyframes fadeInStatic {
     from {
@@ -22,7 +11,7 @@ D7D6D6
 @keyframes fadeInFromRight {
     from {
         opacity: 0;
-        transform: translateX(80px);
+        transform: translateX(5vmin);
     }
     to {
         opacity: 1;
@@ -33,7 +22,7 @@ D7D6D6
 @keyframes fadeInFromLeft {
     from {
         opacity: 0;
-        transform: translateX(-80px);
+        transform: translateX(-5vmin);
     }
     to {
         opacity: 1;
@@ -44,7 +33,7 @@ D7D6D6
 @keyframes fadeInFromBottom {
     from {
         opacity: 0;
-        transform: translateY(80px);
+        transform: translateY(5vmin);
     }
     to {
         opacity: 1;
@@ -55,7 +44,7 @@ D7D6D6
 @keyframes fadeInFromTop {
     from {
         opacity: 0;
-        transform: translateY(-40px);
+        transform: translateY(-2.5vmin);
     }
     to {
         opacity: 1;
@@ -79,6 +68,8 @@ D7D6D6
 
 
 body {
+    font-size: 1vw;
+    text-wrap: balance;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
     min-height: 100vh;
@@ -92,6 +83,7 @@ body {
     }
 
     img {
+        width: 100%;
         cursor: pointer;
         border: solid 5px rgb(250, 216, 214);
     }
@@ -108,12 +100,13 @@ body {
 
 .bio {
     margin-top: .5rem;
+    font-size: 1.5rem;
     text-align: center;
     width: 100%;
 }
 
 .headerText {
-    font-size: 24pt;
+    font-size: 2rem;
     margin-bottom: .5rem;
 }
 
@@ -131,7 +124,7 @@ body {
     width: 50%;
 
     opacity: 0;
-    transform: translateX(-80px);
+    transform: translateX(-5vmin);
     animation: fadeInFromRight 2s ease forwards;
 }
 
@@ -143,23 +136,23 @@ body {
     margin: .5rem;
     padding: .5rem;
     opacity: 0;
-    transform: translateY(80px);
+    transform: translateY(5vmin);
     animation: fadeInFromBottom 5s ease forwards;
 }
 
 .AboutMe {
-    border: solid 10px rgba(250, 216, 214, .5);
+    border: solid 1rem rgba(250, 216, 214, .5);
     display: flex;
     margin: .5rem;
     padding: .5rem;
-    background: linear-gradient(white, rgba(171, 127, 242, 0.5));
-    font-size: 18pt;
-    width: 80%;
+    background: linear-gradient(white, rgba(171, 127, 242, 0.2));
+    font-size: 1.25rem;
+    width: 70%;
     align-items: center;
     justify-content: space-around;
     border-radius: 2vmin;
     opacity: 0;
-    transform: translateY(-40px);
+    transform: translateY(-2.5vmin);
     animation: fadeInFromTop 2s ease forwards;
 
 }
@@ -170,7 +163,7 @@ body {
 }
 
 .ProPic {
-    width: 200px;
+    width: 40vmin;
     border-radius: 50%;
     opacity: 0;
     animation: fadeInStatic 4s ease forwards;
@@ -184,21 +177,18 @@ body {
 .portDescriptionCard {
     border-radius: 2vmin;
     border: solid 2px var(--light);
-    background: linear-gradient(rgb(250, 216, 214), rgb(46, 40, 42));
+    background-color: rgba(46, 40, 42, .3);
     margin: .5rem;
     padding: .5rem;
     width: 50%;
-    font-size: 20pt;
+    font-size: 1rem;
     box-shadow: 1px 3px 3px rgb(46, 40, 42);
     opacity: 0;
-    transform: translateX(-80px);
+    transform: translateX(-5vmin);
     animation: fadeInFromLeft 8s ease forwards;
 
 }
 
-.portDescriptionCard:hover {
-    background: linear-gradient(rgb(46, 40, 42), rgb(250, 216, 214));
-}
 
 .portfolioCard {
     display: flex;
@@ -227,7 +217,7 @@ body {
 }
 
 .picFile {
-    width: 400px;
+    width: 35vmin;
     border: 5vmin;
     margin: 1rem;
     border: solid 2px var(--darkness);
@@ -258,7 +248,7 @@ body {
 }
 
 .contactIcon {
-    width: 40px;
+    width: 4vmin;
     padding: .25rem;
 }
 
@@ -270,8 +260,8 @@ body {
 
 .contactPic {
     box-shadow: 1px 2px 2px var(--darknessTranslucent);
-    width: 40px;
-    height: 40px;
+    width: 4vmin;
+    height: 4vmin;
     border-radius: 50%;
 }
 
@@ -281,7 +271,7 @@ button {
     padding: .5rem;
     margin: .5rem;
     font-weight: bold;
-    font-size: 18pt;
+    font-size: 1rem;
     border-radius: 4vmin;
 }
 
@@ -314,13 +304,14 @@ button:hover {
 }
 
 .portTitle {
-    font-size: 24pt;
+    font-size: 1.5rem;
     text-align: center;
     color: var(--darkness);
 }
 
 .portTitle:hover {
     color: var(--royalPurple);
+    cursor: pointer;
 }
 
 .descriptionList {
