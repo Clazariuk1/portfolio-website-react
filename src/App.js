@@ -73,7 +73,8 @@ export default function App(){
                 </div>
                 <div className={styles.portDescriptionCard}>
                     <div className={styles.portTitleCard}>
-                    <a href="https://ecommerce.christopherlazariuk.me"><div className={styles.portTitle}><strong>Dev Dependency</strong><br></br>an Ecommerce Website</div></a>
+                    <a href="https://ecommerce.christopherlazariuk.me">
+                        <div className={styles.portTitle}><strong>Dev Dependency</strong><br></br>an Ecommerce Website</div></a>
                     <a href="https://github.com/Clazariuk1/unit3-project"><div className={styles.portTitle}><strong>Github Repository Link</strong></div></a>
                     </div>
                     <ul className={styles.descriptionList}>
@@ -95,7 +96,8 @@ export default function App(){
                 </div>
                 <div className={styles.portDescriptionCard}>
                     <div className={styles.portTitleCard}>
-                    <div className={styles.portTitle}> <strong>Connections</strong><br></br> a Linkedin Alternative</div>
+                        <a href="https://connections.christopherlazariuk.me">
+                    <div className={styles.portTitle}> <strong>Connections</strong><br></br> a Linkedin Alternative</div></a>
                     <a href="https://github.com/Clazariuk1/connection"><div className={styles.portTitle}><strong>Github Repository Link</strong></div></a>
                     </div>
                     <ul className={styles.descriptionList}>
