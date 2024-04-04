@@ -12,22 +12,27 @@ export default function App(){
         </div>
         <div className={styles.ProDetails}>
         <div className={styles.headerText}>Christopher Lazariuk</div>
-        <div className={styles.headerText}>Full Stack Software Engineer </div>
-        <div className={styles.bio}>
-            Thanks for stopping by! My name is Christopher and I'm a full stack software engineer with a background in public speaking, project coordination, and team leadership. My creative problem-solving skills and adaptability has empowered me to foster effective working environments and positive results in the face of new challenges. Check out some of my projects below! I look forward to the opportunity to connect and build something beautiful together.</div>
+        <div className={styles.headerText}>Software Engineer <br></br> Product Manager</div>
+            <div className={styles.bio}>
+            For me, building something isn't just about a few lines of code or knowing the most trendy framework. It's about the talent in the room, the vision on the board, and the savviness to utilize every tool in your kit to bring something to life from ideation to deployment to sales and operations. I don't just code. I create. <br></br>Let's scale up something beautiful together.
+            <br></br>
+            <br></br>
+            Current languages / frameworks: React, Express, NodeJS, Git, MongoDB, Javascript, HTML5, CSS3
+
+            </div>
         <div className={styles.buttonLinks}>
         <a href="/img/portfolio-resume.pdf" target="_blank" ><button className={styles.resume}>My Professional SWE Resume</button></a>
-        <aside className={styles.ContactsBar}>
-            <div className={styles.contactIcon}>
-                <a href="mailto:clazariuk@gmail.com?body=My custom mail body" ><img className={styles.contactPic} src="./img/emailIcon.jpeg" /></a>
-            </div>
-            <div className={styles.contactIcon}>
-                <a href="https://www.linkedin.com/in/christopherlazariuk/" ><img className={styles.contactPic} src="/img/linkedinIcon.png" /></a>
-            </div>
-            <div className={styles.contactIcon}>
-                <a href="https://github.com/Clazariuk1" ><img className={styles.contactPic} src="/img/githubPic.png" /></a>
-            </div>
-        </aside>
+            <aside className={styles.ContactsBar}>
+                <div className={styles.contactIcon}>
+                    <a href="mailto:clazariuk@gmail.com?body=My custom mail body" ><img className={styles.contactPic} src="./img/emailIcon.jpeg" /></a>
+                </div>
+                <div className={styles.contactIcon}>
+                    <a href="https://www.linkedin.com/in/christopherlazariuk/" ><img className={styles.contactPic} src="/img/linkedinIcon.png" /></a>
+                </div>
+                <div className={styles.contactIcon}>
+                    <a href="https://github.com/Clazariuk1" ><img className={styles.contactPic} src="/img/githubPic.png" /></a>
+                </div>
+            </aside>
         </div>
         </div>
         </div>
@@ -62,7 +67,9 @@ export default function App(){
         <div className={styles.portfolioCard}>
             <div className={styles.portPiece}>
              <div className={styles.portPicContainer}>
+             <a href="https://ecommerce.christopherlazariuk.me">
                     <img className={styles.picFile} src="/img/DevDependencyPortPic.png" />
+                    </a>
                 </div>
                 <div className={styles.portDescriptionCard}>
                     <div className={styles.portTitleCard}>
@@ -82,7 +89,9 @@ export default function App(){
         <div className={styles.portfolioCard}>
             <div className={styles.portPiece}>
                 <div className={styles.portPicContainer}>
+                <a href="https://connections.christopherlazariuk.me">
                 <img className={styles.picFile} src="/img/ConnectionsScreenshot.png" />
+                </a>
                 </div>
                 <div className={styles.portDescriptionCard}>
                     <div className={styles.portTitleCard}>

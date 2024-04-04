@@ -35,9 +35,9 @@ function App() {
     className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].headerText
   }, "Christopher Lazariuk"), /*#__PURE__*/React.createElement("div", {
     className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].headerText
-  }, "Full Stack Software Engineer "), /*#__PURE__*/React.createElement("div", {
+  }, "Software Engineer ", /*#__PURE__*/React.createElement("br", null), " Product Manager"), /*#__PURE__*/React.createElement("div", {
     className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].bio
-  }, "Thanks for stopping by! My name is Christopher and I'm a full stack software engineer with a background in public speaking, project coordination, and team leadership. My creative problem-solving skills and adaptability has empowered me to foster effective working environments and positive results in the face of new challenges. Check out some of my projects below! I look forward to the opportunity to connect and build something beautiful together."), /*#__PURE__*/React.createElement("div", {
+  }, "For me, building something isn't just about a few lines of code or knowing the most trendy framework. It's about the talent in the room, the vision on the board, and the savviness to utilize every tool in your kit to bring something to life from ideation to deployment to sales and operations. I don't just code. I create. ", /*#__PURE__*/React.createElement("br", null), "Let's scale up something beautiful together.", /*#__PURE__*/React.createElement("br", null), /*#__PURE__*/React.createElement("br", null), "Current languages / frameworks: React, Express, NodeJS, Git, MongoDB, Javascript, HTML5, CSS3"), /*#__PURE__*/React.createElement("div", {
     className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].buttonLinks
   }, /*#__PURE__*/React.createElement("a", {
     href: "/img/portfolio-resume.pdf",
@@ -108,10 +108,12 @@ function App() {
     className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].portPiece
   }, /*#__PURE__*/React.createElement("div", {
     className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].portPicContainer
+  }, /*#__PURE__*/React.createElement("a", {
+    href: "https://ecommerce.christopherlazariuk.me"
   }, /*#__PURE__*/React.createElement("img", {
     className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].picFile,
     src: "/img/DevDependencyPortPic.png"
-  })), /*#__PURE__*/React.createElement("div", {
+  }))), /*#__PURE__*/React.createElement("div", {
     className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].portDescriptionCard
   }, /*#__PURE__*/React.createElement("div", {
     className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].portTitleCard
@@ -137,10 +139,12 @@ function App() {
     className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].portPiece
   }, /*#__PURE__*/React.createElement("div", {
     className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].portPicContainer
+  }, /*#__PURE__*/React.createElement("a", {
+    href: "https://connections.christopherlazariuk.me"
   }, /*#__PURE__*/React.createElement("img", {
     className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].picFile,
     src: "/img/ConnectionsScreenshot.png"
-  })), /*#__PURE__*/React.createElement("div", {
+  }))), /*#__PURE__*/React.createElement("div", {
     className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].portDescriptionCard
   }, /*#__PURE__*/React.createElement("div", {
     className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].portTitleCard
@@ -784,4 +788,4 @@ var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=App.80da38e05c947991ed0e42d1bea46047.js.map
+//# sourceMappingURL=App.f217c46ba5661640fa36483c35935931.js.map
