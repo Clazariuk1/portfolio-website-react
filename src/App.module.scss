@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 
 @keyframes fadeInStatic {
     from {
@@ -85,7 +89,6 @@ body {
     img {
         width: 100%;
         cursor: pointer;
-        border: solid 5px rgb(250, 216, 214);
     }
 }
 
@@ -99,12 +102,19 @@ body {
 }
 
 .bio {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
     margin-top: .5rem;
     font-size: 1.5rem;
     text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 
 .headerText {
+    font-family: 'Courier New', 'Courier', 'monospace';
+    font-weight: bold;
     font-size: 2rem;
     margin-bottom: .5rem;
 }
@@ -140,9 +150,10 @@ body {
 }
 
 .AboutMe {
-    border: solid 1rem rgba(250, 216, 214, .5);
+    border: solid 1px rgba(250, 216, 214, .5);
     display: flex;
-    margin: .5rem;
+    flex-direction: column;
+    margin: 1rem;
     padding: .5rem;
     background: linear-gradient(white, rgba(171, 127, 242, 0.2));
     font-size: 1.25rem;
@@ -162,7 +173,7 @@ body {
 }
 
 .ProPic {
-    width: 40vmin;
+    width: 30vmin;
     border-radius: 50%;
     opacity: 0;
     animation: fadeInStatic 4s ease forwards;
@@ -237,6 +248,8 @@ body {
 }
 
 .ContactsBar {
+    width: 30rem;
+    height: fit-content;
     border-radius: 2vmin;
     display: flex;
     margin: 1rem;
@@ -260,19 +273,20 @@ body {
 
 .contactPic {
     box-shadow: 1px 2px 2px var(--darknessTranslucent);
-    width: 4vmin;
-    height: 4vmin;
+    width: 8vmin;
+    height: 8vmin;
     border-radius: 50%;
 }
 
 button {
     text-align: center;
+    width: 20rem;
     box-shadow: 1px 2px 2px var(--darknessTranslucent);
-    padding: .5rem;
+    padding: 1rem;
     margin: .5rem;
     font-weight: bold;
-    font-size: 1rem;
-    border-radius: 4vmin;
+    font-size: 2rem;
+    border-radius: 2vmin;
 }
 
 button:hover {
@@ -337,7 +351,81 @@ button:hover {
 }
 
 .bioBullet {
-    border: solid purple 3px;
-    padding: .5vmin;
+    border-radius: 2vmin;
+    padding: 1vmin;
     margin: .5vmin;
+    width: 70%;
+    font-family: 'Courier New', 'Courier', 'monospace';
+    background: rgba(248, 249, 250, .75);
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: whitesmoke;
+    text-align: center;
+    font-family: 'Courier New', 'Courier', 'monospace';
+}
+
+
+.scrollNav {
+    height: 7rem;
+    position: fixed;
+    top: 0;
+    z-index: 3;
+    ul {
+        flex-direction: row;
+    list-style-type: none;
+    }
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(171, 127, 242, 0.2);
+    box-shadow: 5px 3px 1px black;
+}
+
+.navLinks {
+    margin: 1rem;
+    padding: 1rem;
+    justify-content: space-between;
+    font-size: 36pt;
+}
+
+.linkButton {
+    padding: .5rem;
+    color: black;
+    background-color: white;
+}
+
+.linkButton:hover {
+    color: white;
+    background-color: rgba(171, 127, 242, 1);
+}
+
+.shadowBox {
+    z-index: 0;
+    visibility: hidden;
+}
+
+.aboutText {
+    font-size: 3rem;
+}
+
+.languageButton {
+    border-radius: 5vmin;
+    width: 20vmin;
+    height: 3vmin;
+    object-fit: cover;
+    margin: 1rem;
+    padding: 2rem;
+}
+
+.languageContainer {
+    display: inline-block;
+    padding: .5rem;
+
 }
