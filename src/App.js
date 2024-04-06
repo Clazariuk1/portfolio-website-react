@@ -159,7 +159,7 @@ export default function App(){
             For me, building something isn't just about a few lines of code or knowing the most trendy framework. It's about the talent in the room, the vision on the board, and the savviness to utilize every tool in your kit to bring something to life from ideation to deployment to sales and operations.
                 </div>
                     <div className={styles.bioBullet}>
-            A mover and producer of people and projects, I've led field teams on-site for large-budget events to remote project coordination and administration for creative and managerial teams, and even to client sales and relations to ensure lasting, healthy synergy between clientelle and provider.
+            As a producer and coordinator of people and projects, I've led field teams on multi-million dollar events and projects, coordinated the creative staff for countless performative endeavors in the theatrical and podcasting space, and handled client sales and relations for multiple brands and industries to ensure lasting, healthy synergy between clientelle and provider.
                 </div>
                 <div className={styles.bioBullet}>
             I don't just code. I create and sustain businesses, products, and communities. <br></br>Let's scale up something beautiful together.
