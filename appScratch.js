@@ -86,8 +86,8 @@ export default function App(){
                     </div>
                     <ul className={styles.descriptionList}>
                     <li className={styles.portDescriptionText}>An ecommerce website with ordering system functionality and a multi-page layout</li>
-                        <li className={styles.portDescriptionText}>Built with React, NodeJS, MongoDB</li>
-                        <li className={styles.portDescriptionText}>Full stack MERN application featuring RESTful routing and full CRUD functionality</li>
+                        <li className={styles.portDescriptionText}>Languages/Frameworks: React, NodeJS, MongoDB</li>
+                        <li className={styles.portDescriptionText}>Full stack MERN application featuring RESTful routing</li>
                     </ul>
                 </div>
             </div>
@@ -108,49 +108,18 @@ export default function App(){
                     <a href="https://github.com/Clazariuk1/connection"><div className={styles.portTitle}><strong>Github Repository Link</strong></div></a>
                     </div>
                     <ul className={styles.descriptionList}>
-                    <li className={styles.portDescriptionText}>
-                            "What if linkedIn got a reboot?"
-                            Connect with a group of
-                            fellow job-seekers to share and discuss available jobs in this virtual community.
-                        </li>
                         <li className={styles.portDescriptionText}>
                             Full-Stack MERN application featuring RESTful routing and full CRUD functionality
                         </li>
                         <li className={styles.portDescriptionText}>
-                            Built with React, NodeJS, and MongoDB; acting team Scrum Master
+                            Built with React, NodeJS, and MongoDB
                         </li>
-
+                        <li className={styles.portDescriptionText}>
+                            Team Scrum Master
+                        </li>
                     </ul>
                 </div>
             </div>
-
-            <div className={styles.portPiece}>
-                <div className={styles.portPicContainer}>
-                <a href="https://github.com/Clazariuk1/100-days-of-code">
-                <img className={styles.picFile} src="/img/infinityLogo.jpeg" />
-                </a>
-                </div>
-                <div className={styles.portDescriptionCard}>
-                    <div className={styles.portTitleCard}>
-                        <a href="https://github.com/Clazariuk1/100-days-of-code">
-                    <div className={styles.portTitle}> <strong>Infinite Grind</strong><br></br> a Linkedin Alternative</div></a>
-                    <a href="https://github.com/Clazariuk1/100-days-of-code"><div className={styles.portTitle}><strong>Github Repository Link</strong></div></a>
-                    </div>
-                    <ul className={styles.descriptionList}>
-                    <li className={styles.portDescriptionText}>
-                        A log and file compendium of skill building challenges and daily accountability tracking.
-                        </li>
-                        <li className={styles.portDescriptionText}>
-                            leetCode function problems and lesson example challenges
-                        </li>
-                        <li className={styles.portDescriptionText}>
-                            Links and annotated reference to the next big thing in my journey ahead.
-                        </li>
-
-                    </ul>
-                </div>
-            </div>
-
         </div>
 
 

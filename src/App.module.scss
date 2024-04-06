@@ -217,6 +217,7 @@ body {
 
 .picFile {
     width: 35vmin;
+    height: 20vmin;
     border: 5vmin;
     margin: 1rem;
     border: solid 2px var(--darkness);
@@ -333,4 +334,10 @@ button:hover {
     list-style: none;
     border-top: solid 2px var(--royalPurple);
     border-bottom: solid 2px var(--darkness);
+}
+
+.bioBullet {
+    border: solid purple 3px;
+    padding: .5vmin;
+    margin: .5vmin;
 }
