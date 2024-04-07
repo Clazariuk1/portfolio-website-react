@@ -160,7 +160,7 @@ export default function App(){
             <div className={styles.ProPicContainer}>
                 <img className={styles.ProPic} src="./img/ChrisBioPic.jpg" />
             </div>
-            <div className={styles.headerText}><italic>Let's scale up something beautiful together!</italic></div>
+            <div className={styles.headerText}>Let's scale up something beautiful together!</div>
         </div>
 
         </div>
