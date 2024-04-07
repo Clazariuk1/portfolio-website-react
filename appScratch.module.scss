@@ -1,33 +1,7 @@
 html {
     scroll-behavior: smooth;
-    font-size: 12;
 }
 
-
-/*Typing Animation*/
-
-@keyframes typing {
-    from { width: 0 }
-    to { width: 100% }
-}
-
-@keyframes blink-caret {
-    from, to { border-color: transparent }
-    50% { border-color: white; }
-}
-
-@keyframes flashing {
-    0% {
-        display: none;
-    }
-
-    50% {
-        display: inline;
-    }
-    100% {
-        display: none;
-    }
-}
 
 @keyframes fadeInStatic {
     from {
@@ -155,8 +129,8 @@ body {
     align-items: center;
     margin: 1rem;
     padding: 3rem;
-    background: rgba(248, 249, 250, .75);
-    border: solid 1px var(--darkness);
+    background-color: white;
+    border: solid 4px var(--darkness);
     box-shadow: 2px 2px 2px var(--darknessTranslucent);
     width: 50vmin;
 
@@ -182,12 +156,12 @@ body {
     display: flex;
     flex-direction: column;
     margin: 1rem;
-    padding: 2rem;
+    padding: .5rem;
     background: linear-gradient(white, rgba(171, 127, 242, 0.2));
     font-size: 1.25rem;
     width: 70%;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     border-radius: 2vmin;
     opacity: 0;
     transform: translateY(-2.5vmin);
@@ -213,12 +187,12 @@ body {
 }
 
 .portDescriptionCard {
-    width: 80%;
     border-radius: 2vmin;
     border: solid 2px var(--light);
     background-color: rgba(46, 40, 42, .3);
     margin: .5rem;
     padding: .5rem;
+    width: 50%;
     font-size: 1rem;
     box-shadow: 1px 3px 3px rgb(46, 40, 42);
     opacity: 0;
@@ -232,7 +206,7 @@ body {
     display: flex;
     flex-direction: column;
     border-radius: 2vmin;
-    background-color: linear-gradient(white, rgba(171, 127, 242, 0.5));
+    background: linear-gradient(white, rgba(171, 127, 242, 0.5));
     border: solid 2px var(--light);
     margin: 1rem;
     padding: 1rem;
@@ -248,12 +222,6 @@ body {
     justify-content: center;
     align-items: center;
     display: flex;
-}
-
-@media only screen and (max-width: 900px) {
-    .portPiece {
-        flex-direction: column;
-    }
 }
 
 .portPicContainer {
@@ -312,7 +280,7 @@ body {
     border-radius: 50%;
 }
 
-.resume {
+button {
     text-align: center;
     width: 20rem;
     box-shadow: 1px 2px 2px var(--darknessTranslucent);
@@ -342,8 +310,6 @@ button:hover {
 }
 
 .portTitleCard {
-    justify-content: center;
-    align-items: center;
     background-color: white;
     border: solid 2px var(--royalPurple);
     padding: 1rem;
@@ -354,14 +320,9 @@ button:hover {
 }
 
 .portTitle {
-
-    justify-content: center;
-    align-items: center;
-    font-size: 3vmin;
+    font-size: 1.5rem;
     text-align: center;
     color: var(--darkness);
-
-/*    overflow: break-word; */
 }
 
 .portTitle:hover {
@@ -370,10 +331,9 @@ button:hover {
 }
 
 .descriptionList {
-    justify-content: center;
-    align-items: cenet;
-    overflow-wrap:break-word;
     background-color: var(--light);
+    padding: 1rem;
+    margin: 1rem;
     text-align: space-around;
     border-radius: 2vmin;
     border: solid 3px var(--darkness);
@@ -409,7 +369,6 @@ h1 {
     color: whitesmoke;
     text-align: center;
     font-family: 'Courier New', 'Courier', 'monospace';
-
 }
 
 
@@ -455,12 +414,7 @@ h1 {
 }
 
 .aboutText {
-    font-size: 4vmin;
-    margin: .5vmin;
-    overflow: hidden;
-    white-space: nowrap;
-    letter-spacing: .15em;
-    animation: typing 3.5s steps(40, end), blink-caret, .75s step-end infinite;
+    font-size: 3rem;
 }
 
 .languageButton {
@@ -479,20 +433,10 @@ h1 {
 }
 
 .heading {
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    overflow-wrap: break-word;
-    word-wrap: break-word;
     font-family: 'Courier New', Courier, monospace;
     color: white;
     font-weight: bold;
     text-align: center;
-    width: 90%;
-    margin: 4rem;
-}
-@media only screen and (max-width: 900px) {
-    .heading {
-        margin-top: 5rem;
-    }
+    width: 60%;
+    margin: 2rem;
 }

@@ -31,11 +31,15 @@ export default function App(){
                 </div>
             </nav>
             <h2 className={styles.shadowBox} id="top">TEXT TEXT<br></br>TEST</h2>
+            <h2 className={styles.shadowBox} id="top">TEXT TEXT<br></br>TEST</h2>
             <div className={styles.heading}>
-            <div className={styles.aboutText}>Christopher Lazariuk</div>
-        <div className={styles.aboutText}>Software Engineering / Web Design</div>
-        <div className={styles.aboutText}>Product / Project Management</div>
-        <div className={styles.aboutText}>Operations / Coordination</div>
+            <div className={styles.aboutText}>
+                Christopher Lazariuk <br/>
+            Software Engineering / Web Design <br/>
+            Product / Project Management <br />
+            Operations / Coordination <br />
+            </div>
+
         </div>
         <section className={styles.portfolioSamples}>
 
@@ -134,7 +138,7 @@ export default function App(){
                 <div className={styles.portDescriptionCard}>
                     <div className={styles.portTitleCard}>
                         <a href="https://github.com/Clazariuk1/100-days-of-code">
-                    <div className={styles.portTitle}> <strong>Infinite Grind</strong><br></br> a Linkedin Alternative</div></a>
+                    <div className={styles.portTitle}> <strong>Infinite Grind</strong><br></br> a professional accountability log/tracker</div></a>
                     <a href="https://github.com/Clazariuk1/100-days-of-code"><div className={styles.portTitle}><strong>Github Repository Link</strong></div></a>
                     </div>
                     <ul className={styles.descriptionList}>
