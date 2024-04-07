@@ -31,17 +31,14 @@ export default function App(){
                 </div>
             </nav>
             <h2 className={styles.shadowBox} id="top">TEXT TEXT<br></br>TEST</h2>
-        <div className={styles.AboutMe}>
-            <div className={styles.ProDetails}>
-            <div className={styles.headerText}>Christopher Lazariuk</div>
-            <div className={styles.headerText}>Software Engineer <br></br> Product Manager</div>
-            <div className={styles.ProPicContainer}>
-                <img className={styles.ProPic} src="./img/ChrisBioPic.jpg" />
-            </div>
-        </div>
-
+            <div className={styles.heading}>
+            <div className={styles.aboutText}>Christopher Lazariuk</div>
+        <div className={styles.aboutText}>Software Engineering / Web Design</div>
+        <div className={styles.aboutText}>Product / Project Management</div>
+        <div className={styles.aboutText}>Operations / Coordination</div>
         </div>
         <section className={styles.portfolioSamples}>
+
         <h1 className={styles.aboutText} id="projects">Projects</h1>
         <div className={styles.portfolioCard}>
             <div className={styles.portPiece}>
@@ -65,6 +62,9 @@ export default function App(){
 </li>
                         <li className={styles.portDescriptionText}>
                             Front-end HTML/CSS/JS Development
+                        </li>
+                        <li className={styles.portDescriptionText}>
+                            *Heavy Usage of SFX and Music*
                         </li>
                     </ul>
                 </div>
@@ -155,19 +155,31 @@ export default function App(){
         </section>
         <div className={styles.bio}>
             <h1 className={styles.aboutText} id="about">About Me...</h1>
+            <div className={styles.AboutMe}>
+            <div className={styles.ProDetails}>
+            <div className={styles.ProPicContainer}>
+                <img className={styles.ProPic} src="./img/ChrisBioPic.jpg" />
+            </div>
+            <div className={styles.headerText}><italic>Let's scale up something beautiful together!</italic></div>
+        </div>
+
+        </div>
                 <div className={styles.bioBullet}>
-            For me, building something isn't just about a few lines of code or knowing the most trendy framework. It's about the talent in the room, the vision on the board, and the savviness to utilize every tool in your kit to bring something to life from ideation to deployment to sales and operations.
+            For me, building something isn't just about a few lines of code or knowing the most trendy framework. It's about the talent in the room, the vision on the board, and the savviness to utilize every tool in your kit to bring something to life from ideation to deployment.
                 </div>
                     <div className={styles.bioBullet}>
-            As a producer and coordinator of people and projects, I've led field teams on multi-million dollar events and projects, coordinated the creative staff for countless performative endeavors in the theatrical and podcasting space, and handled client sales and relations for multiple brands and industries to ensure lasting, healthy synergy between clientelle and provider.
+            I've led field teams on multi-million dollar events and shoe-string budget ops productions, coordinated staff and operations for countless performative endeavors in the theatrical and podcasting space.
                 </div>
                 <div className={styles.bioBullet}>
-            I don't just code. I create and sustain businesses, products, and communities. <br></br>Let's scale up something beautiful together.
-            <br></br>
+                Client sales and relations for multiple brands and industries has been a major part of my work in life to ensure healthy synergy between communities and products.
+            </div>
+            <div className={styles.bioBullet}>
+            I don't just code. I create and sustain businesses, products, and communities.
             </div>
             <br></br>
             <div className={styles.languageContainer}>
                 <h1 className={styles.aboutText} id="skills">Languages and Frameworks</h1>
+
                 <div className={styles.languageButtons}>
                 <a href="https://react.dev/"><img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" className={styles.languageButton} alt="react" /></a>
 
