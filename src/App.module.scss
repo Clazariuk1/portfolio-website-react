@@ -98,6 +98,7 @@ html {
 
 
 body {
+    width: 100%;
     font-size: 1vw;
     text-wrap: balance;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -119,6 +120,7 @@ body {
 }
 
 .Portfolio {
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -282,7 +284,7 @@ body {
 }
 
 .ContactsBar {
-    width: 30rem;
+    width: 80%;
     height: fit-content;
     border-radius: 2vmin;
     display: flex;
@@ -294,8 +296,17 @@ body {
     align-items: center;
 }
 
+@media only screen and (max-width: 900px) {
+    .buttonLinks {
+        flex-direction: column;
+    }
+}
+
+
+
+
 .contactIcon {
-    width: 4vmin;
+    width: 8vmin;
     padding: .25rem;
 }
 
@@ -312,7 +323,14 @@ body {
     border-radius: 50%;
 }
 
-.resume {
+@media only screen and (max-width: 900px) {
+    .contactPic {
+        width: 15vmin;
+        height: 15vmin;
+    }
+}
+
+button.resume {
     text-align: center;
     width: 20rem;
     box-shadow: 1px 2px 2px var(--darknessTranslucent);
@@ -335,7 +353,7 @@ button:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: fit-content;
+    width: 90%;
     margin: .5rem;
     opacity: 0;
     animation: fadeInStatic 6s ease forwards;
@@ -414,7 +432,7 @@ h1 {
 
 
 .scrollNav {
-    height: 7rem;
+    height: 15%;
     position: fixed;
     top: 0;
     z-index: 3;
@@ -425,20 +443,23 @@ h1 {
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     background-color: rgba(171, 127, 242, 0.2);
     box-shadow: 5px 3px 1px black;
 }
 
 .navLinks {
+    width: 90%;
     margin: 1rem;
     padding: 1rem;
     justify-content: space-between;
-    font-size: 36pt;
+    font-size: 5vmin;
 }
 
 .linkButton {
+    height: 90%;
+    width: 90%;
     padding: .5rem;
     color: black;
     background-color: white;
@@ -453,10 +474,19 @@ h1 {
     z-index: 0;
     visibility: hidden;
 }
+@media only screen and (max-width: 900px) {
+    .shadowBox {
+        margin: 1rem;
+    }
+}
 
 .aboutText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     font-size: 4vmin;
-    margin: .5vmin;
+    margin: 1vmin;
     overflow: hidden;
     white-space: nowrap;
     letter-spacing: .15em;
@@ -479,6 +509,8 @@ h1 {
 }
 
 .heading {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     text-align: center;
     align-items: center;

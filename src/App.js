@@ -9,25 +9,12 @@ export default function App(){
             <div className={styles.shadowBox}> </div>
 
             <nav className={styles.scrollNav}>
-            <div className={styles.buttonLinks}>
-                <a href="/img/portfolio-resume.pdf" target="_blank" ><button className={styles.resume}>Resume</button></a>
-                    <aside className={styles.ContactsBar}>
-                        <div className={styles.contactIcon}>
-                            <a href="mailto:clazariuk@gmail.com?body=My custom mail body" ><img className={styles.contactPic} src="./img/emailIcon.jpeg" /></a>
-                        </div>
-                        <div className={styles.contactIcon}>
-                            <a href="https://www.linkedin.com/in/christopherlazariuk/" ><img className={styles.contactPic} src="/img/linkedinIcon.png" /></a>
-                        </div>
-                        <div className={styles.contactIcon}>
-                            <a href="https://github.com/Clazariuk1" ><img className={styles.contactPic} src="/img/githubPic.png" /></a>
-                        </div>
-                    </aside>
-            </div>
+
                 <div className={styles.navLinks}>
-                    <a className={styles.linkButton} href="#top">Home</a>
                     <a className={styles.linkButton} href="#projects">Projects</a>
                     <a className={styles.linkButton} href="#about">About</a>
                     <a className={styles.linkButton} href="#skills">Skills</a>
+                    <a className={styles.linkButton} href="#top">Contact</a>
                 </div>
             </nav>
             <h2 className={styles.shadowBox} id="top">TEXT TEXT<br></br>TEST</h2>
@@ -35,10 +22,27 @@ export default function App(){
             <div className={styles.heading}>
             <div className={styles.aboutText}>
                 Christopher Lazariuk <br/>
-            Software Engineering / Web Design <br/>
-            Product / Project Management <br />
+            Software Engineering <br />
+            Web Design <br/>
+            Project Management <br />
             Operations / Coordination <br />
+            <div className={styles.buttonLinks}>
+                <a href="/img/portfolio-resume.pdf" target="_blank" ><button className={styles.resume}>Resume</button></a>
+                    <aside className={styles.ContactsBar}>
+                        <div className={styles.contactIcon}>
+                            <a href="mailto:clazariuk@gmail.com?body=My custom mail body" ><img className={styles.contactPic} src="./img/emailIcon.jpeg" /></a>
+                        </div>
+                        <div className={styles.contactIcon}>
+                           <a href="https://www.linkedin.com/in/christopherlazariuk/" ><img className={styles.contactPic} src="/img/linkedinIcon.png" /></a>
+                        </div>
+                        <div className={styles.contactIcon}>
+                            <a href="https://github.com/Clazariuk1" ><img className={styles.contactPic} src="/img/githubPic.png" /></a>
+                        </div>
+                    </aside>
             </div>
+
+            </div>
+
 
         </div>
         <section className={styles.portfolioSamples}>

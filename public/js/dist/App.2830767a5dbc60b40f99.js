@@ -27,6 +27,30 @@ function App() {
   }, " "), /*#__PURE__*/React.createElement("nav", {
     className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].scrollNav
   }, /*#__PURE__*/React.createElement("div", {
+    className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].navLinks
+  }, /*#__PURE__*/React.createElement("a", {
+    className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].linkButton,
+    href: "#projects"
+  }, "Projects"), /*#__PURE__*/React.createElement("a", {
+    className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].linkButton,
+    href: "#about"
+  }, "About"), /*#__PURE__*/React.createElement("a", {
+    className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].linkButton,
+    href: "#skills"
+  }, "Skills"), /*#__PURE__*/React.createElement("a", {
+    className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].linkButton,
+    href: "#top"
+  }, "Contact"))), /*#__PURE__*/React.createElement("h2", {
+    className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].shadowBox,
+    id: "top"
+  }, "TEXT TEXT", /*#__PURE__*/React.createElement("br", null), "TEST"), /*#__PURE__*/React.createElement("h2", {
+    className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].shadowBox,
+    id: "top"
+  }, "TEXT TEXT", /*#__PURE__*/React.createElement("br", null), "TEST"), /*#__PURE__*/React.createElement("div", {
+    className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].heading
+  }, /*#__PURE__*/React.createElement("div", {
+    className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].aboutText
+  }, "Christopher Lazariuk ", /*#__PURE__*/React.createElement("br", null), "Software Engineering ", /*#__PURE__*/React.createElement("br", null), "Web Design ", /*#__PURE__*/React.createElement("br", null), "Project Management ", /*#__PURE__*/React.createElement("br", null), "Operations / Coordination ", /*#__PURE__*/React.createElement("br", null), /*#__PURE__*/React.createElement("div", {
     className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].buttonLinks
   }, /*#__PURE__*/React.createElement("a", {
     href: "/img/portfolio-resume.pdf",
@@ -56,31 +80,7 @@ function App() {
   }, /*#__PURE__*/React.createElement("img", {
     className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].contactPic,
     src: "/img/githubPic.png"
-  }))))), /*#__PURE__*/React.createElement("div", {
-    className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].navLinks
-  }, /*#__PURE__*/React.createElement("a", {
-    className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].linkButton,
-    href: "#top"
-  }, "Home"), /*#__PURE__*/React.createElement("a", {
-    className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].linkButton,
-    href: "#projects"
-  }, "Projects"), /*#__PURE__*/React.createElement("a", {
-    className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].linkButton,
-    href: "#about"
-  }, "About"), /*#__PURE__*/React.createElement("a", {
-    className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].linkButton,
-    href: "#skills"
-  }, "Skills"))), /*#__PURE__*/React.createElement("h2", {
-    className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].shadowBox,
-    id: "top"
-  }, "TEXT TEXT", /*#__PURE__*/React.createElement("br", null), "TEST"), /*#__PURE__*/React.createElement("h2", {
-    className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].shadowBox,
-    id: "top"
-  }, "TEXT TEXT", /*#__PURE__*/React.createElement("br", null), "TEST"), /*#__PURE__*/React.createElement("div", {
-    className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].heading
-  }, /*#__PURE__*/React.createElement("div", {
-    className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].aboutText
-  }, "Christopher Lazariuk ", /*#__PURE__*/React.createElement("br", null), "Software Engineering / Web Design ", /*#__PURE__*/React.createElement("br", null), "Product / Project Management ", /*#__PURE__*/React.createElement("br", null), "Operations / Coordination ", /*#__PURE__*/React.createElement("br", null))), /*#__PURE__*/React.createElement("section", {
+  }))))))), /*#__PURE__*/React.createElement("section", {
     className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].portfolioSamples
   }, /*#__PURE__*/React.createElement("h1", {
     className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].aboutText,
@@ -441,6 +441,7 @@ ___CSS_LOADER_EXPORT___.push([module.id, `html {
 }
 
 body {
+  width: 100%;
   font-size: 1vw;
   text-wrap: balance;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -461,6 +462,7 @@ body img {
 }
 
 .i4p6UNa9JDMGa_2GDQXi {
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -618,7 +620,7 @@ body img {
 }
 
 .BzMmgNl7z6jt75spIMhZ {
-  width: 30rem;
+  width: 80%;
   height: -moz-fit-content;
   height: fit-content;
   border-radius: 2vmin;
@@ -631,8 +633,13 @@ body img {
   align-items: center;
 }
 
+@media only screen and (max-width: 900px) {
+  .FALjE05SVfjG2L9wfJ7s {
+    flex-direction: column;
+  }
+}
 .sdj34Qu1i72TpAFpGziF {
-  width: 4vmin;
+  width: 8vmin;
   padding: 0.25rem;
 }
 
@@ -649,7 +656,13 @@ body img {
   border-radius: 50%;
 }
 
-.ONYBACqa6ukENEx3mPgY {
+@media only screen and (max-width: 900px) {
+  .jICp5v5KkniwStvrE8JZ {
+    width: 15vmin;
+    height: 15vmin;
+  }
+}
+button.ONYBACqa6ukENEx3mPgY {
   text-align: center;
   width: 20rem;
   box-shadow: 1px 2px 2px var(--darknessTranslucent);
@@ -672,8 +685,7 @@ button:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: -moz-fit-content;
-  width: fit-content;
+  width: 90%;
   margin: 0.5rem;
   opacity: 0;
   animation: pgXJ990EOUlOXvj3SNxz 6s ease forwards;
@@ -748,14 +760,14 @@ h1 {
 }
 
 .QKbLaomCLrLQ8WgIgW3w {
-  height: 7rem;
+  height: 15%;
   position: fixed;
   top: 0;
   z-index: 3;
   width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   background-color: rgba(171, 127, 242, 0.2);
   box-shadow: 5px 3px 1px black;
@@ -766,13 +778,16 @@ h1 {
 }
 
 .HsCVjCUq4Zd_imB0KU6V {
+  width: 90%;
   margin: 1rem;
   padding: 1rem;
   justify-content: space-between;
-  font-size: 36pt;
+  font-size: 5vmin;
 }
 
 .O3rInZgNez9DYDDoPrK3 {
+  height: 90%;
+  width: 90%;
   padding: 0.5rem;
   color: black;
   background-color: white;
@@ -788,9 +803,18 @@ h1 {
   visibility: hidden;
 }
 
+@media only screen and (max-width: 900px) {
+  .kHUFSGL9nW9UYETUVGus {
+    margin: 1rem;
+  }
+}
 .yuJKm1zecAJpXWwQB6jJ {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   font-size: 4vmin;
-  margin: 0.5vmin;
+  margin: 1vmin;
   overflow: hidden;
   white-space: nowrap;
   letter-spacing: 0.15em;
@@ -813,6 +837,8 @@ h1 {
 }
 
 .CPNh1eph9l1jcLqbKQZx {
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   text-align: center;
   align-items: center;
@@ -830,7 +856,7 @@ h1 {
   .CPNh1eph9l1jcLqbKQZx {
     margin-top: 5rem;
   }
-}`, "",{"version":3,"sources":["webpack://./src/App.module.scss"],"names":[],"mappings":"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","sourcesContent":["html {\n    scroll-behavior: smooth;\n    font-size: 12;\n}\n\n\n/*Typing Animation*/\n\n@keyframes typing {\n    from { width: 0 }\n    to { width: 100% }\n}\n\n@keyframes blink-caret {\n    from, to { border-color: transparent }\n    50% { border-color: white; }\n}\n\n@keyframes flashing {\n    0% {\n        display: none;\n    }\n\n    50% {\n        display: inline;\n    }\n    100% {\n        display: none;\n    }\n}\n\n@keyframes fadeInStatic {\n    from {\n        opacity: 0;\n    }\n    to {\n        opacity: 1;\n    }\n}\n\n@keyframes fadeInFromRight {\n    from {\n        opacity: 0;\n        transform: translateX(5vmin);\n    }\n    to {\n        opacity: 1;\n        transform: translateX(0);\n    }\n}\n\n@keyframes fadeInFromLeft {\n    from {\n        opacity: 0;\n        transform: translateX(-5vmin);\n    }\n    to {\n        opacity: 1;\n        transform: translateX(0);\n    }\n}\n\n@keyframes fadeInFromBottom {\n    from {\n        opacity: 0;\n        transform: translateY(5vmin);\n    }\n    to {\n        opacity: 1;\n        transform: translateY(0);\n    }\n}\n\n@keyframes fadeInFromTop {\n    from {\n        opacity: 0;\n        transform: translateY(-2.5vmin);\n    }\n    to {\n        opacity: 1;\n        transform: translateY(0);\n    }\n}\n\n:root {\n    --bright: whitesmoke;\n    --royalPurple: rgba(126, 82, 160, .9);\n    --light: rgba(248, 249, 250, 1);\n    --darknessTranslucent: rgba(71, 74, 72, .75);\n    --darkness: rgba(71, 74, 72);\n    --contactButtonsTranslucent: rgba(109, 214, 218, .5);\n    --aboutMeTranslucent: rgba(149, 217, 218, .8);\n    --portfolioCardTranslucent: rgba(155, 167, 192, .75);\n    --descriptionCardTranslucent: rgba(233, 236, 239, .75);\n    --imageBackgroundTranslucent: rgba(206, 212, 218, .75);\n\n}\n\n\nbody {\n    font-size: 1vw;\n    text-wrap: balance;\n    font-family: Verdana, Geneva, Tahoma, sans-serif;\n    margin: 0;\n    min-height: 100vh;\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    background-color: var(--darkness);\n    a {\n        cursor: pointer;\n        text-decoration: none;\n    }\n\n    img {\n        width: 100%;\n        cursor: pointer;\n    }\n}\n\n.Portfolio {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    justify-content: center;\n    text-align: center;\n    background: linear-gradient(rgb(46, 40, 42))\n}\n\n.bio {\n    display: flex;\n    flex-direction: column;\n    width: 80%;\n    margin-top: .5rem;\n    font-size: 1.5rem;\n    text-align: center;\n    align-items: center;\n    justify-content: center;\n}\n\n.headerText {\n    font-family: 'Courier New', 'Courier', 'monospace';\n    font-weight: bold;\n    font-size: 2rem;\n    margin-bottom: .5rem;\n    font-style: italic;\n\n}\n\n.ProDetails {\n    border-radius: 2vmin;\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n    margin: 1rem;\n    padding: 3rem;\n    background: rgba(248, 249, 250, .75);\n    border: solid 1px var(--darkness);\n    box-shadow: 2px 2px 2px var(--darknessTranslucent);\n    width: 50vmin;\n\n    opacity: 0;\n    transform: translateX(-5vmin);\n    animation: fadeInFromRight 2s ease forwards;\n}\n\n.portfolioSamples {\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n    margin: .5rem;\n    padding: .5rem;\n    opacity: 0;\n    transform: translateY(5vmin);\n    animation: fadeInFromBottom 5s ease forwards;\n}\n\n.AboutMe {\n    border: solid 1px rgba(250, 216, 214, .5);\n    display: flex;\n    flex-direction: column;\n    margin: 1rem;\n    padding: 2rem;\n    background: linear-gradient(white, rgba(171, 127, 242, 0.2));\n    font-size: 1.25rem;\n    width: 70%;\n    align-items: center;\n    justify-content: center;\n    border-radius: 2vmin;\n    opacity: 0;\n    transform: translateY(-2.5vmin);\n    animation: fadeInFromTop 2s ease forwards;\n\n}\n\n.ProPicContainer {\n    display: flex;\n    margin: 1rem;\n}\n\n.ProPic {\n    width: 30vmin;\n    border-radius: 50%;\n    opacity: 0;\n    animation: fadeInStatic 4s ease forwards;\n}\n\n.displayCard {\n    display: flex;\n    flex-direction: column;\n}\n\n.portDescriptionCard {\n    width: 80%;\n    border-radius: 2vmin;\n    border: solid 2px var(--light);\n    background-color: rgba(46, 40, 42, .3);\n    margin: .5rem;\n    padding: .5rem;\n    font-size: 1rem;\n    box-shadow: 1px 3px 3px rgb(46, 40, 42);\n    opacity: 0;\n    transform: translateX(-5vmin);\n    animation: fadeInFromLeft 8s ease forwards;\n\n}\n\n\n.portfolioCard {\n    display: flex;\n    flex-direction: column;\n    border-radius: 2vmin;\n    background-color: linear-gradient(white, rgba(171, 127, 242, 0.5));\n    border: solid 2px var(--light);\n    margin: 1rem;\n    padding: 1rem;\n    width: 60%;\n    box-shadow: 1px 3px 3px rgb(250, 216, 214);\n}\n\n.portfolioCard:hover {\n    background: linear-gradient(rgba(171, 127, 242, 0.5), white);\n}\n\n.portPiece {\n    justify-content: center;\n    align-items: center;\n    display: flex;\n}\n\n@media only screen and (max-width: 900px) {\n    .portPiece {\n        flex-direction: column;\n    }\n}\n\n.portPicContainer {\n    z-index: 1;\n}\n\n.picFile {\n    width: 35vmin;\n    height: 20vmin;\n    border: 5vmin;\n    margin: 1rem;\n    border: solid 2px var(--darkness);\n    background-color: var(--light);\n    padding: 1rem;\n    border-radius: 10px 200px / 100px;\n    box-shadow: 2px 2px 2px var(--darknessTranslucent);\n    z-index: 2;\n    opacity: 0;\n    animation: fadeInStatic 4s ease forwards;\n}\n\n.picFile:hover {\n    box-shadow: 3px 5px 5px var(--darknessTranslucent);\n    scale: 125%;\n    transition: 1s;\n}\n\n.ContactsBar {\n    width: 30rem;\n    height: -moz-fit-content;\n    height: fit-content;\n    border-radius: 2vmin;\n    display: flex;\n    margin: 1rem;\n    padding-right: .5rem;\n    background-color: var(--darknessTranslucent);\n    border: solid 3px black;\n    justify-content: space-around;\n    align-items: center;\n}\n\n.contactIcon {\n    width: 4vmin;\n    padding: .25rem;\n}\n\n.contactPic:hover {\n    box-shadow: 4px 8px 8px var(--darknessTranslucent);\n    scale: 125%;\n    transition: 1s;\n}\n\n.contactPic {\n    box-shadow: 1px 2px 2px var(--darknessTranslucent);\n    width: 8vmin;\n    height: 8vmin;\n    border-radius: 50%;\n}\n\n.resume {\n    text-align: center;\n    width: 20rem;\n    box-shadow: 1px 2px 2px var(--darknessTranslucent);\n    padding: 1rem;\n    margin: .5rem;\n    font-weight: bold;\n    font-size: 2rem;\n    border-radius: 2vmin;\n}\n\nbutton:hover {\n    box-shadow: 4px 8px 8px var(--darknessTranslucent);\n    cursor: pointer;\n    scale: 150%;\n    transition: 1s;\n    background-color: white;\n}\n\n.buttonLinks {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    width: -moz-fit-content;\n    width: fit-content;\n    margin: .5rem;\n    opacity: 0;\n    animation: fadeInStatic 6s ease forwards;\n}\n\n.portTitleCard {\n    justify-content: center;\n    align-items: center;\n    background-color: white;\n    border: solid 2px var(--royalPurple);\n    padding: 1rem;\n    margin: 1rem;\n    border-radius: 2vmin;\n    box-shadow: 2px 2px 2px var(--darknessTranslucent);\n    border: solid 2px var(--darkness);\n}\n\n.portTitle {\n\n    justify-content: center;\n    align-items: center;\n    font-size: 3vmin;\n    text-align: center;\n    color: var(--darkness);\n\n/*    overflow: break-word; */\n}\n\n.portTitle:hover {\n    color: var(--royalPurple);\n    cursor: pointer;\n}\n\n.descriptionList {\n    justify-content: center;\n    align-items: cenet;\n    overflow-wrap:break-word;\n    background-color: var(--light);\n    text-align: space-around;\n    border-radius: 2vmin;\n    border: solid 3px var(--darkness);\n    box-shadow: 6px 3px 3px var(--darknessTranslucent);\n}\n\n.descriptionList:hover {\n    background-color: white;\n}\n\n.portDescriptionText {\n    padding: 1rem;\n    text-align: right;\n    list-style: none;\n    border-top: solid 2px var(--royalPurple);\n    border-bottom: solid 2px var(--darkness);\n}\n\n.bioBullet {\n    border-radius: 2vmin;\n    padding: 1vmin;\n    margin: .5vmin;\n    width: 70%;\n    font-family: 'Courier New', 'Courier', 'monospace';\n    background: rgba(248, 249, 250, .75);\n    font-weight: bold;\n    text-align: center;\n    justify-content: center;\n    align-items: center;\n}\n\nh1 {\n    color: whitesmoke;\n    text-align: center;\n    font-family: 'Courier New', 'Courier', 'monospace';\n\n}\n\n\n.scrollNav {\n    height: 7rem;\n    position: fixed;\n    top: 0;\n    z-index: 3;\n    ul {\n        flex-direction: row;\n    list-style-type: none;\n    }\n    width: 100%;\n    display: flex;\n    flex-direction: row;\n    justify-content: space-between;\n    align-items: center;\n    background-color: rgba(171, 127, 242, 0.2);\n    box-shadow: 5px 3px 1px black;\n}\n\n.navLinks {\n    margin: 1rem;\n    padding: 1rem;\n    justify-content: space-between;\n    font-size: 36pt;\n}\n\n.linkButton {\n    padding: .5rem;\n    color: black;\n    background-color: white;\n}\n\n.linkButton:hover {\n    color: white;\n    background-color: rgba(171, 127, 242, .4);\n}\n\n.shadowBox {\n    z-index: 0;\n    visibility: hidden;\n}\n\n.aboutText {\n    font-size: 4vmin;\n    margin: .5vmin;\n    overflow: hidden;\n    white-space: nowrap;\n    letter-spacing: .15em;\n    animation: typing 3.5s steps(40, end), blink-caret, .75s step-end infinite;\n}\n\n.languageButton {\n    border-radius: 5vmin;\n    width: 20vmin;\n    height: 3vmin;\n    -o-object-fit: cover;\n       object-fit: cover;\n    margin: 1rem;\n    padding: 2rem;\n}\n\n.languageContainer {\n    display: inline-block;\n    padding: .5rem;\n\n}\n\n.heading {\n    justify-content: center;\n    text-align: center;\n    align-items: center;\n    overflow-wrap: break-word;\n    word-wrap: break-word;\n    font-family: 'Courier New', Courier, monospace;\n    color: white;\n    font-weight: bold;\n    text-align: center;\n    width: 90%;\n    margin: 4rem;\n}\n@media only screen and (max-width: 900px) {\n    .heading {\n        margin-top: 5rem;\n    }\n}\n"],"sourceRoot":""}]);
+}`, "",{"version":3,"sources":["webpack://./src/App.module.scss"],"names":[],"mappings":"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","sourcesContent":["html {\n    scroll-behavior: smooth;\n    font-size: 12;\n}\n\n\n/*Typing Animation*/\n\n@keyframes typing {\n    from { width: 0 }\n    to { width: 100% }\n}\n\n@keyframes blink-caret {\n    from, to { border-color: transparent }\n    50% { border-color: white; }\n}\n\n@keyframes flashing {\n    0% {\n        display: none;\n    }\n\n    50% {\n        display: inline;\n    }\n    100% {\n        display: none;\n    }\n}\n\n@keyframes fadeInStatic {\n    from {\n        opacity: 0;\n    }\n    to {\n        opacity: 1;\n    }\n}\n\n@keyframes fadeInFromRight {\n    from {\n        opacity: 0;\n        transform: translateX(5vmin);\n    }\n    to {\n        opacity: 1;\n        transform: translateX(0);\n    }\n}\n\n@keyframes fadeInFromLeft {\n    from {\n        opacity: 0;\n        transform: translateX(-5vmin);\n    }\n    to {\n        opacity: 1;\n        transform: translateX(0);\n    }\n}\n\n@keyframes fadeInFromBottom {\n    from {\n        opacity: 0;\n        transform: translateY(5vmin);\n    }\n    to {\n        opacity: 1;\n        transform: translateY(0);\n    }\n}\n\n@keyframes fadeInFromTop {\n    from {\n        opacity: 0;\n        transform: translateY(-2.5vmin);\n    }\n    to {\n        opacity: 1;\n        transform: translateY(0);\n    }\n}\n\n:root {\n    --bright: whitesmoke;\n    --royalPurple: rgba(126, 82, 160, .9);\n    --light: rgba(248, 249, 250, 1);\n    --darknessTranslucent: rgba(71, 74, 72, .75);\n    --darkness: rgba(71, 74, 72);\n    --contactButtonsTranslucent: rgba(109, 214, 218, .5);\n    --aboutMeTranslucent: rgba(149, 217, 218, .8);\n    --portfolioCardTranslucent: rgba(155, 167, 192, .75);\n    --descriptionCardTranslucent: rgba(233, 236, 239, .75);\n    --imageBackgroundTranslucent: rgba(206, 212, 218, .75);\n\n}\n\n\nbody {\n    width: 100%;\n    font-size: 1vw;\n    text-wrap: balance;\n    font-family: Verdana, Geneva, Tahoma, sans-serif;\n    margin: 0;\n    min-height: 100vh;\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    background-color: var(--darkness);\n    a {\n        cursor: pointer;\n        text-decoration: none;\n    }\n\n    img {\n        width: 100%;\n        cursor: pointer;\n    }\n}\n\n.Portfolio {\n    width: 100%;\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    justify-content: center;\n    text-align: center;\n    background: linear-gradient(rgb(46, 40, 42))\n}\n\n.bio {\n    display: flex;\n    flex-direction: column;\n    width: 80%;\n    margin-top: .5rem;\n    font-size: 1.5rem;\n    text-align: center;\n    align-items: center;\n    justify-content: center;\n}\n\n.headerText {\n    font-family: 'Courier New', 'Courier', 'monospace';\n    font-weight: bold;\n    font-size: 2rem;\n    margin-bottom: .5rem;\n    font-style: italic;\n\n}\n\n.ProDetails {\n    border-radius: 2vmin;\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n    margin: 1rem;\n    padding: 3rem;\n    background: rgba(248, 249, 250, .75);\n    border: solid 1px var(--darkness);\n    box-shadow: 2px 2px 2px var(--darknessTranslucent);\n    width: 50vmin;\n\n    opacity: 0;\n    transform: translateX(-5vmin);\n    animation: fadeInFromRight 2s ease forwards;\n}\n\n.portfolioSamples {\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n    margin: .5rem;\n    padding: .5rem;\n    opacity: 0;\n    transform: translateY(5vmin);\n    animation: fadeInFromBottom 5s ease forwards;\n}\n\n.AboutMe {\n    border: solid 1px rgba(250, 216, 214, .5);\n    display: flex;\n    flex-direction: column;\n    margin: 1rem;\n    padding: 2rem;\n    background: linear-gradient(white, rgba(171, 127, 242, 0.2));\n    font-size: 1.25rem;\n    width: 70%;\n    align-items: center;\n    justify-content: center;\n    border-radius: 2vmin;\n    opacity: 0;\n    transform: translateY(-2.5vmin);\n    animation: fadeInFromTop 2s ease forwards;\n\n}\n\n.ProPicContainer {\n    display: flex;\n    margin: 1rem;\n}\n\n.ProPic {\n    width: 30vmin;\n    border-radius: 50%;\n    opacity: 0;\n    animation: fadeInStatic 4s ease forwards;\n}\n\n.displayCard {\n    display: flex;\n    flex-direction: column;\n}\n\n.portDescriptionCard {\n    width: 80%;\n    border-radius: 2vmin;\n    border: solid 2px var(--light);\n    background-color: rgba(46, 40, 42, .3);\n    margin: .5rem;\n    padding: .5rem;\n    font-size: 1rem;\n    box-shadow: 1px 3px 3px rgb(46, 40, 42);\n    opacity: 0;\n    transform: translateX(-5vmin);\n    animation: fadeInFromLeft 8s ease forwards;\n\n}\n\n\n.portfolioCard {\n    display: flex;\n    flex-direction: column;\n    border-radius: 2vmin;\n    background-color: linear-gradient(white, rgba(171, 127, 242, 0.5));\n    border: solid 2px var(--light);\n    margin: 1rem;\n    padding: 1rem;\n    width: 60%;\n    box-shadow: 1px 3px 3px rgb(250, 216, 214);\n}\n\n.portfolioCard:hover {\n    background: linear-gradient(rgba(171, 127, 242, 0.5), white);\n}\n\n.portPiece {\n    justify-content: center;\n    align-items: center;\n    display: flex;\n}\n\n@media only screen and (max-width: 900px) {\n    .portPiece {\n        flex-direction: column;\n    }\n}\n\n.portPicContainer {\n    z-index: 1;\n}\n\n.picFile {\n    width: 35vmin;\n    height: 20vmin;\n    border: 5vmin;\n    margin: 1rem;\n    border: solid 2px var(--darkness);\n    background-color: var(--light);\n    padding: 1rem;\n    border-radius: 10px 200px / 100px;\n    box-shadow: 2px 2px 2px var(--darknessTranslucent);\n    z-index: 2;\n    opacity: 0;\n    animation: fadeInStatic 4s ease forwards;\n}\n\n.picFile:hover {\n    box-shadow: 3px 5px 5px var(--darknessTranslucent);\n    scale: 125%;\n    transition: 1s;\n}\n\n.ContactsBar {\n    width: 80%;\n    height: -moz-fit-content;\n    height: fit-content;\n    border-radius: 2vmin;\n    display: flex;\n    margin: 1rem;\n    padding-right: .5rem;\n    background-color: var(--darknessTranslucent);\n    border: solid 3px black;\n    justify-content: space-around;\n    align-items: center;\n}\n\n@media only screen and (max-width: 900px) {\n    .buttonLinks {\n        flex-direction: column;\n    }\n}\n\n\n\n\n.contactIcon {\n    width: 8vmin;\n    padding: .25rem;\n}\n\n.contactPic:hover {\n    box-shadow: 4px 8px 8px var(--darknessTranslucent);\n    scale: 125%;\n    transition: 1s;\n}\n\n.contactPic {\n    box-shadow: 1px 2px 2px var(--darknessTranslucent);\n    width: 8vmin;\n    height: 8vmin;\n    border-radius: 50%;\n}\n\n@media only screen and (max-width: 900px) {\n    .contactPic {\n        width: 15vmin;\n        height: 15vmin;\n    }\n}\n\nbutton.resume {\n    text-align: center;\n    width: 20rem;\n    box-shadow: 1px 2px 2px var(--darknessTranslucent);\n    padding: 1rem;\n    margin: .5rem;\n    font-weight: bold;\n    font-size: 2rem;\n    border-radius: 2vmin;\n}\n\nbutton:hover {\n    box-shadow: 4px 8px 8px var(--darknessTranslucent);\n    cursor: pointer;\n    scale: 150%;\n    transition: 1s;\n    background-color: white;\n}\n\n.buttonLinks {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    width: 90%;\n    margin: .5rem;\n    opacity: 0;\n    animation: fadeInStatic 6s ease forwards;\n}\n\n.portTitleCard {\n    justify-content: center;\n    align-items: center;\n    background-color: white;\n    border: solid 2px var(--royalPurple);\n    padding: 1rem;\n    margin: 1rem;\n    border-radius: 2vmin;\n    box-shadow: 2px 2px 2px var(--darknessTranslucent);\n    border: solid 2px var(--darkness);\n}\n\n.portTitle {\n\n    justify-content: center;\n    align-items: center;\n    font-size: 3vmin;\n    text-align: center;\n    color: var(--darkness);\n\n/*    overflow: break-word; */\n}\n\n.portTitle:hover {\n    color: var(--royalPurple);\n    cursor: pointer;\n}\n\n.descriptionList {\n    justify-content: center;\n    align-items: cenet;\n    overflow-wrap:break-word;\n    background-color: var(--light);\n    text-align: space-around;\n    border-radius: 2vmin;\n    border: solid 3px var(--darkness);\n    box-shadow: 6px 3px 3px var(--darknessTranslucent);\n}\n\n.descriptionList:hover {\n    background-color: white;\n}\n\n.portDescriptionText {\n    padding: 1rem;\n    text-align: right;\n    list-style: none;\n    border-top: solid 2px var(--royalPurple);\n    border-bottom: solid 2px var(--darkness);\n}\n\n.bioBullet {\n    border-radius: 2vmin;\n    padding: 1vmin;\n    margin: .5vmin;\n    width: 70%;\n    font-family: 'Courier New', 'Courier', 'monospace';\n    background: rgba(248, 249, 250, .75);\n    font-weight: bold;\n    text-align: center;\n    justify-content: center;\n    align-items: center;\n}\n\nh1 {\n    color: whitesmoke;\n    text-align: center;\n    font-family: 'Courier New', 'Courier', 'monospace';\n\n}\n\n\n.scrollNav {\n    height: 15%;\n    position: fixed;\n    top: 0;\n    z-index: 3;\n    ul {\n        flex-direction: row;\n    list-style-type: none;\n    }\n    width: 100%;\n    display: flex;\n    flex-direction: row;\n    justify-content: center;\n    align-items: center;\n    background-color: rgba(171, 127, 242, 0.2);\n    box-shadow: 5px 3px 1px black;\n}\n\n.navLinks {\n    width: 90%;\n    margin: 1rem;\n    padding: 1rem;\n    justify-content: space-between;\n    font-size: 5vmin;\n}\n\n.linkButton {\n    height: 90%;\n    width: 90%;\n    padding: .5rem;\n    color: black;\n    background-color: white;\n}\n\n.linkButton:hover {\n    color: white;\n    background-color: rgba(171, 127, 242, .4);\n}\n\n.shadowBox {\n    z-index: 0;\n    visibility: hidden;\n}\n@media only screen and (max-width: 900px) {\n    .shadowBox {\n        margin: 1rem;\n    }\n}\n\n.aboutText {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    justify-content: center;\n    font-size: 4vmin;\n    margin: 1vmin;\n    overflow: hidden;\n    white-space: nowrap;\n    letter-spacing: .15em;\n    animation: typing 3.5s steps(40, end), blink-caret, .75s step-end infinite;\n}\n\n.languageButton {\n    border-radius: 5vmin;\n    width: 20vmin;\n    height: 3vmin;\n    -o-object-fit: cover;\n       object-fit: cover;\n    margin: 1rem;\n    padding: 2rem;\n}\n\n.languageContainer {\n    display: inline-block;\n    padding: .5rem;\n\n}\n\n.heading {\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    text-align: center;\n    align-items: center;\n    overflow-wrap: break-word;\n    word-wrap: break-word;\n    font-family: 'Courier New', Courier, monospace;\n    color: white;\n    font-weight: bold;\n    text-align: center;\n    width: 90%;\n    margin: 4rem;\n}\n@media only screen and (max-width: 900px) {\n    .heading {\n        margin-top: 5rem;\n    }\n}\n"],"sourceRoot":""}]);
 // Exports
 ___CSS_LOADER_EXPORT___.locals = {
 	"Portfolio": `i4p6UNa9JDMGa_2GDQXi`,
@@ -853,10 +879,10 @@ ___CSS_LOADER_EXPORT___.locals = {
 	"portPicContainer": `RVOI78gSjZmZwI3t6bsQ`,
 	"picFile": `d_lkOhqoGdNHmihkjtux`,
 	"ContactsBar": `BzMmgNl7z6jt75spIMhZ`,
+	"buttonLinks": `FALjE05SVfjG2L9wfJ7s`,
 	"contactIcon": `sdj34Qu1i72TpAFpGziF`,
 	"contactPic": `jICp5v5KkniwStvrE8JZ`,
 	"resume": `ONYBACqa6ukENEx3mPgY`,
-	"buttonLinks": `FALjE05SVfjG2L9wfJ7s`,
 	"portTitleCard": `hdyS5gz3pIJohOfkHJSJ`,
 	"portTitle": `dU8jIPnmu_feglvqhnct`,
 	"descriptionList": `LKo8AyLiGA7LEeAFHMw8`,
@@ -1103,4 +1129,4 @@ var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=App.91c89d87d97dca07d460c5597306007f.js.map
+//# sourceMappingURL=App.f871aa93c76d87ab240a5ad8f22871c9.js.map
