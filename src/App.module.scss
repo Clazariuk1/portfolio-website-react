@@ -289,7 +289,7 @@ body {
     border-radius: 2vmin;
     display: flex;
     margin: 1rem;
-    padding-right: .5rem;
+    padding-top: .5rem;
     background-color: var(--darknessTranslucent);
     border: solid 3px black;
     justify-content: space-around;
@@ -354,6 +354,7 @@ button:hover {
     justify-content: center;
     align-items: center;
     width: 90%;
+    max-width: 400px;
     margin: .5rem;
     opacity: 0;
     animation: fadeInStatic 6s ease forwards;
