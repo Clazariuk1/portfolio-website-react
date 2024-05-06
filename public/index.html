@@ -5,7 +5,14 @@
   <meta charset="utf-8">
   <title>Christopher Lazariuk - Dev Portfolio</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-<script defer src="js/dist/vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_sour-b53f7e.58b9e340c3904c3f1ee4.js?ff7c8ff2cbdabe460b29"></script><script defer src="js/dist/App.2830767a5dbc60b40f99.js?ff7c8ff2cbdabe460b29"></script><script defer src="js/dist/main.7dc309e96639fcdd0a71.js?ff7c8ff2cbdabe460b29"></script></head>
+  <script type="module">
+    import {onCLS, onFID, onLCP} from 'https://unpkg.com/web-vitals?module';
+
+    onCLS(console.log);
+    onFID(console.log);
+    onLCP(console.log);
+  </script>
+<script defer src="js/dist/vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_sour-b53f7e.58b9e340c3904c3f1ee4.js?6e9eb25dc47c82e4535c"></script><script defer src="js/dist/App.493b455c0024dde8384a.js?6e9eb25dc47c82e4535c"></script><script defer src="js/dist/main.7dc309e96639fcdd0a71.js?6e9eb25dc47c82e4535c"></script></head>
 
 <body>
   <div id="app"></div>

@@ -234,7 +234,7 @@ body {
     display: flex;
     flex-direction: column;
     border-radius: 2vmin;
-    background-color: linear-gradient(white, rgba(171, 127, 242, 0.5));
+    background: linear-gradient(rgba(171, 127, 242, 0.5), white);
     border: solid 2px var(--light);
     margin: 1rem;
     padding: 1rem;
@@ -242,9 +242,9 @@ body {
     box-shadow: 1px 3px 3px rgb(250, 216, 214);
 }
 
-.portfolioCard:hover {
+/* .portfolioCard:hover {
     background: linear-gradient(rgba(171, 127, 242, 0.5), white);
-}
+} */
 
 .portPiece {
     justify-content: center;
@@ -388,8 +388,9 @@ button:hover {
 }
 
 .descriptionList {
+    padding: 2rem;
     justify-content: center;
-    align-items: cenet;
+    align-items: center;
     overflow-wrap:break-word;
     background-color: var(--light);
     text-align: space-around;
@@ -461,8 +462,10 @@ h1 {
     height: 90%;
     width: 90%;
     padding: .5rem;
+    margin-left: .75rem;
     color: black;
     background-color: white;
+    border-radius: 2vmin;
 }
 
 .linkButton:hover {

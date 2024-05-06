@@ -31,13 +31,13 @@ function App() {
   }, /*#__PURE__*/React.createElement("a", {
     className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].linkButton,
     href: "#projects"
-  }, "Projects"), /*#__PURE__*/React.createElement("a", {
+  }, "Projects"), " |", /*#__PURE__*/React.createElement("a", {
     className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].linkButton,
     href: "#about"
-  }, "About"), /*#__PURE__*/React.createElement("a", {
+  }, "About"), " |", /*#__PURE__*/React.createElement("a", {
     className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].linkButton,
     href: "#skills"
-  }, "Skills"), /*#__PURE__*/React.createElement("a", {
+  }, "Skills"), " |", /*#__PURE__*/React.createElement("a", {
     className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].linkButton,
     href: "#top"
   }, "Contact"))), /*#__PURE__*/React.createElement("h2", {
@@ -62,21 +62,24 @@ function App() {
   }, /*#__PURE__*/React.createElement("div", {
     className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].contactIcon
   }, /*#__PURE__*/React.createElement("a", {
-    href: "mailto:clazariuk@gmail.com?body=My custom mail body"
+    href: "mailto:clazariuk@gmail.com?body=My custom mail body",
+    target: "_blank"
   }, /*#__PURE__*/React.createElement("img", {
     className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].contactPic,
     src: "./img/emailIcon.jpeg"
   }))), /*#__PURE__*/React.createElement("div", {
     className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].contactIcon
   }, /*#__PURE__*/React.createElement("a", {
-    href: "https://www.linkedin.com/in/christopherlazariuk/"
+    href: "https://www.linkedin.com/in/christopherlazariuk/",
+    target: "_blank"
   }, /*#__PURE__*/React.createElement("img", {
     className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].contactPic,
     src: "/img/linkedinIcon.png"
   }))), /*#__PURE__*/React.createElement("div", {
     className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].contactIcon
   }, /*#__PURE__*/React.createElement("a", {
-    href: "https://github.com/Clazariuk1"
+    href: "https://github.com/Clazariuk1",
+    target: "_blank"
   }, /*#__PURE__*/React.createElement("img", {
     className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].contactPic,
     src: "/img/githubPic.png"
@@ -92,7 +95,8 @@ function App() {
   }, /*#__PURE__*/React.createElement("div", {
     className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].portPicContainer
   }, /*#__PURE__*/React.createElement("a", {
-    href: "https://momentum.christopherlazariuk.me"
+    href: "https://momentum.christopherlazariuk.me",
+    target: "_blank"
   }, /*#__PURE__*/React.createElement("img", {
     className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].picFile,
     src: "./img/MomentumPortPic.png"
@@ -103,13 +107,15 @@ function App() {
   }, /*#__PURE__*/React.createElement("div", {
     className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].portTitle
   }, /*#__PURE__*/React.createElement("a", {
-    href: "https://momentum.christopherlazariuk.me"
+    href: "https://momentum.christopherlazariuk.me",
+    target: "_blank"
   }, /*#__PURE__*/React.createElement("div", {
     className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].portTitle
   }, /*#__PURE__*/React.createElement("strong", null, "Momentum"), /*#__PURE__*/React.createElement("br", null), "an Arena Survival Game"))), /*#__PURE__*/React.createElement("div", {
     className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].portTitle
   }, /*#__PURE__*/React.createElement("a", {
-    href: "https://github.com/Clazariuk1/Dungeon-Arena-GAp1"
+    href: "https://github.com/Clazariuk1/Dungeon-Arena-GAp1",
+    target: "_blank"
   }, /*#__PURE__*/React.createElement("div", {
     className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].portTitle
   }, /*#__PURE__*/React.createElement("strong", null, "Github Repository Link"))))), /*#__PURE__*/React.createElement("ul", {
@@ -127,7 +133,8 @@ function App() {
   }, /*#__PURE__*/React.createElement("div", {
     className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].portPicContainer
   }, /*#__PURE__*/React.createElement("a", {
-    href: "https://ecommerce.christopherlazariuk.me"
+    href: "https://ecommerce.christopherlazariuk.me",
+    target: "_blank"
   }, /*#__PURE__*/React.createElement("img", {
     className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].picFile,
     src: "/img/DevDependencyPortPic.png"
@@ -136,11 +143,13 @@ function App() {
   }, /*#__PURE__*/React.createElement("div", {
     className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].portTitleCard
   }, /*#__PURE__*/React.createElement("a", {
-    href: "https://ecommerce.christopherlazariuk.me"
+    href: "https://ecommerce.christopherlazariuk.me",
+    target: "_blank"
   }, /*#__PURE__*/React.createElement("div", {
     className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].portTitle
   }, /*#__PURE__*/React.createElement("strong", null, "Dev Dependency"), /*#__PURE__*/React.createElement("br", null), "an Ecommerce Website")), /*#__PURE__*/React.createElement("a", {
-    href: "https://github.com/Clazariuk1/unit3-project"
+    href: "https://github.com/Clazariuk1/unit3-project",
+    target: "_blank"
   }, /*#__PURE__*/React.createElement("div", {
     className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].portTitle
   }, /*#__PURE__*/React.createElement("strong", null, "Github Repository Link")))), /*#__PURE__*/React.createElement("ul", {
@@ -158,7 +167,8 @@ function App() {
   }, /*#__PURE__*/React.createElement("div", {
     className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].portPicContainer
   }, /*#__PURE__*/React.createElement("a", {
-    href: "https://connections.christopherlazariuk.me"
+    href: "https://connections.christopherlazariuk.me",
+    target: "_blank"
   }, /*#__PURE__*/React.createElement("img", {
     className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].picFile,
     src: "/img/ConnectionsScreenshot.png"
@@ -167,11 +177,13 @@ function App() {
   }, /*#__PURE__*/React.createElement("div", {
     className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].portTitleCard
   }, /*#__PURE__*/React.createElement("a", {
-    href: "https://connections.christopherlazariuk.me"
+    href: "https://connections.christopherlazariuk.me",
+    target: "_blank"
   }, /*#__PURE__*/React.createElement("div", {
     className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].portTitle
   }, " ", /*#__PURE__*/React.createElement("strong", null, "Connections"), /*#__PURE__*/React.createElement("br", null), " a Linkedin Alternative")), /*#__PURE__*/React.createElement("a", {
-    href: "https://github.com/Clazariuk1/connection"
+    href: "https://github.com/Clazariuk1/connection",
+    target: "_blank"
   }, /*#__PURE__*/React.createElement("div", {
     className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].portTitle
   }, /*#__PURE__*/React.createElement("strong", null, "Github Repository Link")))), /*#__PURE__*/React.createElement("ul", {
@@ -189,7 +201,8 @@ function App() {
   }, /*#__PURE__*/React.createElement("div", {
     className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].portPicContainer
   }, /*#__PURE__*/React.createElement("a", {
-    href: "https://github.com/Clazariuk1/100-days-of-code"
+    href: "https://github.com/Clazariuk1/100-days-of-code",
+    target: "_blank"
   }, /*#__PURE__*/React.createElement("img", {
     className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].picFile,
     src: "/img/infinityLogo.jpeg"
@@ -198,11 +211,13 @@ function App() {
   }, /*#__PURE__*/React.createElement("div", {
     className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].portTitleCard
   }, /*#__PURE__*/React.createElement("a", {
-    href: "https://github.com/Clazariuk1/100-days-of-code"
+    href: "https://github.com/Clazariuk1/100-days-of-code",
+    target: "_blank"
   }, /*#__PURE__*/React.createElement("div", {
     className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].portTitle
   }, " ", /*#__PURE__*/React.createElement("strong", null, "Infinite Grind"), /*#__PURE__*/React.createElement("br", null), " a professional accountability log/tracker")), /*#__PURE__*/React.createElement("a", {
-    href: "https://github.com/Clazariuk1/100-days-of-code"
+    href: "https://github.com/Clazariuk1/100-days-of-code",
+    target: "_blank"
   }, /*#__PURE__*/React.createElement("div", {
     className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].portTitle
   }, /*#__PURE__*/React.createElement("strong", null, "Github Repository Link")))), /*#__PURE__*/React.createElement("ul", {
@@ -245,61 +260,71 @@ function App() {
   }, "Languages and Frameworks"), /*#__PURE__*/React.createElement("div", {
     className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].languageButtons
   }, /*#__PURE__*/React.createElement("a", {
-    href: "https://react.dev/"
+    href: "https://react.dev/",
+    target: "_blank"
   }, /*#__PURE__*/React.createElement("img", {
     src: "https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB",
     className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].languageButton,
     alt: "react"
   })), /*#__PURE__*/React.createElement("a", {
-    href: "https://jwt.io/introduction"
+    href: "https://jwt.io/introduction",
+    target: "_blank"
   }, /*#__PURE__*/React.createElement("img", {
     src: "https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens",
     className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].languageButton,
     alt: "jwt"
   })), /*#__PURE__*/React.createElement("a", {
-    href: "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+    href: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+    target: "_blank"
   }, /*#__PURE__*/React.createElement("img", {
     src: "https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E",
     className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].languageButton,
     alt: "javascript"
   })), /*#__PURE__*/React.createElement("a", {
-    href: "https://developer.mozilla.org/en-US/docs/Glossary/HTML5"
+    href: "https://developer.mozilla.org/en-US/docs/Glossary/HTML5",
+    target: "_blank"
   }, /*#__PURE__*/React.createElement("img", {
     src: "https://img.shields.io/badge/html5-E34F26?logo=html5&logoColor=white&style=for-the-badge",
     className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].languageButton,
     alt: "html"
   })), /*#__PURE__*/React.createElement("a", {
-    href: "https://developer.mozilla.org/en-US/docs/Web/CSS"
+    href: "https://developer.mozilla.org/en-US/docs/Web/CSS",
+    target: "_blank"
   }, /*#__PURE__*/React.createElement("img", {
     src: "https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white",
     className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].languageButton,
     alt: "css"
   })), /*#__PURE__*/React.createElement("a", {
-    href: "https://www.mongodb.com/docs/"
+    href: "https://www.mongodb.com/docs/",
+    target: "_blank"
   }, /*#__PURE__*/React.createElement("img", {
     src: "https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white",
     className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].languageButton,
     alt: "mongoDB"
   })), /*#__PURE__*/React.createElement("a", {
-    href: "https://docs.github.com/en"
+    href: "https://docs.github.com/en",
+    target: "_blank"
   }, /*#__PURE__*/React.createElement("img", {
     src: "https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white",
     className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].languageButton,
     alt: "github"
   })), /*#__PURE__*/React.createElement("a", {
-    href: "https://expressjs.com/"
+    href: "https://expressjs.com/",
+    target: "_blank"
   }, /*#__PURE__*/React.createElement("img", {
     src: "https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB",
     className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].languageButton,
     alt: "Express"
   })), /*#__PURE__*/React.createElement("a", {
-    href: "https://nodejs.org/docs/latest/api/"
+    href: "https://nodejs.org/docs/latest/api/",
+    target: "_blank"
   }, /*#__PURE__*/React.createElement("img", {
     src: "https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white",
     className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].languageButton,
     alt: "Node"
   })), /*#__PURE__*/React.createElement("a", {
-    href: "https://code.visualstudio.com/docs"
+    href: "https://code.visualstudio.com/docs",
+    target: "_blank"
   }, /*#__PURE__*/React.createElement("img", {
     src: "https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white",
     className: _App_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].languageButton,
@@ -571,7 +596,7 @@ body img {
   display: flex;
   flex-direction: column;
   border-radius: 2vmin;
-  background-color: linear-gradient(white, rgba(171, 127, 242, 0.5));
+  background: linear-gradient(rgba(171, 127, 242, 0.5), white);
   border: solid 2px var(--light);
   margin: 1rem;
   padding: 1rem;
@@ -579,10 +604,9 @@ body img {
   box-shadow: 1px 3px 3px rgb(250, 216, 214);
 }
 
-.W5riCAUFay2uUuDbg_RA:hover {
-  background: linear-gradient(rgba(171, 127, 242, 0.5), white);
-}
-
+/* .portfolioCard:hover {
+    background: linear-gradient(rgba(171, 127, 242, 0.5), white);
+} */
 .KvPzBsWDCAswMAiKdeI1 {
   justify-content: center;
   align-items: center;
@@ -718,8 +742,9 @@ button:hover {
 }
 
 .LKo8AyLiGA7LEeAFHMw8 {
+  padding: 2rem;
   justify-content: center;
-  align-items: cenet;
+  align-items: center;
   overflow-wrap: break-word;
   background-color: var(--light);
   text-align: space-around;
@@ -789,8 +814,10 @@ h1 {
   height: 90%;
   width: 90%;
   padding: 0.5rem;
+  margin-left: 0.75rem;
   color: black;
   background-color: white;
+  border-radius: 2vmin;
 }
 
 .O3rInZgNez9DYDDoPrK3:hover {
@@ -856,7 +883,7 @@ h1 {
   .CPNh1eph9l1jcLqbKQZx {
     margin-top: 5rem;
   }
-}`, "",{"version":3,"sources":["webpack://./src/App.module.scss"],"names":[],"mappings":"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","sourcesContent":["html {\n    scroll-behavior: smooth;\n    font-size: 12;\n}\n\n\n/*Typing Animation*/\n\n@keyframes typing {\n    from { width: 0 }\n    to { width: 100% }\n}\n\n@keyframes blink-caret {\n    from, to { border-color: transparent }\n    50% { border-color: white; }\n}\n\n@keyframes flashing {\n    0% {\n        display: none;\n    }\n\n    50% {\n        display: inline;\n    }\n    100% {\n        display: none;\n    }\n}\n\n@keyframes fadeInStatic {\n    from {\n        opacity: 0;\n    }\n    to {\n        opacity: 1;\n    }\n}\n\n@keyframes fadeInFromRight {\n    from {\n        opacity: 0;\n        transform: translateX(5vmin);\n    }\n    to {\n        opacity: 1;\n        transform: translateX(0);\n    }\n}\n\n@keyframes fadeInFromLeft {\n    from {\n        opacity: 0;\n        transform: translateX(-5vmin);\n    }\n    to {\n        opacity: 1;\n        transform: translateX(0);\n    }\n}\n\n@keyframes fadeInFromBottom {\n    from {\n        opacity: 0;\n        transform: translateY(5vmin);\n    }\n    to {\n        opacity: 1;\n        transform: translateY(0);\n    }\n}\n\n@keyframes fadeInFromTop {\n    from {\n        opacity: 0;\n        transform: translateY(-2.5vmin);\n    }\n    to {\n        opacity: 1;\n        transform: translateY(0);\n    }\n}\n\n:root {\n    --bright: whitesmoke;\n    --royalPurple: rgba(126, 82, 160, .9);\n    --light: rgba(248, 249, 250, 1);\n    --darknessTranslucent: rgba(71, 74, 72, .75);\n    --darkness: rgba(71, 74, 72);\n    --contactButtonsTranslucent: rgba(109, 214, 218, .5);\n    --aboutMeTranslucent: rgba(149, 217, 218, .8);\n    --portfolioCardTranslucent: rgba(155, 167, 192, .75);\n    --descriptionCardTranslucent: rgba(233, 236, 239, .75);\n    --imageBackgroundTranslucent: rgba(206, 212, 218, .75);\n\n}\n\n\nbody {\n    width: 100%;\n    font-size: 1vw;\n    text-wrap: balance;\n    font-family: Verdana, Geneva, Tahoma, sans-serif;\n    margin: 0;\n    min-height: 100vh;\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    background-color: var(--darkness);\n    a {\n        cursor: pointer;\n        text-decoration: none;\n    }\n\n    img {\n        width: 100%;\n        cursor: pointer;\n    }\n}\n\n.Portfolio {\n    width: 100%;\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    justify-content: center;\n    text-align: center;\n    background: linear-gradient(rgb(46, 40, 42))\n}\n\n.bio {\n    display: flex;\n    flex-direction: column;\n    width: 80%;\n    margin-top: .5rem;\n    font-size: 1.5rem;\n    text-align: center;\n    align-items: center;\n    justify-content: center;\n}\n\n.headerText {\n    font-family: 'Courier New', 'Courier', 'monospace';\n    font-weight: bold;\n    font-size: 2rem;\n    margin-bottom: .5rem;\n    font-style: italic;\n\n}\n\n.ProDetails {\n    border-radius: 2vmin;\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n    margin: 1rem;\n    padding: 3rem;\n    background: rgba(248, 249, 250, .75);\n    border: solid 1px var(--darkness);\n    box-shadow: 2px 2px 2px var(--darknessTranslucent);\n    width: 50vmin;\n\n    opacity: 0;\n    transform: translateX(-5vmin);\n    animation: fadeInFromRight 2s ease forwards;\n}\n\n.portfolioSamples {\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n    margin: .5rem;\n    padding: .5rem;\n    opacity: 0;\n    transform: translateY(5vmin);\n    animation: fadeInFromBottom 5s ease forwards;\n}\n\n.AboutMe {\n    border: solid 1px rgba(250, 216, 214, .5);\n    display: flex;\n    flex-direction: column;\n    margin: 1rem;\n    padding: 2rem;\n    background: linear-gradient(white, rgba(171, 127, 242, 0.2));\n    font-size: 1.25rem;\n    width: 70%;\n    align-items: center;\n    justify-content: center;\n    border-radius: 2vmin;\n    opacity: 0;\n    transform: translateY(-2.5vmin);\n    animation: fadeInFromTop 2s ease forwards;\n\n}\n\n.ProPicContainer {\n    display: flex;\n    margin: 1rem;\n}\n\n.ProPic {\n    width: 30vmin;\n    border-radius: 50%;\n    opacity: 0;\n    animation: fadeInStatic 4s ease forwards;\n}\n\n.displayCard {\n    display: flex;\n    flex-direction: column;\n}\n\n.portDescriptionCard {\n    width: 80%;\n    border-radius: 2vmin;\n    border: solid 2px var(--light);\n    background-color: rgba(46, 40, 42, .3);\n    margin: .5rem;\n    padding: .5rem;\n    font-size: 1rem;\n    box-shadow: 1px 3px 3px rgb(46, 40, 42);\n    opacity: 0;\n    transform: translateX(-5vmin);\n    animation: fadeInFromLeft 8s ease forwards;\n\n}\n\n\n.portfolioCard {\n    display: flex;\n    flex-direction: column;\n    border-radius: 2vmin;\n    background-color: linear-gradient(white, rgba(171, 127, 242, 0.5));\n    border: solid 2px var(--light);\n    margin: 1rem;\n    padding: 1rem;\n    width: 60%;\n    box-shadow: 1px 3px 3px rgb(250, 216, 214);\n}\n\n.portfolioCard:hover {\n    background: linear-gradient(rgba(171, 127, 242, 0.5), white);\n}\n\n.portPiece {\n    justify-content: center;\n    align-items: center;\n    display: flex;\n}\n\n@media only screen and (max-width: 900px) {\n    .portPiece {\n        flex-direction: column;\n    }\n}\n\n.portPicContainer {\n    z-index: 1;\n}\n\n.picFile {\n    width: 35vmin;\n    height: 20vmin;\n    border: 5vmin;\n    margin: 1rem;\n    border: solid 2px var(--darkness);\n    background-color: var(--light);\n    padding: 1rem;\n    border-radius: 10px 200px / 100px;\n    box-shadow: 2px 2px 2px var(--darknessTranslucent);\n    z-index: 2;\n    opacity: 0;\n    animation: fadeInStatic 4s ease forwards;\n}\n\n.picFile:hover {\n    box-shadow: 3px 5px 5px var(--darknessTranslucent);\n    scale: 125%;\n    transition: 1s;\n}\n\n.ContactsBar {\n    width: 80%;\n    height: -moz-fit-content;\n    height: fit-content;\n    border-radius: 2vmin;\n    display: flex;\n    margin: 1rem;\n    padding-right: .5rem;\n    background-color: var(--darknessTranslucent);\n    border: solid 3px black;\n    justify-content: space-around;\n    align-items: center;\n}\n\n@media only screen and (max-width: 900px) {\n    .buttonLinks {\n        flex-direction: column;\n    }\n}\n\n\n\n\n.contactIcon {\n    width: 8vmin;\n    padding: .25rem;\n}\n\n.contactPic:hover {\n    box-shadow: 4px 8px 8px var(--darknessTranslucent);\n    scale: 125%;\n    transition: 1s;\n}\n\n.contactPic {\n    box-shadow: 1px 2px 2px var(--darknessTranslucent);\n    width: 8vmin;\n    height: 8vmin;\n    border-radius: 50%;\n}\n\n@media only screen and (max-width: 900px) {\n    .contactPic {\n        width: 15vmin;\n        height: 15vmin;\n    }\n}\n\nbutton.resume {\n    text-align: center;\n    width: 20rem;\n    box-shadow: 1px 2px 2px var(--darknessTranslucent);\n    padding: 1rem;\n    margin: .5rem;\n    font-weight: bold;\n    font-size: 2rem;\n    border-radius: 2vmin;\n}\n\nbutton:hover {\n    box-shadow: 4px 8px 8px var(--darknessTranslucent);\n    cursor: pointer;\n    scale: 150%;\n    transition: 1s;\n    background-color: white;\n}\n\n.buttonLinks {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    width: 90%;\n    margin: .5rem;\n    opacity: 0;\n    animation: fadeInStatic 6s ease forwards;\n}\n\n.portTitleCard {\n    justify-content: center;\n    align-items: center;\n    background-color: white;\n    border: solid 2px var(--royalPurple);\n    padding: 1rem;\n    margin: 1rem;\n    border-radius: 2vmin;\n    box-shadow: 2px 2px 2px var(--darknessTranslucent);\n    border: solid 2px var(--darkness);\n}\n\n.portTitle {\n\n    justify-content: center;\n    align-items: center;\n    font-size: 3vmin;\n    text-align: center;\n    color: var(--darkness);\n\n/*    overflow: break-word; */\n}\n\n.portTitle:hover {\n    color: var(--royalPurple);\n    cursor: pointer;\n}\n\n.descriptionList {\n    justify-content: center;\n    align-items: cenet;\n    overflow-wrap:break-word;\n    background-color: var(--light);\n    text-align: space-around;\n    border-radius: 2vmin;\n    border: solid 3px var(--darkness);\n    box-shadow: 6px 3px 3px var(--darknessTranslucent);\n}\n\n.descriptionList:hover {\n    background-color: white;\n}\n\n.portDescriptionText {\n    padding: 1rem;\n    text-align: right;\n    list-style: none;\n    border-top: solid 2px var(--royalPurple);\n    border-bottom: solid 2px var(--darkness);\n}\n\n.bioBullet {\n    border-radius: 2vmin;\n    padding: 1vmin;\n    margin: .5vmin;\n    width: 70%;\n    font-family: 'Courier New', 'Courier', 'monospace';\n    background: rgba(248, 249, 250, .75);\n    font-weight: bold;\n    text-align: center;\n    justify-content: center;\n    align-items: center;\n}\n\nh1 {\n    color: whitesmoke;\n    text-align: center;\n    font-family: 'Courier New', 'Courier', 'monospace';\n\n}\n\n\n.scrollNav {\n    height: 15%;\n    position: fixed;\n    top: 0;\n    z-index: 3;\n    ul {\n        flex-direction: row;\n    list-style-type: none;\n    }\n    width: 100%;\n    display: flex;\n    flex-direction: row;\n    justify-content: center;\n    align-items: center;\n    background-color: rgba(171, 127, 242, 0.2);\n    box-shadow: 5px 3px 1px black;\n}\n\n.navLinks {\n    width: 90%;\n    margin: 1rem;\n    padding: 1rem;\n    justify-content: space-between;\n    font-size: 5vmin;\n}\n\n.linkButton {\n    height: 90%;\n    width: 90%;\n    padding: .5rem;\n    color: black;\n    background-color: white;\n}\n\n.linkButton:hover {\n    color: white;\n    background-color: rgba(171, 127, 242, .4);\n}\n\n.shadowBox {\n    z-index: 0;\n    visibility: hidden;\n}\n@media only screen and (max-width: 900px) {\n    .shadowBox {\n        margin: 1rem;\n    }\n}\n\n.aboutText {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    justify-content: center;\n    font-size: 4vmin;\n    margin: 1vmin;\n    overflow: hidden;\n    white-space: nowrap;\n    letter-spacing: .15em;\n    animation: typing 3.5s steps(40, end), blink-caret, .75s step-end infinite;\n}\n\n.languageButton {\n    border-radius: 5vmin;\n    width: 20vmin;\n    height: 3vmin;\n    -o-object-fit: cover;\n       object-fit: cover;\n    margin: 1rem;\n    padding: 2rem;\n}\n\n.languageContainer {\n    display: inline-block;\n    padding: .5rem;\n\n}\n\n.heading {\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    text-align: center;\n    align-items: center;\n    overflow-wrap: break-word;\n    word-wrap: break-word;\n    font-family: 'Courier New', Courier, monospace;\n    color: white;\n    font-weight: bold;\n    text-align: center;\n    width: 90%;\n    margin: 4rem;\n}\n@media only screen and (max-width: 900px) {\n    .heading {\n        margin-top: 5rem;\n    }\n}\n"],"sourceRoot":""}]);
+}`, "",{"version":3,"sources":["webpack://./src/App.module.scss"],"names":[],"mappings":"AAAA;EACI,uBAAA;EACA,aAAA;AACJ;;AAGA,mBAAA;AAEA;EACI;IAAO,QAAA;EAAT;EACE;IAAK,WAAA;EAEP;AACF;AAAA;EACI;IAAW,yBAAA;EAGb;EAFE;IAAM,mBAAA;EAKR;AACF;AAHA;EACI;IACI,aAAA;EAKN;EAFE;IACI,eAAA;EAIN;EAFE;IACI,aAAA;EAIN;AACF;AADA;EACI;IACI,UAAA;EAGN;EADE;IACI,UAAA;EAGN;AACF;AAAA;EACI;IACI,UAAA;IACA,4BAAA;EAEN;EAAE;IACI,UAAA;IACA,wBAAA;EAEN;AACF;AACA;EACI;IACI,UAAA;IACA,6BAAA;EACN;EACE;IACI,UAAA;IACA,wBAAA;EACN;AACF;AAEA;EACI;IACI,UAAA;IACA,4BAAA;EAAN;EAEE;IACI,UAAA;IACA,wBAAA;EAAN;AACF;AAGA;EACI;IACI,UAAA;IACA,+BAAA;EADN;EAGE;IACI,UAAA;IACA,wBAAA;EADN;AACF;AAIA;EACI,oBAAA;EACA,qCAAA;EACA,+BAAA;EACA,4CAAA;EACA,4BAAA;EACA,oDAAA;EACA,6CAAA;EACA,oDAAA;EACA,sDAAA;EACA,sDAAA;AAFJ;;AAOA;EACI,WAAA;EACA,cAAA;EACA,kBAAA;EACA,gDAAA;EACA,SAAA;EACA,iBAAA;EACA,aAAA;EACA,sBAAA;EACA,mBAAA;EACA,iCAAA;AAJJ;AAKI;EACI,eAAA;EACA,qBAAA;AAHR;AAMI;EACI,WAAA;EACA,eAAA;AAJR;;AAQA;EACI,WAAA;EACA,aAAA;EACA,sBAAA;EACA,mBAAA;EACA,uBAAA;EACA,kBAAA;EACA,4CAAA;AALJ;;AAQA;EACI,aAAA;EACA,sBAAA;EACA,UAAA;EACA,kBAAA;EACA,iBAAA;EACA,kBAAA;EACA,mBAAA;EACA,uBAAA;AALJ;;AAQA;EACI,kDAAA;EACA,iBAAA;EACA,eAAA;EACA,qBAAA;EACA,kBAAA;AALJ;;AASA;EACI,oBAAA;EACA,aAAA;EACA,sBAAA;EACA,uBAAA;EACA,mBAAA;EACA,YAAA;EACA,aAAA;EACA,qCAAA;EACA,iCAAA;EACA,kDAAA;EACA,aAAA;EAEA,UAAA;EACA,6BAAA;EACA,gDAAA;AAPJ;;AAUA;EACI,aAAA;EACA,sBAAA;EACA,uBAAA;EACA,mBAAA;EACA,cAAA;EACA,eAAA;EACA,UAAA;EACA,4BAAA;EACA,gDAAA;AAPJ;;AAUA;EACI,0CAAA;EACA,aAAA;EACA,sBAAA;EACA,YAAA;EACA,aAAA;EACA,4DAAA;EACA,kBAAA;EACA,UAAA;EACA,mBAAA;EACA,uBAAA;EACA,oBAAA;EACA,UAAA;EACA,+BAAA;EACA,gDAAA;AAPJ;;AAWA;EACI,aAAA;EACA,YAAA;AARJ;;AAWA;EACI,aAAA;EACA,kBAAA;EACA,UAAA;EACA,gDAAA;AARJ;;AAWA;EACI,aAAA;EACA,sBAAA;AARJ;;AAWA;EACI,UAAA;EACA,oBAAA;EACA,8BAAA;EACA,uCAAA;EACA,cAAA;EACA,eAAA;EACA,eAAA;EACA,uCAAA;EACA,UAAA;EACA,6BAAA;EACA,gDAAA;AARJ;;AAaA;EACI,aAAA;EACA,sBAAA;EACA,oBAAA;EACA,4DAAA;EACA,8BAAA;EACA,YAAA;EACA,aAAA;EACA,UAAA;EACA,0CAAA;AAVJ;;AAaA;;GAAA;AAIA;EACI,uBAAA;EACA,mBAAA;EACA,aAAA;AAXJ;;AAcA;EACI;IACI,sBAAA;EAXN;AACF;AAcA;EACI,UAAA;AAZJ;;AAeA;EACI,aAAA;EACA,cAAA;EACA,aAAA;EACA,YAAA;EACA,iCAAA;EACA,8BAAA;EACA,aAAA;EACA,+BAAA;EACA,kDAAA;EACA,UAAA;EACA,UAAA;EACA,gDAAA;AAZJ;;AAeA;EACI,kDAAA;EACA,WAAA;EACA,cAAA;AAZJ;;AAeA;EACI,UAAA;EACA,wBAAA;EACA,mBAAA;EACA,oBAAA;EACA,aAAA;EACA,YAAA;EACA,qBAAA;EACA,4CAAA;EACA,uBAAA;EACA,6BAAA;EACA,mBAAA;AAZJ;;AAeA;EACI;IACI,sBAAA;EAZN;AACF;AAkBA;EACI,YAAA;EACA,gBAAA;AAhBJ;;AAmBA;EACI,kDAAA;EACA,WAAA;EACA,cAAA;AAhBJ;;AAmBA;EACI,kDAAA;EACA,YAAA;EACA,aAAA;EACA,kBAAA;AAhBJ;;AAmBA;EACI;IACI,aAAA;IACA,cAAA;EAhBN;AACF;AAmBA;EACI,kBAAA;EACA,YAAA;EACA,kDAAA;EACA,aAAA;EACA,cAAA;EACA,iBAAA;EACA,eAAA;EACA,oBAAA;AAjBJ;;AAoBA;EACI,kDAAA;EACA,eAAA;EACA,WAAA;EACA,cAAA;EACA,uBAAA;AAjBJ;;AAoBA;EACI,aAAA;EACA,uBAAA;EACA,mBAAA;EACA,UAAA;EACA,cAAA;EACA,UAAA;EACA,gDAAA;AAjBJ;;AAoBA;EACI,uBAAA;EACA,mBAAA;EACA,uBAAA;EACA,oCAAA;EACA,aAAA;EACA,YAAA;EACA,oBAAA;EACA,kDAAA;EACA,iCAAA;AAjBJ;;AAoBA;EAEI,uBAAA;EACA,mBAAA;EACA,gBAAA;EACA,kBAAA;EACA,sBAAA;EAEJ,6BAAA;AAnBA;;AAsBA;EACI,yBAAA;EACA,eAAA;AAnBJ;;AAsBA;EACI,aAAA;EACA,uBAAA;EACA,mBAAA;EACA,yBAAA;EACA,8BAAA;EACA,wBAAA;EACA,oBAAA;EACA,iCAAA;EACA,kDAAA;AAnBJ;;AAsBA;EACI,uBAAA;AAnBJ;;AAsBA;EACI,aAAA;EACA,iBAAA;EACA,gBAAA;EACA,wCAAA;EACA,wCAAA;AAnBJ;;AAsBA;EACI,oBAAA;EACA,cAAA;EACA,eAAA;EACA,UAAA;EACA,kDAAA;EACA,qCAAA;EACA,iBAAA;EACA,kBAAA;EACA,uBAAA;EACA,mBAAA;AAnBJ;;AAsBA;EACI,iBAAA;EACA,kBAAA;EACA,kDAAA;AAnBJ;;AAwBA;EACI,WAAA;EACA,eAAA;EACA,MAAA;EACA,UAAA;EAKA,WAAA;EACA,aAAA;EACA,mBAAA;EACA,uBAAA;EACA,mBAAA;EACA,0CAAA;EACA,6BAAA;AAzBJ;AAeI;EACI,mBAAA;EACJ,qBAAA;AAbJ;;AAwBA;EACI,UAAA;EACA,YAAA;EACA,aAAA;EACA,8BAAA;EACA,gBAAA;AArBJ;;AAwBA;EACI,WAAA;EACA,UAAA;EACA,eAAA;EACA,oBAAA;EACA,YAAA;EACA,uBAAA;EACA,oBAAA;AArBJ;;AAwBA;EACI,YAAA;EACA,0CAAA;AArBJ;;AAwBA;EACI,UAAA;EACA,kBAAA;AArBJ;;AAuBA;EACI;IACI,YAAA;EApBN;AACF;AAuBA;EACI,aAAA;EACA,sBAAA;EACA,mBAAA;EACA,uBAAA;EACA,gBAAA;EACA,aAAA;EACA,gBAAA;EACA,mBAAA;EACA,sBAAA;EACA,kGAAA;AArBJ;;AAwBA;EACI,oBAAA;EACA,aAAA;EACA,aAAA;EACA,oBAAA;EACG,iBAAA;EACH,YAAA;EACA,aAAA;AArBJ;;AAwBA;EACI,qBAAA;EACA,eAAA;AArBJ;;AAyBA;EACI,aAAA;EACA,sBAAA;EACA,uBAAA;EACA,kBAAA;EACA,mBAAA;EACA,yBAAA;EACA,qBAAA;EACA,8CAAA;EACA,YAAA;EACA,iBAAA;EACA,kBAAA;EACA,UAAA;EACA,YAAA;AAtBJ;;AAwBA;EACI;IACI,gBAAA;EArBN;AACF","sourcesContent":["html {\n    scroll-behavior: smooth;\n    font-size: 12;\n}\n\n\n/*Typing Animation*/\n\n@keyframes typing {\n    from { width: 0 }\n    to { width: 100% }\n}\n\n@keyframes blink-caret {\n    from, to { border-color: transparent }\n    50% { border-color: white; }\n}\n\n@keyframes flashing {\n    0% {\n        display: none;\n    }\n\n    50% {\n        display: inline;\n    }\n    100% {\n        display: none;\n    }\n}\n\n@keyframes fadeInStatic {\n    from {\n        opacity: 0;\n    }\n    to {\n        opacity: 1;\n    }\n}\n\n@keyframes fadeInFromRight {\n    from {\n        opacity: 0;\n        transform: translateX(5vmin);\n    }\n    to {\n        opacity: 1;\n        transform: translateX(0);\n    }\n}\n\n@keyframes fadeInFromLeft {\n    from {\n        opacity: 0;\n        transform: translateX(-5vmin);\n    }\n    to {\n        opacity: 1;\n        transform: translateX(0);\n    }\n}\n\n@keyframes fadeInFromBottom {\n    from {\n        opacity: 0;\n        transform: translateY(5vmin);\n    }\n    to {\n        opacity: 1;\n        transform: translateY(0);\n    }\n}\n\n@keyframes fadeInFromTop {\n    from {\n        opacity: 0;\n        transform: translateY(-2.5vmin);\n    }\n    to {\n        opacity: 1;\n        transform: translateY(0);\n    }\n}\n\n:root {\n    --bright: whitesmoke;\n    --royalPurple: rgba(126, 82, 160, .9);\n    --light: rgba(248, 249, 250, 1);\n    --darknessTranslucent: rgba(71, 74, 72, .75);\n    --darkness: rgba(71, 74, 72);\n    --contactButtonsTranslucent: rgba(109, 214, 218, .5);\n    --aboutMeTranslucent: rgba(149, 217, 218, .8);\n    --portfolioCardTranslucent: rgba(155, 167, 192, .75);\n    --descriptionCardTranslucent: rgba(233, 236, 239, .75);\n    --imageBackgroundTranslucent: rgba(206, 212, 218, .75);\n\n}\n\n\nbody {\n    width: 100%;\n    font-size: 1vw;\n    text-wrap: balance;\n    font-family: Verdana, Geneva, Tahoma, sans-serif;\n    margin: 0;\n    min-height: 100vh;\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    background-color: var(--darkness);\n    a {\n        cursor: pointer;\n        text-decoration: none;\n    }\n\n    img {\n        width: 100%;\n        cursor: pointer;\n    }\n}\n\n.Portfolio {\n    width: 100%;\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    justify-content: center;\n    text-align: center;\n    background: linear-gradient(rgb(46, 40, 42))\n}\n\n.bio {\n    display: flex;\n    flex-direction: column;\n    width: 80%;\n    margin-top: .5rem;\n    font-size: 1.5rem;\n    text-align: center;\n    align-items: center;\n    justify-content: center;\n}\n\n.headerText {\n    font-family: 'Courier New', 'Courier', 'monospace';\n    font-weight: bold;\n    font-size: 2rem;\n    margin-bottom: .5rem;\n    font-style: italic;\n\n}\n\n.ProDetails {\n    border-radius: 2vmin;\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n    margin: 1rem;\n    padding: 3rem;\n    background: rgba(248, 249, 250, .75);\n    border: solid 1px var(--darkness);\n    box-shadow: 2px 2px 2px var(--darknessTranslucent);\n    width: 50vmin;\n\n    opacity: 0;\n    transform: translateX(-5vmin);\n    animation: fadeInFromRight 2s ease forwards;\n}\n\n.portfolioSamples {\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n    margin: .5rem;\n    padding: .5rem;\n    opacity: 0;\n    transform: translateY(5vmin);\n    animation: fadeInFromBottom 5s ease forwards;\n}\n\n.AboutMe {\n    border: solid 1px rgba(250, 216, 214, .5);\n    display: flex;\n    flex-direction: column;\n    margin: 1rem;\n    padding: 2rem;\n    background: linear-gradient(white, rgba(171, 127, 242, 0.2));\n    font-size: 1.25rem;\n    width: 70%;\n    align-items: center;\n    justify-content: center;\n    border-radius: 2vmin;\n    opacity: 0;\n    transform: translateY(-2.5vmin);\n    animation: fadeInFromTop 2s ease forwards;\n\n}\n\n.ProPicContainer {\n    display: flex;\n    margin: 1rem;\n}\n\n.ProPic {\n    width: 30vmin;\n    border-radius: 50%;\n    opacity: 0;\n    animation: fadeInStatic 4s ease forwards;\n}\n\n.displayCard {\n    display: flex;\n    flex-direction: column;\n}\n\n.portDescriptionCard {\n    width: 80%;\n    border-radius: 2vmin;\n    border: solid 2px var(--light);\n    background-color: rgba(46, 40, 42, .3);\n    margin: .5rem;\n    padding: .5rem;\n    font-size: 1rem;\n    box-shadow: 1px 3px 3px rgb(46, 40, 42);\n    opacity: 0;\n    transform: translateX(-5vmin);\n    animation: fadeInFromLeft 8s ease forwards;\n\n}\n\n\n.portfolioCard {\n    display: flex;\n    flex-direction: column;\n    border-radius: 2vmin;\n    background: linear-gradient(rgba(171, 127, 242, 0.5), white);\n    border: solid 2px var(--light);\n    margin: 1rem;\n    padding: 1rem;\n    width: 60%;\n    box-shadow: 1px 3px 3px rgb(250, 216, 214);\n}\n\n/* .portfolioCard:hover {\n    background: linear-gradient(rgba(171, 127, 242, 0.5), white);\n} */\n\n.portPiece {\n    justify-content: center;\n    align-items: center;\n    display: flex;\n}\n\n@media only screen and (max-width: 900px) {\n    .portPiece {\n        flex-direction: column;\n    }\n}\n\n.portPicContainer {\n    z-index: 1;\n}\n\n.picFile {\n    width: 35vmin;\n    height: 20vmin;\n    border: 5vmin;\n    margin: 1rem;\n    border: solid 2px var(--darkness);\n    background-color: var(--light);\n    padding: 1rem;\n    border-radius: 10px 200px / 100px;\n    box-shadow: 2px 2px 2px var(--darknessTranslucent);\n    z-index: 2;\n    opacity: 0;\n    animation: fadeInStatic 4s ease forwards;\n}\n\n.picFile:hover {\n    box-shadow: 3px 5px 5px var(--darknessTranslucent);\n    scale: 125%;\n    transition: 1s;\n}\n\n.ContactsBar {\n    width: 80%;\n    height: -moz-fit-content;\n    height: fit-content;\n    border-radius: 2vmin;\n    display: flex;\n    margin: 1rem;\n    padding-right: .5rem;\n    background-color: var(--darknessTranslucent);\n    border: solid 3px black;\n    justify-content: space-around;\n    align-items: center;\n}\n\n@media only screen and (max-width: 900px) {\n    .buttonLinks {\n        flex-direction: column;\n    }\n}\n\n\n\n\n.contactIcon {\n    width: 8vmin;\n    padding: .25rem;\n}\n\n.contactPic:hover {\n    box-shadow: 4px 8px 8px var(--darknessTranslucent);\n    scale: 125%;\n    transition: 1s;\n}\n\n.contactPic {\n    box-shadow: 1px 2px 2px var(--darknessTranslucent);\n    width: 8vmin;\n    height: 8vmin;\n    border-radius: 50%;\n}\n\n@media only screen and (max-width: 900px) {\n    .contactPic {\n        width: 15vmin;\n        height: 15vmin;\n    }\n}\n\nbutton.resume {\n    text-align: center;\n    width: 20rem;\n    box-shadow: 1px 2px 2px var(--darknessTranslucent);\n    padding: 1rem;\n    margin: .5rem;\n    font-weight: bold;\n    font-size: 2rem;\n    border-radius: 2vmin;\n}\n\nbutton:hover {\n    box-shadow: 4px 8px 8px var(--darknessTranslucent);\n    cursor: pointer;\n    scale: 150%;\n    transition: 1s;\n    background-color: white;\n}\n\n.buttonLinks {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    width: 90%;\n    margin: .5rem;\n    opacity: 0;\n    animation: fadeInStatic 6s ease forwards;\n}\n\n.portTitleCard {\n    justify-content: center;\n    align-items: center;\n    background-color: white;\n    border: solid 2px var(--royalPurple);\n    padding: 1rem;\n    margin: 1rem;\n    border-radius: 2vmin;\n    box-shadow: 2px 2px 2px var(--darknessTranslucent);\n    border: solid 2px var(--darkness);\n}\n\n.portTitle {\n\n    justify-content: center;\n    align-items: center;\n    font-size: 3vmin;\n    text-align: center;\n    color: var(--darkness);\n\n/*    overflow: break-word; */\n}\n\n.portTitle:hover {\n    color: var(--royalPurple);\n    cursor: pointer;\n}\n\n.descriptionList {\n    padding: 2rem;\n    justify-content: center;\n    align-items: center;\n    overflow-wrap:break-word;\n    background-color: var(--light);\n    text-align: space-around;\n    border-radius: 2vmin;\n    border: solid 3px var(--darkness);\n    box-shadow: 6px 3px 3px var(--darknessTranslucent);\n}\n\n.descriptionList:hover {\n    background-color: white;\n}\n\n.portDescriptionText {\n    padding: 1rem;\n    text-align: right;\n    list-style: none;\n    border-top: solid 2px var(--royalPurple);\n    border-bottom: solid 2px var(--darkness);\n}\n\n.bioBullet {\n    border-radius: 2vmin;\n    padding: 1vmin;\n    margin: .5vmin;\n    width: 70%;\n    font-family: 'Courier New', 'Courier', 'monospace';\n    background: rgba(248, 249, 250, .75);\n    font-weight: bold;\n    text-align: center;\n    justify-content: center;\n    align-items: center;\n}\n\nh1 {\n    color: whitesmoke;\n    text-align: center;\n    font-family: 'Courier New', 'Courier', 'monospace';\n\n}\n\n\n.scrollNav {\n    height: 15%;\n    position: fixed;\n    top: 0;\n    z-index: 3;\n    ul {\n        flex-direction: row;\n    list-style-type: none;\n    }\n    width: 100%;\n    display: flex;\n    flex-direction: row;\n    justify-content: center;\n    align-items: center;\n    background-color: rgba(171, 127, 242, 0.2);\n    box-shadow: 5px 3px 1px black;\n}\n\n.navLinks {\n    width: 90%;\n    margin: 1rem;\n    padding: 1rem;\n    justify-content: space-between;\n    font-size: 5vmin;\n}\n\n.linkButton {\n    height: 90%;\n    width: 90%;\n    padding: .5rem;\n    margin-left: .75rem;\n    color: black;\n    background-color: white;\n    border-radius: 2vmin;\n}\n\n.linkButton:hover {\n    color: white;\n    background-color: rgba(171, 127, 242, .4);\n}\n\n.shadowBox {\n    z-index: 0;\n    visibility: hidden;\n}\n@media only screen and (max-width: 900px) {\n    .shadowBox {\n        margin: 1rem;\n    }\n}\n\n.aboutText {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    justify-content: center;\n    font-size: 4vmin;\n    margin: 1vmin;\n    overflow: hidden;\n    white-space: nowrap;\n    letter-spacing: .15em;\n    animation: typing 3.5s steps(40, end), blink-caret, .75s step-end infinite;\n}\n\n.languageButton {\n    border-radius: 5vmin;\n    width: 20vmin;\n    height: 3vmin;\n    -o-object-fit: cover;\n       object-fit: cover;\n    margin: 1rem;\n    padding: 2rem;\n}\n\n.languageContainer {\n    display: inline-block;\n    padding: .5rem;\n\n}\n\n.heading {\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    text-align: center;\n    align-items: center;\n    overflow-wrap: break-word;\n    word-wrap: break-word;\n    font-family: 'Courier New', Courier, monospace;\n    color: white;\n    font-weight: bold;\n    text-align: center;\n    width: 90%;\n    margin: 4rem;\n}\n@media only screen and (max-width: 900px) {\n    .heading {\n        margin-top: 5rem;\n    }\n}\n"],"sourceRoot":""}]);
 // Exports
 ___CSS_LOADER_EXPORT___.locals = {
 	"Portfolio": `i4p6UNa9JDMGa_2GDQXi`,
@@ -1129,4 +1156,4 @@ var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=App.f871aa93c76d87ab240a5ad8f22871c9.js.map
+//# sourceMappingURL=App.79e6e99edd062d7a85ce982a5dbcee23.js.map

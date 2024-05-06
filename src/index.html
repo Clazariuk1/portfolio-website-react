@@ -5,6 +5,13 @@
   <meta charset="utf-8">
   <title>Christopher Lazariuk - Dev Portfolio</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script type="module">
+    import {onCLS, onFID, onLCP} from 'https://unpkg.com/web-vitals?module';
+
+    onCLS(console.log);
+    onFID(console.log);
+    onLCP(console.log);
+  </script>
 </head>
 
 <body>

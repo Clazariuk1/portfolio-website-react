@@ -11,9 +11,9 @@ export default function App(){
             <nav className={styles.scrollNav}>
 
                 <div className={styles.navLinks}>
-                    <a className={styles.linkButton} href="#projects">Projects</a>
-                    <a className={styles.linkButton} href="#about">About</a>
-                    <a className={styles.linkButton} href="#skills">Skills</a>
+                    <a className={styles.linkButton} href="#projects">Projects</a> |
+                    <a className={styles.linkButton} href="#about">About</a> |
+                    <a className={styles.linkButton} href="#skills">Skills</a> |
                     <a className={styles.linkButton} href="#top">Contact</a>
                 </div>
             </nav>
@@ -30,13 +30,13 @@ export default function App(){
                 <a href="/img/portfolio-resume.pdf" target="_blank" ><button className={styles.resume}>Resume</button></a>
                     <aside className={styles.ContactsBar}>
                         <div className={styles.contactIcon}>
-                            <a href="mailto:clazariuk@gmail.com?body=My custom mail body" ><img className={styles.contactPic} src="./img/emailIcon.jpeg" /></a>
+                            <a href="mailto:clazariuk@gmail.com?body=My custom mail body" target="_blank" ><img className={styles.contactPic} src="./img/emailIcon.jpeg" /></a>
                         </div>
                         <div className={styles.contactIcon}>
-                           <a href="https://www.linkedin.com/in/christopherlazariuk/" ><img className={styles.contactPic} src="/img/linkedinIcon.png" /></a>
+                           <a href="https://www.linkedin.com/in/christopherlazariuk/" target="_blank" ><img className={styles.contactPic} src="/img/linkedinIcon.png" /></a>
                         </div>
                         <div className={styles.contactIcon}>
-                            <a href="https://github.com/Clazariuk1" ><img className={styles.contactPic} src="/img/githubPic.png" /></a>
+                            <a href="https://github.com/Clazariuk1"target="_blank" ><img className={styles.contactPic} src="/img/githubPic.png" /></a>
                         </div>
                     </aside>
             </div>
@@ -52,17 +52,17 @@ export default function App(){
             <div className={styles.portPiece}>
 
                 <div className={styles.portPicContainer}>
-                    <a href="https://momentum.christopherlazariuk.me" >
+                    <a href="https://momentum.christopherlazariuk.me" target="_blank">
                         <img className={styles.picFile} src="./img/MomentumPortPic.png" /></a>
                 </div>
                 <div className={styles.portDescriptionCard}>
                     <div className={styles.portTitleCard}>
                     <div className={styles.portTitle}>
-                        <a href="https://momentum.christopherlazariuk.me" >
+                        <a href="https://momentum.christopherlazariuk.me" target="_blank">
                             <div className={styles.portTitle}><strong>Momentum</strong><br></br>an Arena Survival Game</div></a>
                         </div>
                         <div className={styles.portTitle}>
-                    <a href="https://github.com/Clazariuk1/Dungeon-Arena-GAp1"><div className={styles.portTitle}><strong>Github Repository Link</strong></div></a>
+                    <a href="https://github.com/Clazariuk1/Dungeon-Arena-GAp1" target="_blank"><div className={styles.portTitle}><strong>Github Repository Link</strong></div></a>
                     </div>
                     </div>
                     <ul className={styles.descriptionList}>
@@ -81,15 +81,15 @@ export default function App(){
         <div className={styles.portfolioCard}>
             <div className={styles.portPiece}>
              <div className={styles.portPicContainer}>
-             <a href="https://ecommerce.christopherlazariuk.me">
+             <a href="https://ecommerce.christopherlazariuk.me" target="_blank">
                     <img className={styles.picFile} src="/img/DevDependencyPortPic.png" />
                     </a>
                 </div>
                 <div className={styles.portDescriptionCard}>
                     <div className={styles.portTitleCard}>
-                    <a href="https://ecommerce.christopherlazariuk.me">
+                    <a href="https://ecommerce.christopherlazariuk.me" target="_blank">
                         <div className={styles.portTitle}><strong>Dev Dependency</strong><br></br>an Ecommerce Website</div></a>
-                    <a href="https://github.com/Clazariuk1/unit3-project"><div className={styles.portTitle}><strong>Github Repository Link</strong></div></a>
+                    <a href="https://github.com/Clazariuk1/unit3-project" target="_blank"><div className={styles.portTitle}><strong>Github Repository Link</strong></div></a>
                     </div>
                     <ul className={styles.descriptionList}>
                     <li className={styles.portDescriptionText}>An ecommerce website with ordering system functionality and a multi-page layout</li>
@@ -104,15 +104,15 @@ export default function App(){
         <div className={styles.portfolioCard}>
             <div className={styles.portPiece}>
                 <div className={styles.portPicContainer}>
-                <a href="https://connections.christopherlazariuk.me">
+                <a href="https://connections.christopherlazariuk.me" target="_blank">
                 <img className={styles.picFile} src="/img/ConnectionsScreenshot.png" />
                 </a>
                 </div>
                 <div className={styles.portDescriptionCard}>
                     <div className={styles.portTitleCard}>
-                        <a href="https://connections.christopherlazariuk.me">
+                        <a href="https://connections.christopherlazariuk.me" target="_blank">
                     <div className={styles.portTitle}> <strong>Connections</strong><br></br> a Linkedin Alternative</div></a>
-                    <a href="https://github.com/Clazariuk1/connection"><div className={styles.portTitle}><strong>Github Repository Link</strong></div></a>
+                    <a href="https://github.com/Clazariuk1/connection" target="_blank"><div className={styles.portTitle}><strong>Github Repository Link</strong></div></a>
                     </div>
                     <ul className={styles.descriptionList}>
                     <li className={styles.portDescriptionText}>
@@ -135,15 +135,15 @@ export default function App(){
         <div className={styles.portfolioCard}>
         <div className={styles.portPiece}>
                 <div className={styles.portPicContainer}>
-                <a href="https://github.com/Clazariuk1/100-days-of-code">
+                <a href="https://github.com/Clazariuk1/100-days-of-code" target="_blank">
                 <img className={styles.picFile} src="/img/infinityLogo.jpeg" />
                 </a>
                 </div>
                 <div className={styles.portDescriptionCard}>
                     <div className={styles.portTitleCard}>
-                        <a href="https://github.com/Clazariuk1/100-days-of-code">
+                        <a href="https://github.com/Clazariuk1/100-days-of-code" target="_blank">
                     <div className={styles.portTitle}> <strong>Infinite Grind</strong><br></br> a professional accountability log/tracker</div></a>
-                    <a href="https://github.com/Clazariuk1/100-days-of-code"><div className={styles.portTitle}><strong>Github Repository Link</strong></div></a>
+                    <a href="https://github.com/Clazariuk1/100-days-of-code" target="_blank"><div className={styles.portTitle}><strong>Github Repository Link</strong></div></a>
                     </div>
                     <ul className={styles.descriptionList}>
                     <li className={styles.portDescriptionText}>
@@ -189,25 +189,25 @@ export default function App(){
                 <h1 className={styles.aboutText} id="skills">Languages and Frameworks</h1>
 
                 <div className={styles.languageButtons}>
-                <a href="https://react.dev/"><img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" className={styles.languageButton} alt="react" /></a>
+                <a href="https://react.dev/" target="_blank"><img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" className={styles.languageButton} alt="react" /></a>
 
-                <a href="https://jwt.io/introduction"><img src="https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens" className={styles.languageButton} alt="jwt" /></a>
+                <a href="https://jwt.io/introduction" target="_blank"><img src="https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens" className={styles.languageButton} alt="jwt" /></a>
 
-                <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" className={styles.languageButton} alt="javascript" /></a>
+                <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"><img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" className={styles.languageButton} alt="javascript" /></a>
 
-                <a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5"><img src="https://img.shields.io/badge/html5-E34F26?logo=html5&logoColor=white&style=for-the-badge" className={styles.languageButton} alt="html" /></a>
+                <a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5" target="_blank"><img src="https://img.shields.io/badge/html5-E34F26?logo=html5&logoColor=white&style=for-the-badge" className={styles.languageButton} alt="html" /></a>
 
-                <a href="https://developer.mozilla.org/en-US/docs/Web/CSS"><img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" className={styles.languageButton} alt="css" /></a>
+                <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank"><img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" className={styles.languageButton} alt="css" /></a>
 
-                <a href="https://www.mongodb.com/docs/"><img src="https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white" className={styles.languageButton} alt="mongoDB" /></a>
+                <a href="https://www.mongodb.com/docs/" target="_blank"><img src="https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white" className={styles.languageButton} alt="mongoDB" /></a>
 
-                <a href="https://docs.github.com/en"><img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" className={styles.languageButton} alt="github" /></a>
+                <a href="https://docs.github.com/en" target="_blank"><img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" className={styles.languageButton} alt="github" /></a>
 
-                <a href="https://expressjs.com/"><img src="https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB" className={styles.languageButton} alt="Express" /></a>
+                <a href="https://expressjs.com/" target="_blank"><img src="https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB" className={styles.languageButton} alt="Express" /></a>
 
-                <a href="https://nodejs.org/docs/latest/api/"><img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" className={styles.languageButton} alt="Node" /></a>
+                <a href="https://nodejs.org/docs/latest/api/" target="_blank"><img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" className={styles.languageButton} alt="Node" /></a>
 
-                <a href="https://code.visualstudio.com/docs"><img src="https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white" className={styles.languageButton} alt="vscode" /></a>
+                <a href="https://code.visualstudio.com/docs" target="_blank"><img src="https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white" className={styles.languageButton} alt="vscode" /></a>
 
             </div>
             </div>
