@@ -211,6 +211,12 @@ export default function App(){
 
             </div>
             </div>
+            <div className={styles.certContainer}>
+                <h1 className={styles.aboutText} id="certifications">Additional Certifications</h1>
+                <div className={styles.certPicContainer}>
+                <img className={styles.certPicFile} src="/img/cloudPractitionerCert.png" />
+                </div>
+            </div>
             </div>
         </main>
     )

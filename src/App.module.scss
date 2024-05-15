@@ -277,6 +277,18 @@ body {
     animation: fadeInStatic 4s ease forwards;
 }
 
+.certPicFile {
+    width: 35vmin;
+    border: 5vmin;
+    margin: 1rem;
+    border: solid 2px var(--darkness);
+    padding: 1rem;
+    box-shadow: 2px 2px 2px var(--darknessTranslucent);
+    z-index: 2;
+    opacity: 0;
+    animation: fadeInStatic 4s ease forwards;
+}
+
 .picFile:hover {
     box-shadow: 3px 5px 5px var(--darknessTranslucent);
     scale: 125%;
