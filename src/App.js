@@ -22,9 +22,8 @@ export default function App(){
             <div className={styles.heading}>
             <div className={styles.aboutText}>
                 Christopher Lazariuk <br/>
-            Software Engineering <br />
-            Web Design <br/>
-            Project Management <br />
+            Software Engineering / Web Design <br/>
+            Project/Product Management <br />
             Operations / Coordination <br />
             <div className={styles.buttonLinks}>
                 <a href="/img/portfolio-resume.pdf" target="_blank" ><button className={styles.resume}>Resume</button></a>
@@ -48,6 +47,38 @@ export default function App(){
         <section className={styles.portfolioSamples}>
 
         <h1 className={styles.aboutText} id="projects">Projects</h1>
+
+        <div className={styles.portfolioCard}>
+            <div className={styles.portPiece}>
+
+                <div className={styles.portPicContainer}>
+                    <a href="https://drive.google.com/drive/u/0/folders/1HUBsHjtQ5nOlOBXnnGGNK48Yb6VyDnbM" target="_blank">
+                        <img className={styles.picFile} src="/img/chefsChoiceLogo.png" /></a>
+                </div>
+                <div className={styles.portDescriptionCard}>
+                    <div className={styles.portTitleCard}>
+                    <div className={styles.portTitle}>
+                        <a href="https://drive.google.com/drive/u/0/folders/1HUBsHjtQ5nOlOBXnnGGNK48Yb6VyDnbM" target="_blank">
+                            <div className={styles.portTitle}><strong>Chef's Choice</strong><br></br>an AI/ML DRIVEN ONLINE ORDERING APP</div></a>
+                        </div>
+                        <div className={styles.portTitle}>
+                    <a href="https://github.com/Developers-Challenge/Theta" target="_blank"><div className={styles.portTitle}><strong>Github Repository Link</strong></div></a>
+                    </div>
+                    </div>
+                    <ul className={styles.descriptionList}>
+                    <li className={styles.portDescriptionText}>An Eight Week Intensive Hackathon for full SDLC of AI/ML-empowered app.
+</li>
+                        <li className={styles.portDescriptionText}>
+                            Product Management Duties, heavy collaboration with UX/UI Research and Design
+                        </li>
+                        <li className={styles.portDescriptionText}>
+                            Git version control management, code review/debugging, and supervision of Full Stack Development teams
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
         <div className={styles.portfolioCard}>
             <div className={styles.portPiece}>
 
